@@ -46,11 +46,41 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="FCart.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FCart.Designer.cs">
+      <DependentUpon>FCart.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FHome.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FHome.Designer.cs">
+      <DependentUpon>FHome.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FInfo.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FInfo.Designer.cs">
+      <DependentUpon>FInfo.cs</DependentUpon>
+    </Compile>
     <Compile Include="FLogin.cs">
       <SubType>Form</SubType>
     </Compile>
     <Compile Include="FLogin.Designer.cs">
       <DependentUpon>FLogin.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FMyProduct.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FMyProduct.Designer.cs">
+      <DependentUpon>FMyProduct.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FProductCatalog.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FProductCatalog.Designer.cs">
+      <DependentUpon>FProductCatalog.cs</DependentUpon>
     </Compile>
     <Compile Include="FUser.cs">
       <SubType>Form</SubType>
@@ -58,10 +88,44 @@
     <Compile Include="FUser.Designer.cs">
       <DependentUpon>FUser.cs</DependentUpon>
     </Compile>
+    <Compile Include="Person.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="UCCatalog.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="UCCatalog.Designer.cs">
+      <DependentUpon>UCCatalog.cs</DependentUpon>
+    </Compile>
+    <Compile Include="UCMyProduct.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="UCMyProduct.Designer.cs">
+      <DependentUpon>UCMyProduct.cs</DependentUpon>
+    </Compile>
+    <Compile Include="UCProducts.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="UCProducts.Designer.cs">
+      <DependentUpon>UCProducts.cs</DependentUpon>
+    </Compile>
+    <EmbeddedResource Include="FCart.resx">
+      <DependentUpon>FCart.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FHome.resx">
+      <DependentUpon>FHome.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FInfo.resx">
+      <DependentUpon>FInfo.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="FLogin.resx">
       <DependentUpon>FLogin.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FMyProduct.resx">
+      <DependentUpon>FMyProduct.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FProductCatalog.resx">
+      <DependentUpon>FProductCatalog.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="FUser.resx">
       <DependentUpon>FUser.cs</DependentUpon>
@@ -70,6 +134,15 @@
       <Generator>ResXFileCodeGenerator</Generator>
       <SubType>Designer</SubType>
       <LastGenOutput>Resources.Designer.cs</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Include="UCCatalog.resx">
+      <DependentUpon>UCCatalog.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="UCMyProduct.resx">
+      <DependentUpon>UCMyProduct.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="UCProducts.resx">
+      <DependentUpon>UCProducts.cs</DependentUpon>
     </EmbeddedResource>
     <None Include="Properties\Settings.settings">
       <Generator>SettingsSingleFileGenerator</Generator>
@@ -109,6 +182,27 @@
   </ItemGroup>
   <ItemGroup>
     <None Include="Resources\background-mau-loang-dep-tuyet_092447739.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\TrangChu.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Trangchu1.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\cart-shopping-solid.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\DanhMucSanPham.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\icons8-product-50.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\find.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\facebook-messenger.png" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

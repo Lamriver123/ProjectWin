@@ -59,6 +59,7 @@
             this.label8 = new System.Windows.Forms.Label();
             this.pictureBox6 = new System.Windows.Forms.PictureBox();
             this.lblExitSignUp = new System.Windows.Forms.Label();
+            this.label9 = new System.Windows.Forms.Label();
             this.pnlLogin.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox3)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).BeginInit();
@@ -74,6 +75,7 @@
             // pnlLogin
             // 
             this.pnlLogin.BackColor = System.Drawing.Color.PaleTurquoise;
+            this.pnlLogin.Controls.Add(this.label9);
             this.pnlLogin.Controls.Add(this.btnSignUp);
             this.pnlLogin.Controls.Add(this.btnLogin);
             this.pnlLogin.Controls.Add(this.textBox2);
@@ -94,11 +96,13 @@
             // 
             // btnSignUp
             // 
-            this.btnSignUp.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
+            this.btnSignUp.FlatAppearance.BorderSize = 0;
+            this.btnSignUp.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.btnSignUp.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btnSignUp.Location = new System.Drawing.Point(43, 455);
+            this.btnSignUp.ForeColor = System.Drawing.Color.Blue;
+            this.btnSignUp.Location = new System.Drawing.Point(242, 457);
             this.btnSignUp.Name = "btnSignUp";
-            this.btnSignUp.Size = new System.Drawing.Size(267, 41);
+            this.btnSignUp.Size = new System.Drawing.Size(97, 41);
             this.btnSignUp.TabIndex = 12;
             this.btnSignUp.Text = "Sign Up";
             this.btnSignUp.UseVisualStyleBackColor = true;
@@ -427,6 +431,16 @@
             this.lblExitSignUp.Text = "X";
             this.lblExitSignUp.Click += new System.EventHandler(this.lblExitSignUp_Click);
             // 
+            // label9
+            // 
+            this.label9.AutoSize = true;
+            this.label9.Font = new System.Drawing.Font("Times New Roman", 10.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label9.Location = new System.Drawing.Point(37, 468);
+            this.label9.Name = "label9";
+            this.label9.Size = new System.Drawing.Size(182, 19);
+            this.label9.TabIndex = 13;
+            this.label9.Text = "Don\'t have an account ?";
+            // 
             // FLogin
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
@@ -438,6 +452,7 @@
             this.Controls.Add(this.pnlLogin);
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.None;
             this.Name = "FLogin";
+            this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "Form1";
             this.pnlLogin.ResumeLayout(false);
             this.pnlLogin.PerformLayout();
@@ -488,6 +503,7 @@
         private System.Windows.Forms.PictureBox pictureBox8;
         private System.Windows.Forms.Label label10;
         private System.Windows.Forms.Label label11;
+        private System.Windows.Forms.Label label9;
     }
 }
 

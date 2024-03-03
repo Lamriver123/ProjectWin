@@ -83,9 +83,59 @@ namespace ProjectWin_Demo_.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
+        internal static System.Drawing.Bitmap cart_shopping_solid {
+            get {
+                object obj = ResourceManager.GetObject("cart-shopping-solid", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap DanhMucSanPham {
+            get {
+                object obj = ResourceManager.GetObject("DanhMucSanPham", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap facebook_messenger {
+            get {
+                object obj = ResourceManager.GetObject("facebook-messenger", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap find {
+            get {
+                object obj = ResourceManager.GetObject("find", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
         internal static System.Drawing.Bitmap icons8_password_30 {
             get {
                 object obj = ResourceManager.GetObject("icons8-password-30", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap icons8_product_50 {
+            get {
+                object obj = ResourceManager.GetObject("icons8-product-50", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }
@@ -117,6 +167,26 @@ namespace ProjectWin_Demo_.Properties {
             get {
                 object obj = ResourceManager.GetObject("pngtree-shopping-mall-supermarket-selection-merchandise-poster-background-materia" +
                         "l-picture-image_1048684", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap TrangChu {
+            get {
+                object obj = ResourceManager.GetObject("TrangChu", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap Trangchu1 {
+            get {
+                object obj = ResourceManager.GetObject("Trangchu1", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }
