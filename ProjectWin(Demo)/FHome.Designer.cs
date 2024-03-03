@@ -29,10 +29,10 @@
         private void InitializeComponent()
         {
             this.panel1 = new System.Windows.Forms.Panel();
-            this.label1 = new System.Windows.Forms.Label();
-            this.comboBox1 = new System.Windows.Forms.ComboBox();
-            this.btnNew = new System.Windows.Forms.Button();
             this.btnOK = new System.Windows.Forms.Button();
+            this.btnNew = new System.Windows.Forms.Button();
+            this.comboBox1 = new System.Windows.Forms.ComboBox();
+            this.label1 = new System.Windows.Forms.Label();
             this.panel2 = new System.Windows.Forms.Panel();
             this.panel1.SuspendLayout();
             this.SuspendLayout();
@@ -50,15 +50,23 @@
             this.panel1.Size = new System.Drawing.Size(1041, 46);
             this.panel1.TabIndex = 0;
             // 
-            // label1
+            // btnOK
             // 
-            this.label1.AutoSize = true;
-            this.label1.Font = new System.Drawing.Font("Times New Roman", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label1.Location = new System.Drawing.Point(30, 13);
-            this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(111, 22);
-            this.label1.TabIndex = 0;
-            this.label1.Text = "Sắp xếp theo";
+            this.btnOK.Location = new System.Drawing.Point(512, 11);
+            this.btnOK.Name = "btnOK";
+            this.btnOK.Size = new System.Drawing.Size(55, 28);
+            this.btnOK.TabIndex = 3;
+            this.btnOK.Text = "OK";
+            this.btnOK.UseVisualStyleBackColor = true;
+            // 
+            // btnNew
+            // 
+            this.btnNew.Location = new System.Drawing.Point(181, 11);
+            this.btnNew.Name = "btnNew";
+            this.btnNew.Size = new System.Drawing.Size(92, 28);
+            this.btnNew.TabIndex = 2;
+            this.btnNew.Text = "Mới nhất";
+            this.btnNew.UseVisualStyleBackColor = true;
             // 
             // comboBox1
             // 
@@ -73,23 +81,15 @@
             this.comboBox1.TabIndex = 1;
             this.comboBox1.Text = "Giá";
             // 
-            // btnNew
+            // label1
             // 
-            this.btnNew.Location = new System.Drawing.Point(181, 11);
-            this.btnNew.Name = "btnNew";
-            this.btnNew.Size = new System.Drawing.Size(92, 28);
-            this.btnNew.TabIndex = 2;
-            this.btnNew.Text = "Mới nhất";
-            this.btnNew.UseVisualStyleBackColor = true;
-            // 
-            // btnOK
-            // 
-            this.btnOK.Location = new System.Drawing.Point(512, 11);
-            this.btnOK.Name = "btnOK";
-            this.btnOK.Size = new System.Drawing.Size(55, 28);
-            this.btnOK.TabIndex = 3;
-            this.btnOK.Text = "OK";
-            this.btnOK.UseVisualStyleBackColor = true;
+            this.label1.AutoSize = true;
+            this.label1.Font = new System.Drawing.Font("Times New Roman", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label1.Location = new System.Drawing.Point(30, 13);
+            this.label1.Name = "label1";
+            this.label1.Size = new System.Drawing.Size(111, 22);
+            this.label1.TabIndex = 0;
+            this.label1.Text = "Sắp xếp theo";
             // 
             // panel2
             // 

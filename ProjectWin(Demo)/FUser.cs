@@ -47,7 +47,7 @@ namespace ProjectWin_Demo_
 
         private void btnInfo_Click(object sender, EventArgs e)
         {
-            openChildForm(new FInfo());
+            //openChildForm(new FInfo());
         }
 
         private void btnProduct_Click(object sender, EventArgs e)
@@ -59,5 +59,7 @@ namespace ProjectWin_Demo_
         {
             openChildForm(new FMyProduct());
         }
+
+        
     }
 }

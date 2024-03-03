@@ -46,6 +46,15 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="FSignUp.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FSignUp.Designer.cs">
+      <DependentUpon>FSignUp.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Funtion\ElipseControl.cs">
+      <SubType>Component</SubType>
+    </Compile>
     <Compile Include="FCart.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -82,6 +91,12 @@
     <Compile Include="FProductCatalog.Designer.cs">
       <DependentUpon>FProductCatalog.cs</DependentUpon>
     </Compile>
+    <Compile Include="Funtion\RJTextBox.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Funtion\RJTextBox.Designer.cs">
+      <DependentUpon>RJTextBox.cs</DependentUpon>
+    </Compile>
     <Compile Include="FUser.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -109,6 +124,9 @@
     <Compile Include="UCProducts.Designer.cs">
       <DependentUpon>UCProducts.cs</DependentUpon>
     </Compile>
+    <Compile Include="Funtion\VBButton.cs">
+      <SubType>Component</SubType>
+    </Compile>
     <EmbeddedResource Include="FCart.resx">
       <DependentUpon>FCart.cs</DependentUpon>
     </EmbeddedResource>
@@ -126,6 +144,12 @@
     </EmbeddedResource>
     <EmbeddedResource Include="FProductCatalog.resx">
       <DependentUpon>FProductCatalog.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FSignUp.resx">
+      <DependentUpon>FSignUp.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Funtion\RJTextBox.resx">
+      <DependentUpon>RJTextBox.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="FUser.resx">
       <DependentUpon>FUser.cs</DependentUpon>

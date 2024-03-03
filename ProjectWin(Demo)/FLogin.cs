@@ -15,7 +15,6 @@ namespace ProjectWin_Demo_
         public FLogin()
         {
             InitializeComponent();
-            pnlSignUp.Hide();
         }
 
         private void lbExit_Click(object sender, EventArgs e)
@@ -26,13 +25,11 @@ namespace ProjectWin_Demo_
         private void btnSignUp_Click(object sender, EventArgs e)
         {
             pnlLogin.Hide();
-            pnlSignUp.Show();
         }
         private void lblExitSignUp_Click(object sender, EventArgs e)
         {
             
             pnlLogin.Show();
-            pnlSignUp.Hide();
         }
 
         private void btnLogin_Click(object sender, EventArgs e)
