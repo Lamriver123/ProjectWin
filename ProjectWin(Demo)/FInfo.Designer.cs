@@ -29,9 +29,9 @@
         private void InitializeComponent()
         {
             this.panel1 = new System.Windows.Forms.Panel();
-            this.btnInfo = new System.Windows.Forms.Button();
-            this.btnHistory = new System.Windows.Forms.Button();
             this.btnRevenue = new System.Windows.Forms.Button();
+            this.btnHistory = new System.Windows.Forms.Button();
+            this.btnInfo = new System.Windows.Forms.Button();
             this.panelChildForm = new System.Windows.Forms.Panel();
             this.panel1.SuspendLayout();
             this.SuspendLayout();
@@ -44,8 +44,34 @@
             this.panel1.Dock = System.Windows.Forms.DockStyle.Top;
             this.panel1.Location = new System.Drawing.Point(0, 0);
             this.panel1.Name = "panel1";
-            this.panel1.Size = new System.Drawing.Size(1041, 35);
+            this.panel1.Size = new System.Drawing.Size(1107, 35);
             this.panel1.TabIndex = 0;
+            // 
+            // btnRevenue
+            // 
+            this.btnRevenue.Dock = System.Windows.Forms.DockStyle.Left;
+            this.btnRevenue.Font = new System.Drawing.Font("Times New Roman", 12F);
+            this.btnRevenue.ForeColor = System.Drawing.Color.Black;
+            this.btnRevenue.Location = new System.Drawing.Point(736, 0);
+            this.btnRevenue.Name = "btnRevenue";
+            this.btnRevenue.Size = new System.Drawing.Size(368, 35);
+            this.btnRevenue.TabIndex = 2;
+            this.btnRevenue.Text = "Doanh thu";
+            this.btnRevenue.UseVisualStyleBackColor = true;
+            this.btnRevenue.Click += new System.EventHandler(this.btnRevenue_Click);
+            // 
+            // btnHistory
+            // 
+            this.btnHistory.Dock = System.Windows.Forms.DockStyle.Left;
+            this.btnHistory.Font = new System.Drawing.Font("Times New Roman", 12F);
+            this.btnHistory.ForeColor = System.Drawing.Color.Black;
+            this.btnHistory.Location = new System.Drawing.Point(368, 0);
+            this.btnHistory.Name = "btnHistory";
+            this.btnHistory.Size = new System.Drawing.Size(368, 35);
+            this.btnHistory.TabIndex = 1;
+            this.btnHistory.Text = "Lịch sử giao dịch";
+            this.btnHistory.UseVisualStyleBackColor = true;
+            this.btnHistory.Click += new System.EventHandler(this.btnHistory_Click);
             // 
             // btnInfo
             // 
@@ -54,37 +80,11 @@
             this.btnInfo.ForeColor = System.Drawing.Color.DarkCyan;
             this.btnInfo.Location = new System.Drawing.Point(0, 0);
             this.btnInfo.Name = "btnInfo";
-            this.btnInfo.Size = new System.Drawing.Size(346, 35);
+            this.btnInfo.Size = new System.Drawing.Size(368, 35);
             this.btnInfo.TabIndex = 0;
             this.btnInfo.Text = "Thông tin cá nhân";
             this.btnInfo.UseVisualStyleBackColor = true;
             this.btnInfo.Click += new System.EventHandler(this.btnInfo_Click);
-            // 
-            // btnHistory
-            // 
-            this.btnHistory.Dock = System.Windows.Forms.DockStyle.Left;
-            this.btnHistory.Font = new System.Drawing.Font("Times New Roman", 12F);
-            this.btnHistory.ForeColor = System.Drawing.Color.Black;
-            this.btnHistory.Location = new System.Drawing.Point(346, 0);
-            this.btnHistory.Name = "btnHistory";
-            this.btnHistory.Size = new System.Drawing.Size(346, 35);
-            this.btnHistory.TabIndex = 1;
-            this.btnHistory.Text = "Lịch sử giao dịch";
-            this.btnHistory.UseVisualStyleBackColor = true;
-            this.btnHistory.Click += new System.EventHandler(this.btnHistory_Click);
-            // 
-            // btnRevenue
-            // 
-            this.btnRevenue.Dock = System.Windows.Forms.DockStyle.Left;
-            this.btnRevenue.Font = new System.Drawing.Font("Times New Roman", 12F);
-            this.btnRevenue.ForeColor = System.Drawing.Color.Black;
-            this.btnRevenue.Location = new System.Drawing.Point(692, 0);
-            this.btnRevenue.Name = "btnRevenue";
-            this.btnRevenue.Size = new System.Drawing.Size(346, 35);
-            this.btnRevenue.TabIndex = 2;
-            this.btnRevenue.Text = "Doanh thu";
-            this.btnRevenue.UseVisualStyleBackColor = true;
-            this.btnRevenue.Click += new System.EventHandler(this.btnRevenue_Click);
             // 
             // panelChildForm
             // 
@@ -92,14 +92,14 @@
             this.panelChildForm.Dock = System.Windows.Forms.DockStyle.Fill;
             this.panelChildForm.Location = new System.Drawing.Point(0, 35);
             this.panelChildForm.Name = "panelChildForm";
-            this.panelChildForm.Size = new System.Drawing.Size(1041, 651);
+            this.panelChildForm.Size = new System.Drawing.Size(1107, 651);
             this.panelChildForm.TabIndex = 1;
             // 
             // FInfo
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(1041, 686);
+            this.ClientSize = new System.Drawing.Size(1107, 686);
             this.Controls.Add(this.panelChildForm);
             this.Controls.Add(this.panel1);
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.None;

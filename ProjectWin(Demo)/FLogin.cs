@@ -29,12 +29,6 @@ namespace ProjectWin_Demo_
             SignUp.ShowDialog();
             this.Show();
         }
-        private void lblExitSignUp_Click(object sender, EventArgs e)
-        {
-            
-            pnlLogin.Show();
-        }
-
         private void btnLogin_Click(object sender, EventArgs e)
         {
             this.Hide();

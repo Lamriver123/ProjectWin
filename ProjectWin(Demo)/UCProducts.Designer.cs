@@ -51,9 +51,9 @@
             // label1
             // 
             this.label1.Font = new System.Drawing.Font("Times New Roman", 10.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label1.Location = new System.Drawing.Point(16, 172);
+            this.label1.Location = new System.Drawing.Point(9, 172);
             this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(205, 44);
+            this.label1.Size = new System.Drawing.Size(203, 44);
             this.label1.TabIndex = 1;
             this.label1.Text = "Smart Tivi 4K Sony KD-55X75K 55 inch Google TV";
             // 
@@ -61,9 +61,9 @@
             // 
             this.label2.Font = new System.Drawing.Font("Times New Roman", 13.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label2.ForeColor = System.Drawing.Color.Crimson;
-            this.label2.Location = new System.Drawing.Point(23, 219);
+            this.label2.Location = new System.Drawing.Point(8, 216);
             this.label2.Name = "label2";
-            this.label2.Size = new System.Drawing.Size(143, 32);
+            this.label2.Size = new System.Drawing.Size(156, 32);
             this.label2.TabIndex = 2;
             this.label2.Text = "10.110.000đ";
             this.label2.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
@@ -75,7 +75,7 @@
             this.panel1.Controls.Add(this.pictureBox4);
             this.panel1.Controls.Add(this.pictureBox3);
             this.panel1.Controls.Add(this.pictureBox2);
-            this.panel1.Location = new System.Drawing.Point(20, 258);
+            this.panel1.Location = new System.Drawing.Point(15, 258);
             this.panel1.Name = "panel1";
             this.panel1.Size = new System.Drawing.Size(104, 20);
             this.panel1.TabIndex = 3;
@@ -136,7 +136,7 @@
             this.pictureBox1.Image = global::ProjectWin_Demo_.Properties.Resources.smart_tivi_4k_sony_kd_55x75k_55_inch_google_tv_c2bfad25;
             this.pictureBox1.Location = new System.Drawing.Point(0, 0);
             this.pictureBox1.Name = "pictureBox1";
-            this.pictureBox1.Size = new System.Drawing.Size(236, 169);
+            this.pictureBox1.Size = new System.Drawing.Size(212, 169);
             this.pictureBox1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
             this.pictureBox1.TabIndex = 0;
             this.pictureBox1.TabStop = false;
@@ -144,7 +144,7 @@
             // label3
             // 
             this.label3.AutoSize = true;
-            this.label3.Location = new System.Drawing.Point(139, 258);
+            this.label3.Location = new System.Drawing.Point(132, 260);
             this.label3.Name = "label3";
             this.label3.Size = new System.Drawing.Size(74, 16);
             this.label3.TabIndex = 4;
@@ -153,12 +153,12 @@
             // label4
             // 
             this.label4.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label4.Location = new System.Drawing.Point(20, 284);
+            this.label4.Location = new System.Drawing.Point(31, 284);
             this.label4.Name = "label4";
             this.label4.Size = new System.Drawing.Size(175, 27);
             this.label4.TabIndex = 5;
             this.label4.Text = "TP.Hồ Chí Minh";
-            this.label4.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            this.label4.TextAlign = System.Drawing.ContentAlignment.MiddleRight;
             // 
             // UCProducts
             // 
@@ -172,7 +172,7 @@
             this.Controls.Add(this.label1);
             this.Controls.Add(this.pictureBox1);
             this.Name = "UCProducts";
-            this.Size = new System.Drawing.Size(236, 320);
+            this.Size = new System.Drawing.Size(212, 320);
             this.panel1.ResumeLayout(false);
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox6)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox5)).EndInit();

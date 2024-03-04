@@ -49,7 +49,6 @@
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBoxCart)).BeginInit();
-            this.panelChildForm.SuspendLayout();
             this.panel13.SuspendLayout();
             this.SuspendLayout();
             // 
@@ -64,7 +63,7 @@
             this.panel1.Dock = System.Windows.Forms.DockStyle.Top;
             this.panel1.Location = new System.Drawing.Point(0, 0);
             this.panel1.Name = "panel1";
-            this.panel1.Size = new System.Drawing.Size(1273, 58);
+            this.panel1.Size = new System.Drawing.Size(1282, 58);
             this.panel1.TabIndex = 0;
             // 
             // rjTextBox1
@@ -142,11 +141,10 @@
             // panelChildForm
             // 
             this.panelChildForm.BackgroundImageLayout = System.Windows.Forms.ImageLayout.None;
-            this.panelChildForm.Controls.Add(this.panel13);
             this.panelChildForm.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.panelChildForm.Location = new System.Drawing.Point(0, 58);
+            this.panelChildForm.Location = new System.Drawing.Point(175, 58);
             this.panelChildForm.Name = "panelChildForm";
-            this.panelChildForm.Size = new System.Drawing.Size(1273, 686);
+            this.panelChildForm.Size = new System.Drawing.Size(1107, 686);
             this.panelChildForm.TabIndex = 2;
             // 
             // panel13
@@ -162,10 +160,10 @@
             this.panel13.Controls.Add(this.btnHome);
             this.panel13.Controls.Add(this.panel3);
             this.panel13.Dock = System.Windows.Forms.DockStyle.Left;
-            this.panel13.Location = new System.Drawing.Point(0, 0);
+            this.panel13.Location = new System.Drawing.Point(0, 58);
             this.panel13.Name = "panel13";
             this.panel13.Size = new System.Drawing.Size(175, 686);
-            this.panel13.TabIndex = 2;
+            this.panel13.TabIndex = 3;
             // 
             // btnRegister
             // 
@@ -173,7 +171,7 @@
             this.btnRegister.Font = new System.Drawing.Font("Times New Roman", 10.8F);
             this.btnRegister.Location = new System.Drawing.Point(3, 572);
             this.btnRegister.Name = "btnRegister";
-            this.btnRegister.Size = new System.Drawing.Size(226, 56);
+            this.btnRegister.Size = new System.Drawing.Size(172, 56);
             this.btnRegister.TabIndex = 5;
             this.btnRegister.Text = "Đăng kí bán hàng";
             this.btnRegister.UseVisualStyleBackColor = true;
@@ -312,8 +310,9 @@
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
-            this.ClientSize = new System.Drawing.Size(1273, 744);
+            this.ClientSize = new System.Drawing.Size(1282, 744);
             this.Controls.Add(this.panelChildForm);
+            this.Controls.Add(this.panel13);
             this.Controls.Add(this.panel1);
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.FixedSingle;
             this.MaximizeBox = false;
@@ -324,7 +323,6 @@
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBoxCart)).EndInit();
-            this.panelChildForm.ResumeLayout(false);
             this.panel13.ResumeLayout(false);
             this.ResumeLayout(false);
 
@@ -337,17 +335,17 @@
         private System.Windows.Forms.Panel panelChildForm;
         private System.Windows.Forms.PictureBox pictureBox2;
         private System.Windows.Forms.PictureBox pictureBox1;
-        private System.Windows.Forms.Panel panel13;
-        private System.Windows.Forms.Button btnRegister;
         private CustomButton.VBButton btnFind;
         private Funtion.RJTextBox rjTextBox1;
-        private CustomButton.VBButton btnMyProduct;
-        private CustomButton.VBButton btnHome;
-        private CustomButton.VBButton btnProduct;
+        private System.Windows.Forms.Panel panel13;
+        private System.Windows.Forms.Button btnRegister;
         private CustomButton.VBButton btnInfo;
-        private System.Windows.Forms.Panel panel3;
-        private System.Windows.Forms.Panel panel4;
         private System.Windows.Forms.Panel panel5;
+        private CustomButton.VBButton btnMyProduct;
         private System.Windows.Forms.Panel panel2;
+        private CustomButton.VBButton btnProduct;
+        private System.Windows.Forms.Panel panel4;
+        private CustomButton.VBButton btnHome;
+        private System.Windows.Forms.Panel panel3;
     }
 }
