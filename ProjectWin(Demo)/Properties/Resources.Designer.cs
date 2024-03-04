@@ -93,6 +93,16 @@ namespace ProjectWin_Demo_.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
+        internal static System.Drawing.Bitmap Custom_Icon_Design_Mono_General_3_Home_48 {
+            get {
+                object obj = ResourceManager.GetObject("Custom-Icon-Design-Mono-General-3-Home.48", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
         internal static System.Drawing.Bitmap DanhMucSanPham {
             get {
                 object obj = ResourceManager.GetObject("DanhMucSanPham", resourceCulture);
@@ -163,10 +173,50 @@ namespace ProjectWin_Demo_.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
+        internal static System.Drawing.Bitmap Icons8_Windows_8_Ecommerce_Product_48 {
+            get {
+                object obj = ResourceManager.GetObject("Icons8-Windows-8-Ecommerce-Product.48", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap Icons8_Windows_8_Users_Name_48 {
+            get {
+                object obj = ResourceManager.GetObject("Icons8-Windows-8-Users-Name.48", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap Paomedia_Small_N_Flat_Star_48 {
+            get {
+                object obj = ResourceManager.GetObject("Paomedia-Small-N-Flat-Star.48", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
         internal static System.Drawing.Bitmap pngtree_shopping_mall_supermarket_selection_merchandise_poster_background_material_picture_image_1048684 {
             get {
                 object obj = ResourceManager.GetObject("pngtree-shopping-mall-supermarket-selection-merchandise-poster-background-materia" +
                         "l-picture-image_1048684", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap smart_tivi_4k_sony_kd_55x75k_55_inch_google_tv_c2bfad25 {
+            get {
+                object obj = ResourceManager.GetObject("smart-tivi-4k-sony-kd-55x75k-55-inch-google-tv_c2bfad25", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }

@@ -29,6 +29,7 @@
         private void InitializeComponent()
         {
             this.panel1 = new System.Windows.Forms.Panel();
+            this.rjTextBox1 = new ProjectWin_Demo_.Funtion.RJTextBox();
             this.btnFind = new CustomButton.VBButton();
             this.pictureBox1 = new System.Windows.Forms.PictureBox();
             this.pictureBox2 = new System.Windows.Forms.PictureBox();
@@ -36,37 +37,20 @@
             this.panelChildForm = new System.Windows.Forms.Panel();
             this.panel13 = new System.Windows.Forms.Panel();
             this.btnRegister = new System.Windows.Forms.Button();
-            this.panel11 = new System.Windows.Forms.Panel();
-            this.btnInfo = new System.Windows.Forms.Button();
-            this.pictureBoxInfo = new System.Windows.Forms.PictureBox();
-            this.panel4 = new System.Windows.Forms.Panel();
-            this.panel10 = new System.Windows.Forms.Panel();
-            this.btnMyProduct = new System.Windows.Forms.Button();
-            this.pictureBoxMyProduct = new System.Windows.Forms.PictureBox();
+            this.btnInfo = new CustomButton.VBButton();
             this.panel5 = new System.Windows.Forms.Panel();
-            this.panel9 = new System.Windows.Forms.Panel();
-            this.btnProduct = new System.Windows.Forms.Button();
-            this.pictureBoxProduct = new System.Windows.Forms.PictureBox();
-            this.panel3 = new System.Windows.Forms.Panel();
+            this.btnMyProduct = new CustomButton.VBButton();
             this.panel2 = new System.Windows.Forms.Panel();
-            this.btnHome = new System.Windows.Forms.Button();
-            this.pictureBoxHome = new System.Windows.Forms.PictureBox();
-            this.elipseControlFind = new ElipseToolDemo.ElipseControl();
-            this.rjTextBox1 = new ProjectWin_Demo_.Funtion.RJTextBox();
+            this.btnProduct = new CustomButton.VBButton();
+            this.panel4 = new System.Windows.Forms.Panel();
+            this.btnHome = new CustomButton.VBButton();
+            this.panel3 = new System.Windows.Forms.Panel();
             this.panel1.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBoxCart)).BeginInit();
             this.panelChildForm.SuspendLayout();
             this.panel13.SuspendLayout();
-            this.panel11.SuspendLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBoxInfo)).BeginInit();
-            this.panel10.SuspendLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBoxMyProduct)).BeginInit();
-            this.panel9.SuspendLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBoxProduct)).BeginInit();
-            this.panel2.SuspendLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBoxHome)).BeginInit();
             this.SuspendLayout();
             // 
             // panel1
@@ -82,6 +66,28 @@
             this.panel1.Name = "panel1";
             this.panel1.Size = new System.Drawing.Size(1273, 58);
             this.panel1.TabIndex = 0;
+            // 
+            // rjTextBox1
+            // 
+            this.rjTextBox1.BackColor = System.Drawing.SystemColors.Window;
+            this.rjTextBox1.BorderColor = System.Drawing.Color.MediumSlateBlue;
+            this.rjTextBox1.BorderFocusColor = System.Drawing.Color.HotPink;
+            this.rjTextBox1.BorderRadius = 15;
+            this.rjTextBox1.BorderSize = 2;
+            this.rjTextBox1.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.rjTextBox1.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(64)))), ((int)(((byte)(64)))), ((int)(((byte)(64)))));
+            this.rjTextBox1.Location = new System.Drawing.Point(239, 6);
+            this.rjTextBox1.Margin = new System.Windows.Forms.Padding(4);
+            this.rjTextBox1.Multiline = false;
+            this.rjTextBox1.Name = "rjTextBox1";
+            this.rjTextBox1.Padding = new System.Windows.Forms.Padding(10, 7, 10, 7);
+            this.rjTextBox1.PasswordChar = false;
+            this.rjTextBox1.PlaceholderColor = System.Drawing.Color.DarkGray;
+            this.rjTextBox1.PlaceholderText = "";
+            this.rjTextBox1.Size = new System.Drawing.Size(555, 40);
+            this.rjTextBox1.TabIndex = 7;
+            this.rjTextBox1.Texts = "";
+            this.rjTextBox1.UnderlinedStyle = false;
             // 
             // btnFind
             // 
@@ -135,6 +141,7 @@
             // 
             // panelChildForm
             // 
+            this.panelChildForm.BackgroundImageLayout = System.Windows.Forms.ImageLayout.None;
             this.panelChildForm.Controls.Add(this.panel13);
             this.panelChildForm.Dock = System.Windows.Forms.DockStyle.Fill;
             this.panelChildForm.Location = new System.Drawing.Point(0, 58);
@@ -146,17 +153,18 @@
             // 
             this.panel13.BackColor = System.Drawing.Color.LightCyan;
             this.panel13.Controls.Add(this.btnRegister);
-            this.panel13.Controls.Add(this.panel11);
-            this.panel13.Controls.Add(this.panel4);
-            this.panel13.Controls.Add(this.panel10);
+            this.panel13.Controls.Add(this.btnInfo);
             this.panel13.Controls.Add(this.panel5);
-            this.panel13.Controls.Add(this.panel9);
-            this.panel13.Controls.Add(this.panel3);
+            this.panel13.Controls.Add(this.btnMyProduct);
             this.panel13.Controls.Add(this.panel2);
+            this.panel13.Controls.Add(this.btnProduct);
+            this.panel13.Controls.Add(this.panel4);
+            this.panel13.Controls.Add(this.btnHome);
+            this.panel13.Controls.Add(this.panel3);
             this.panel13.Dock = System.Windows.Forms.DockStyle.Left;
             this.panel13.Location = new System.Drawing.Point(0, 0);
             this.panel13.Name = "panel13";
-            this.panel13.Size = new System.Drawing.Size(232, 686);
+            this.panel13.Size = new System.Drawing.Size(175, 686);
             this.panel13.TabIndex = 2;
             // 
             // btnRegister
@@ -170,187 +178,134 @@
             this.btnRegister.Text = "Đăng kí bán hàng";
             this.btnRegister.UseVisualStyleBackColor = true;
             // 
-            // panel11
-            // 
-            this.panel11.Controls.Add(this.btnInfo);
-            this.panel11.Controls.Add(this.pictureBoxInfo);
-            this.panel11.Dock = System.Windows.Forms.DockStyle.Top;
-            this.panel11.Location = new System.Drawing.Point(0, 255);
-            this.panel11.Name = "panel11";
-            this.panel11.Size = new System.Drawing.Size(232, 70);
-            this.panel11.TabIndex = 1;
-            // 
             // btnInfo
             // 
+            this.btnInfo.BackColor = System.Drawing.Color.Transparent;
+            this.btnInfo.BackgroundColor = System.Drawing.Color.Transparent;
+            this.btnInfo.BorderColor = System.Drawing.Color.PaleVioletRed;
+            this.btnInfo.BorderRadius = 0;
+            this.btnInfo.BorderSize = 0;
+            this.btnInfo.Dock = System.Windows.Forms.DockStyle.Top;
             this.btnInfo.FlatAppearance.BorderSize = 0;
             this.btnInfo.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.btnInfo.Font = new System.Drawing.Font("Times New Roman", 10.8F);
-            this.btnInfo.Location = new System.Drawing.Point(102, 3);
+            this.btnInfo.Font = new System.Drawing.Font("Times New Roman", 10.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnInfo.ForeColor = System.Drawing.Color.Black;
+            this.btnInfo.Image = global::ProjectWin_Demo_.Properties.Resources.Icons8_Windows_8_Users_Name_48;
+            this.btnInfo.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            this.btnInfo.Location = new System.Drawing.Point(0, 250);
             this.btnInfo.Name = "btnInfo";
-            this.btnInfo.Size = new System.Drawing.Size(111, 61);
-            this.btnInfo.TabIndex = 0;
-            this.btnInfo.Text = "Thông tin cá nhân";
-            this.btnInfo.UseVisualStyleBackColor = true;
+            this.btnInfo.Size = new System.Drawing.Size(175, 70);
+            this.btnInfo.TabIndex = 10;
+            this.btnInfo.Text = "Thông tin\r\ncá nhân";
+            this.btnInfo.TextAlign = System.Drawing.ContentAlignment.MiddleRight;
+            this.btnInfo.TextColor = System.Drawing.Color.Black;
+            this.btnInfo.UseVisualStyleBackColor = false;
             this.btnInfo.Click += new System.EventHandler(this.btnInfo_Click);
-            // 
-            // pictureBoxInfo
-            // 
-            this.pictureBoxInfo.Image = global::ProjectWin_Demo_.Properties.Resources._1559144_200;
-            this.pictureBoxInfo.Location = new System.Drawing.Point(9, 17);
-            this.pictureBoxInfo.Name = "pictureBoxInfo";
-            this.pictureBoxInfo.Size = new System.Drawing.Size(75, 50);
-            this.pictureBoxInfo.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
-            this.pictureBoxInfo.TabIndex = 1;
-            this.pictureBoxInfo.TabStop = false;
-            // 
-            // panel4
-            // 
-            this.panel4.Dock = System.Windows.Forms.DockStyle.Top;
-            this.panel4.Location = new System.Drawing.Point(0, 240);
-            this.panel4.Name = "panel4";
-            this.panel4.Size = new System.Drawing.Size(232, 15);
-            this.panel4.TabIndex = 4;
-            // 
-            // panel10
-            // 
-            this.panel10.Controls.Add(this.btnMyProduct);
-            this.panel10.Controls.Add(this.pictureBoxMyProduct);
-            this.panel10.Dock = System.Windows.Forms.DockStyle.Top;
-            this.panel10.Location = new System.Drawing.Point(0, 170);
-            this.panel10.Name = "panel10";
-            this.panel10.Size = new System.Drawing.Size(232, 70);
-            this.panel10.TabIndex = 1;
-            // 
-            // btnMyProduct
-            // 
-            this.btnMyProduct.FlatAppearance.BorderSize = 0;
-            this.btnMyProduct.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.btnMyProduct.Font = new System.Drawing.Font("Times New Roman", 10.8F);
-            this.btnMyProduct.Location = new System.Drawing.Point(102, 3);
-            this.btnMyProduct.Name = "btnMyProduct";
-            this.btnMyProduct.Size = new System.Drawing.Size(111, 61);
-            this.btnMyProduct.TabIndex = 0;
-            this.btnMyProduct.Text = "Sản phẩm của tôi";
-            this.btnMyProduct.UseVisualStyleBackColor = true;
-            this.btnMyProduct.Click += new System.EventHandler(this.btnMyProduct_Click);
-            // 
-            // pictureBoxMyProduct
-            // 
-            this.pictureBoxMyProduct.Image = global::ProjectWin_Demo_.Properties.Resources.icons8_product_50;
-            this.pictureBoxMyProduct.Location = new System.Drawing.Point(9, 14);
-            this.pictureBoxMyProduct.Name = "pictureBoxMyProduct";
-            this.pictureBoxMyProduct.Size = new System.Drawing.Size(75, 50);
-            this.pictureBoxMyProduct.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
-            this.pictureBoxMyProduct.TabIndex = 1;
-            this.pictureBoxMyProduct.TabStop = false;
             // 
             // panel5
             // 
             this.panel5.Dock = System.Windows.Forms.DockStyle.Top;
-            this.panel5.Location = new System.Drawing.Point(0, 155);
+            this.panel5.Location = new System.Drawing.Point(0, 240);
             this.panel5.Name = "panel5";
-            this.panel5.Size = new System.Drawing.Size(232, 15);
-            this.panel5.TabIndex = 3;
+            this.panel5.Size = new System.Drawing.Size(175, 10);
+            this.panel5.TabIndex = 14;
             // 
-            // panel9
+            // btnMyProduct
             // 
-            this.panel9.Controls.Add(this.btnProduct);
-            this.panel9.Controls.Add(this.pictureBoxProduct);
-            this.panel9.Dock = System.Windows.Forms.DockStyle.Top;
-            this.panel9.Location = new System.Drawing.Point(0, 85);
-            this.panel9.Name = "panel9";
-            this.panel9.Size = new System.Drawing.Size(232, 70);
-            this.panel9.TabIndex = 1;
+            this.btnMyProduct.BackColor = System.Drawing.Color.Transparent;
+            this.btnMyProduct.BackgroundColor = System.Drawing.Color.Transparent;
+            this.btnMyProduct.BorderColor = System.Drawing.Color.PaleVioletRed;
+            this.btnMyProduct.BorderRadius = 0;
+            this.btnMyProduct.BorderSize = 0;
+            this.btnMyProduct.Dock = System.Windows.Forms.DockStyle.Top;
+            this.btnMyProduct.FlatAppearance.BorderSize = 0;
+            this.btnMyProduct.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.btnMyProduct.Font = new System.Drawing.Font("Times New Roman", 10.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnMyProduct.ForeColor = System.Drawing.Color.Black;
+            this.btnMyProduct.Image = global::ProjectWin_Demo_.Properties.Resources.icons8_product_50;
+            this.btnMyProduct.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            this.btnMyProduct.Location = new System.Drawing.Point(0, 170);
+            this.btnMyProduct.Name = "btnMyProduct";
+            this.btnMyProduct.Size = new System.Drawing.Size(175, 70);
+            this.btnMyProduct.TabIndex = 7;
+            this.btnMyProduct.Text = "Sản phẩm\r\ncủa tôi";
+            this.btnMyProduct.TextAlign = System.Drawing.ContentAlignment.MiddleRight;
+            this.btnMyProduct.TextColor = System.Drawing.Color.Black;
+            this.btnMyProduct.UseVisualStyleBackColor = false;
+            this.btnMyProduct.Click += new System.EventHandler(this.btnMyProduct_Click);
+            // 
+            // panel2
+            // 
+            this.panel2.Dock = System.Windows.Forms.DockStyle.Top;
+            this.panel2.Location = new System.Drawing.Point(0, 160);
+            this.panel2.Name = "panel2";
+            this.panel2.Size = new System.Drawing.Size(175, 10);
+            this.panel2.TabIndex = 11;
             // 
             // btnProduct
             // 
+            this.btnProduct.BackColor = System.Drawing.Color.Transparent;
+            this.btnProduct.BackgroundColor = System.Drawing.Color.Transparent;
+            this.btnProduct.BorderColor = System.Drawing.Color.PaleVioletRed;
+            this.btnProduct.BorderRadius = 0;
+            this.btnProduct.BorderSize = 0;
+            this.btnProduct.Dock = System.Windows.Forms.DockStyle.Top;
             this.btnProduct.FlatAppearance.BorderSize = 0;
             this.btnProduct.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.btnProduct.Font = new System.Drawing.Font("Times New Roman", 10.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btnProduct.Location = new System.Drawing.Point(102, 6);
+            this.btnProduct.ForeColor = System.Drawing.Color.Black;
+            this.btnProduct.Image = global::ProjectWin_Demo_.Properties.Resources.Icons8_Windows_8_Ecommerce_Product_48;
+            this.btnProduct.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            this.btnProduct.Location = new System.Drawing.Point(0, 90);
             this.btnProduct.Name = "btnProduct";
-            this.btnProduct.Size = new System.Drawing.Size(111, 61);
-            this.btnProduct.TabIndex = 0;
-            this.btnProduct.Text = "Danh mục sản phẩm";
-            this.btnProduct.UseVisualStyleBackColor = true;
+            this.btnProduct.Size = new System.Drawing.Size(175, 70);
+            this.btnProduct.TabIndex = 9;
+            this.btnProduct.Text = "Danh mục\r\nsản phẩm";
+            this.btnProduct.TextAlign = System.Drawing.ContentAlignment.MiddleRight;
+            this.btnProduct.TextColor = System.Drawing.Color.Black;
+            this.btnProduct.UseVisualStyleBackColor = false;
             this.btnProduct.Click += new System.EventHandler(this.btnProduct_Click);
             // 
-            // pictureBoxProduct
+            // panel4
             // 
-            this.pictureBoxProduct.Image = global::ProjectWin_Demo_.Properties.Resources.DanhMucSanPham;
-            this.pictureBoxProduct.Location = new System.Drawing.Point(9, 17);
-            this.pictureBoxProduct.Name = "pictureBoxProduct";
-            this.pictureBoxProduct.Size = new System.Drawing.Size(75, 50);
-            this.pictureBoxProduct.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
-            this.pictureBoxProduct.TabIndex = 1;
-            this.pictureBoxProduct.TabStop = false;
+            this.panel4.Dock = System.Windows.Forms.DockStyle.Top;
+            this.panel4.Location = new System.Drawing.Point(0, 80);
+            this.panel4.Name = "panel4";
+            this.panel4.Size = new System.Drawing.Size(175, 10);
+            this.panel4.TabIndex = 13;
+            // 
+            // btnHome
+            // 
+            this.btnHome.BackColor = System.Drawing.Color.Transparent;
+            this.btnHome.BackgroundColor = System.Drawing.Color.Transparent;
+            this.btnHome.BackgroundImageLayout = System.Windows.Forms.ImageLayout.None;
+            this.btnHome.BorderColor = System.Drawing.Color.PaleVioletRed;
+            this.btnHome.BorderRadius = 0;
+            this.btnHome.BorderSize = 0;
+            this.btnHome.Dock = System.Windows.Forms.DockStyle.Top;
+            this.btnHome.FlatAppearance.BorderSize = 0;
+            this.btnHome.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.btnHome.Font = new System.Drawing.Font("Times New Roman", 10.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnHome.ForeColor = System.Drawing.Color.Black;
+            this.btnHome.Image = global::ProjectWin_Demo_.Properties.Resources.Custom_Icon_Design_Mono_General_3_Home_48;
+            this.btnHome.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            this.btnHome.Location = new System.Drawing.Point(0, 10);
+            this.btnHome.Name = "btnHome";
+            this.btnHome.Size = new System.Drawing.Size(175, 70);
+            this.btnHome.TabIndex = 8;
+            this.btnHome.Text = "Trang chủ";
+            this.btnHome.TextAlign = System.Drawing.ContentAlignment.MiddleRight;
+            this.btnHome.TextColor = System.Drawing.Color.Black;
+            this.btnHome.UseVisualStyleBackColor = false;
+            this.btnHome.Click += new System.EventHandler(this.btnHome_Click);
             // 
             // panel3
             // 
             this.panel3.Dock = System.Windows.Forms.DockStyle.Top;
-            this.panel3.Location = new System.Drawing.Point(0, 70);
+            this.panel3.Location = new System.Drawing.Point(0, 0);
             this.panel3.Name = "panel3";
-            this.panel3.Size = new System.Drawing.Size(232, 15);
-            this.panel3.TabIndex = 1;
-            // 
-            // panel2
-            // 
-            this.panel2.Controls.Add(this.btnHome);
-            this.panel2.Controls.Add(this.pictureBoxHome);
-            this.panel2.Dock = System.Windows.Forms.DockStyle.Top;
-            this.panel2.Location = new System.Drawing.Point(0, 0);
-            this.panel2.Name = "panel2";
-            this.panel2.Size = new System.Drawing.Size(232, 70);
-            this.panel2.TabIndex = 0;
-            // 
-            // btnHome
-            // 
-            this.btnHome.FlatAppearance.BorderSize = 0;
-            this.btnHome.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.btnHome.Font = new System.Drawing.Font("Times New Roman", 10.8F);
-            this.btnHome.Location = new System.Drawing.Point(102, 6);
-            this.btnHome.Name = "btnHome";
-            this.btnHome.Size = new System.Drawing.Size(111, 61);
-            this.btnHome.TabIndex = 0;
-            this.btnHome.Text = "Trang Chủ";
-            this.btnHome.UseVisualStyleBackColor = true;
-            this.btnHome.Click += new System.EventHandler(this.btnHome_Click);
-            // 
-            // pictureBoxHome
-            // 
-            this.pictureBoxHome.Image = global::ProjectWin_Demo_.Properties.Resources.TrangChu;
-            this.pictureBoxHome.Location = new System.Drawing.Point(9, 17);
-            this.pictureBoxHome.Name = "pictureBoxHome";
-            this.pictureBoxHome.Size = new System.Drawing.Size(75, 50);
-            this.pictureBoxHome.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
-            this.pictureBoxHome.TabIndex = 1;
-            this.pictureBoxHome.TabStop = false;
-            // 
-            // elipseControlFind
-            // 
-            this.elipseControlFind.CornerRadius = 20;
-            // 
-            // rjTextBox1
-            // 
-            this.rjTextBox1.BackColor = System.Drawing.SystemColors.Window;
-            this.rjTextBox1.BorderColor = System.Drawing.Color.MediumSlateBlue;
-            this.rjTextBox1.BorderFocusColor = System.Drawing.Color.HotPink;
-            this.rjTextBox1.BorderRadius = 15;
-            this.rjTextBox1.BorderSize = 2;
-            this.rjTextBox1.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.rjTextBox1.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(64)))), ((int)(((byte)(64)))), ((int)(((byte)(64)))));
-            this.rjTextBox1.Location = new System.Drawing.Point(239, 6);
-            this.rjTextBox1.Margin = new System.Windows.Forms.Padding(4);
-            this.rjTextBox1.Multiline = false;
-            this.rjTextBox1.Name = "rjTextBox1";
-            this.rjTextBox1.Padding = new System.Windows.Forms.Padding(10, 7, 10, 7);
-            this.rjTextBox1.PasswordChar = false;
-            this.rjTextBox1.PlaceholderColor = System.Drawing.Color.DarkGray;
-            this.rjTextBox1.PlaceholderText = "";
-            this.rjTextBox1.Size = new System.Drawing.Size(555, 40);
-            this.rjTextBox1.TabIndex = 7;
-            this.rjTextBox1.Texts = "";
-            this.rjTextBox1.UnderlinedStyle = false;
+            this.panel3.Size = new System.Drawing.Size(175, 10);
+            this.panel3.TabIndex = 12;
             // 
             // FUser
             // 
@@ -371,14 +326,6 @@
             ((System.ComponentModel.ISupportInitialize)(this.pictureBoxCart)).EndInit();
             this.panelChildForm.ResumeLayout(false);
             this.panel13.ResumeLayout(false);
-            this.panel11.ResumeLayout(false);
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBoxInfo)).EndInit();
-            this.panel10.ResumeLayout(false);
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBoxMyProduct)).EndInit();
-            this.panel9.ResumeLayout(false);
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBoxProduct)).EndInit();
-            this.panel2.ResumeLayout(false);
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBoxHome)).EndInit();
             this.ResumeLayout(false);
 
         }
@@ -390,25 +337,17 @@
         private System.Windows.Forms.Panel panelChildForm;
         private System.Windows.Forms.PictureBox pictureBox2;
         private System.Windows.Forms.PictureBox pictureBox1;
-        private System.Windows.Forms.Panel panel11;
-        private System.Windows.Forms.Button btnInfo;
-        private System.Windows.Forms.PictureBox pictureBoxInfo;
-        private System.Windows.Forms.Panel panel10;
-        private System.Windows.Forms.Button btnMyProduct;
-        private System.Windows.Forms.PictureBox pictureBoxMyProduct;
-        private System.Windows.Forms.Panel panel5;
-        private System.Windows.Forms.Panel panel9;
-        private System.Windows.Forms.Button btnProduct;
-        private System.Windows.Forms.PictureBox pictureBoxProduct;
-        private System.Windows.Forms.Panel panel3;
-        private System.Windows.Forms.Panel panel2;
-        private System.Windows.Forms.Button btnHome;
-        private System.Windows.Forms.PictureBox pictureBoxHome;
         private System.Windows.Forms.Panel panel13;
         private System.Windows.Forms.Button btnRegister;
-        private System.Windows.Forms.Panel panel4;
         private CustomButton.VBButton btnFind;
-        private ElipseToolDemo.ElipseControl elipseControlFind;
         private Funtion.RJTextBox rjTextBox1;
+        private CustomButton.VBButton btnMyProduct;
+        private CustomButton.VBButton btnHome;
+        private CustomButton.VBButton btnProduct;
+        private CustomButton.VBButton btnInfo;
+        private System.Windows.Forms.Panel panel3;
+        private System.Windows.Forms.Panel panel4;
+        private System.Windows.Forms.Panel panel5;
+        private System.Windows.Forms.Panel panel2;
     }
 }

@@ -24,7 +24,10 @@ namespace ProjectWin_Demo_
 
         private void btnSignUp_Click(object sender, EventArgs e)
         {
-            pnlLogin.Hide();
+            this.Hide();
+            Form SignUp = new FSignUp();
+            SignUp.ShowDialog();
+            this.Show();
         }
         private void lblExitSignUp_Click(object sender, EventArgs e)
         {
