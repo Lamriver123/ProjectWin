@@ -88,6 +88,7 @@
             // 
             // panelChildForm
             // 
+            this.panelChildForm.BackColor = System.Drawing.Color.White;
             this.panelChildForm.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
             this.panelChildForm.Dock = System.Windows.Forms.DockStyle.Fill;
             this.panelChildForm.Location = new System.Drawing.Point(0, 35);
@@ -105,6 +106,7 @@
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.None;
             this.Name = "FInfo";
             this.Text = "FInfo";
+            this.Load += new System.EventHandler(this.FInfo_Load);
             this.panel1.ResumeLayout(false);
             this.ResumeLayout(false);
 

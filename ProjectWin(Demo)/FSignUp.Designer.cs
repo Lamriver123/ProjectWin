@@ -29,9 +29,11 @@
         private void InitializeComponent()
         {
             this.groupBox1 = new System.Windows.Forms.GroupBox();
+            this.label15 = new System.Windows.Forms.Label();
+            this.label16 = new System.Windows.Forms.Label();
+            this.rjTextBox7 = new ProjectWin_Demo_.Funtion.RJTextBox();
             this.label12 = new System.Windows.Forms.Label();
             this.label11 = new System.Windows.Forms.Label();
-            this.comboBox1 = new System.Windows.Forms.ComboBox();
             this.dateTimePicker1 = new System.Windows.Forms.DateTimePicker();
             this.label3 = new System.Windows.Forms.Label();
             this.label4 = new System.Windows.Forms.Label();
@@ -39,6 +41,9 @@
             this.label1 = new System.Windows.Forms.Label();
             this.rjTextBox1 = new ProjectWin_Demo_.Funtion.RJTextBox();
             this.groupBox2 = new System.Windows.Forms.GroupBox();
+            this.label17 = new System.Windows.Forms.Label();
+            this.label18 = new System.Windows.Forms.Label();
+            this.rjTextBox8 = new ProjectWin_Demo_.Funtion.RJTextBox();
             this.label13 = new System.Windows.Forms.Label();
             this.label14 = new System.Windows.Forms.Label();
             this.rjTextBox6 = new ProjectWin_Demo_.Funtion.RJTextBox();
@@ -55,12 +60,9 @@
             this.label19 = new System.Windows.Forms.Label();
             this.rjTextBox5 = new ProjectWin_Demo_.Funtion.RJTextBox();
             this.btnSignUp = new CustomButton.VBButton();
-            this.label15 = new System.Windows.Forms.Label();
-            this.label16 = new System.Windows.Forms.Label();
-            this.rjTextBox7 = new ProjectWin_Demo_.Funtion.RJTextBox();
-            this.label17 = new System.Windows.Forms.Label();
-            this.label18 = new System.Windows.Forms.Label();
-            this.rjTextBox8 = new ProjectWin_Demo_.Funtion.RJTextBox();
+            this.radioButton3 = new System.Windows.Forms.RadioButton();
+            this.radioButton2 = new System.Windows.Forms.RadioButton();
+            this.radioButton1 = new System.Windows.Forms.RadioButton();
             this.groupBox1.SuspendLayout();
             this.groupBox2.SuspendLayout();
             this.groupBox3.SuspendLayout();
@@ -69,12 +71,14 @@
             // groupBox1
             // 
             this.groupBox1.BackColor = System.Drawing.Color.FloralWhite;
+            this.groupBox1.Controls.Add(this.radioButton3);
+            this.groupBox1.Controls.Add(this.radioButton2);
+            this.groupBox1.Controls.Add(this.radioButton1);
             this.groupBox1.Controls.Add(this.label15);
             this.groupBox1.Controls.Add(this.label16);
             this.groupBox1.Controls.Add(this.rjTextBox7);
             this.groupBox1.Controls.Add(this.label12);
             this.groupBox1.Controls.Add(this.label11);
-            this.groupBox1.Controls.Add(this.comboBox1);
             this.groupBox1.Controls.Add(this.dateTimePicker1);
             this.groupBox1.Controls.Add(this.label3);
             this.groupBox1.Controls.Add(this.label4);
@@ -88,6 +92,50 @@
             this.groupBox1.TabIndex = 0;
             this.groupBox1.TabStop = false;
             this.groupBox1.Text = "Personal";
+            // 
+            // label15
+            // 
+            this.label15.AutoSize = true;
+            this.label15.Font = new System.Drawing.Font("Times New Roman", 7.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label15.ForeColor = System.Drawing.Color.Red;
+            this.label15.Location = new System.Drawing.Point(7, 322);
+            this.label15.Name = "label15";
+            this.label15.Size = new System.Drawing.Size(118, 15);
+            this.label15.TabIndex = 12;
+            this.label15.Text = "Tên không chính xác";
+            // 
+            // label16
+            // 
+            this.label16.AutoSize = true;
+            this.label16.Font = new System.Drawing.Font("Times New Roman", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label16.ForeColor = System.Drawing.SystemColors.GrayText;
+            this.label16.Location = new System.Drawing.Point(7, 263);
+            this.label16.Name = "label16";
+            this.label16.Size = new System.Drawing.Size(54, 19);
+            this.label16.TabIndex = 11;
+            this.label16.Text = "CCCD";
+            // 
+            // rjTextBox7
+            // 
+            this.rjTextBox7.BackColor = System.Drawing.SystemColors.Window;
+            this.rjTextBox7.BorderColor = System.Drawing.Color.LightSlateGray;
+            this.rjTextBox7.BorderFocusColor = System.Drawing.Color.HotPink;
+            this.rjTextBox7.BorderRadius = 5;
+            this.rjTextBox7.BorderSize = 1;
+            this.rjTextBox7.Font = new System.Drawing.Font("Times New Roman", 10.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.rjTextBox7.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(64)))), ((int)(((byte)(64)))), ((int)(((byte)(64)))));
+            this.rjTextBox7.Location = new System.Drawing.Point(7, 283);
+            this.rjTextBox7.Margin = new System.Windows.Forms.Padding(4);
+            this.rjTextBox7.Multiline = false;
+            this.rjTextBox7.Name = "rjTextBox7";
+            this.rjTextBox7.Padding = new System.Windows.Forms.Padding(10, 7, 10, 7);
+            this.rjTextBox7.PasswordChar = false;
+            this.rjTextBox7.PlaceholderColor = System.Drawing.Color.DarkGray;
+            this.rjTextBox7.PlaceholderText = "";
+            this.rjTextBox7.Size = new System.Drawing.Size(297, 35);
+            this.rjTextBox7.TabIndex = 10;
+            this.rjTextBox7.Texts = "";
+            this.rjTextBox7.UnderlinedStyle = false;
             // 
             // label12
             // 
@@ -110,18 +158,6 @@
             this.label11.Size = new System.Drawing.Size(59, 19);
             this.label11.TabIndex = 8;
             this.label11.Text = "Gender";
-            // 
-            // comboBox1
-            // 
-            this.comboBox1.FormattingEnabled = true;
-            this.comboBox1.Items.AddRange(new object[] {
-            "Nam",
-            "Nữ",
-            "Khác"});
-            this.comboBox1.Location = new System.Drawing.Point(7, 204);
-            this.comboBox1.Name = "comboBox1";
-            this.comboBox1.Size = new System.Drawing.Size(292, 30);
-            this.comboBox1.TabIndex = 7;
             // 
             // dateTimePicker1
             // 
@@ -223,6 +259,50 @@
             this.groupBox2.TabIndex = 7;
             this.groupBox2.TabStop = false;
             this.groupBox2.Text = "Account";
+            // 
+            // label17
+            // 
+            this.label17.AutoSize = true;
+            this.label17.Font = new System.Drawing.Font("Times New Roman", 7.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label17.ForeColor = System.Drawing.Color.Red;
+            this.label17.Location = new System.Drawing.Point(9, 238);
+            this.label17.Name = "label17";
+            this.label17.Size = new System.Drawing.Size(167, 15);
+            this.label17.TabIndex = 14;
+            this.label17.Text = "Số điện thoại không chính xác";
+            // 
+            // label18
+            // 
+            this.label18.AutoSize = true;
+            this.label18.Font = new System.Drawing.Font("Times New Roman", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label18.ForeColor = System.Drawing.SystemColors.GrayText;
+            this.label18.Location = new System.Drawing.Point(8, 179);
+            this.label18.Name = "label18";
+            this.label18.Size = new System.Drawing.Size(52, 19);
+            this.label18.TabIndex = 13;
+            this.label18.Text = "Phone";
+            // 
+            // rjTextBox8
+            // 
+            this.rjTextBox8.BackColor = System.Drawing.SystemColors.Window;
+            this.rjTextBox8.BorderColor = System.Drawing.Color.LightSlateGray;
+            this.rjTextBox8.BorderFocusColor = System.Drawing.Color.HotPink;
+            this.rjTextBox8.BorderRadius = 5;
+            this.rjTextBox8.BorderSize = 1;
+            this.rjTextBox8.Font = new System.Drawing.Font("Times New Roman", 10.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.rjTextBox8.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(64)))), ((int)(((byte)(64)))), ((int)(((byte)(64)))));
+            this.rjTextBox8.Location = new System.Drawing.Point(7, 199);
+            this.rjTextBox8.Margin = new System.Windows.Forms.Padding(4);
+            this.rjTextBox8.Multiline = false;
+            this.rjTextBox8.Name = "rjTextBox8";
+            this.rjTextBox8.Padding = new System.Windows.Forms.Padding(10, 7, 10, 7);
+            this.rjTextBox8.PasswordChar = false;
+            this.rjTextBox8.PlaceholderColor = System.Drawing.Color.DarkGray;
+            this.rjTextBox8.PlaceholderText = "";
+            this.rjTextBox8.Size = new System.Drawing.Size(297, 35);
+            this.rjTextBox8.TabIndex = 12;
+            this.rjTextBox8.Texts = "";
+            this.rjTextBox8.UnderlinedStyle = false;
             // 
             // label13
             // 
@@ -465,93 +545,41 @@
             this.btnSignUp.TextColor = System.Drawing.Color.Black;
             this.btnSignUp.UseVisualStyleBackColor = false;
             // 
-            // label15
+            // radioButton3
             // 
-            this.label15.AutoSize = true;
-            this.label15.Font = new System.Drawing.Font("Times New Roman", 7.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label15.ForeColor = System.Drawing.Color.Red;
-            this.label15.Location = new System.Drawing.Point(7, 322);
-            this.label15.Name = "label15";
-            this.label15.Size = new System.Drawing.Size(118, 15);
-            this.label15.TabIndex = 12;
-            this.label15.Text = "Tên không chính xác";
+            this.radioButton3.AutoSize = true;
+            this.radioButton3.Font = new System.Drawing.Font("Times New Roman", 10.2F);
+            this.radioButton3.Location = new System.Drawing.Point(165, 199);
+            this.radioButton3.Name = "radioButton3";
+            this.radioButton3.Size = new System.Drawing.Size(65, 23);
+            this.radioButton3.TabIndex = 15;
+            this.radioButton3.TabStop = true;
+            this.radioButton3.Text = "Khác";
+            this.radioButton3.UseVisualStyleBackColor = true;
             // 
-            // label16
+            // radioButton2
             // 
-            this.label16.AutoSize = true;
-            this.label16.Font = new System.Drawing.Font("Times New Roman", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label16.ForeColor = System.Drawing.SystemColors.GrayText;
-            this.label16.Location = new System.Drawing.Point(7, 263);
-            this.label16.Name = "label16";
-            this.label16.Size = new System.Drawing.Size(80, 19);
-            this.label16.TabIndex = 11;
-            this.label16.Text = "Full Name";
+            this.radioButton2.AutoSize = true;
+            this.radioButton2.Font = new System.Drawing.Font("Times New Roman", 10.2F);
+            this.radioButton2.Location = new System.Drawing.Point(91, 199);
+            this.radioButton2.Name = "radioButton2";
+            this.radioButton2.Size = new System.Drawing.Size(51, 23);
+            this.radioButton2.TabIndex = 14;
+            this.radioButton2.TabStop = true;
+            this.radioButton2.Text = "Nữ";
+            this.radioButton2.UseVisualStyleBackColor = true;
             // 
-            // rjTextBox7
+            // radioButton1
             // 
-            this.rjTextBox7.BackColor = System.Drawing.SystemColors.Window;
-            this.rjTextBox7.BorderColor = System.Drawing.Color.LightSlateGray;
-            this.rjTextBox7.BorderFocusColor = System.Drawing.Color.HotPink;
-            this.rjTextBox7.BorderRadius = 5;
-            this.rjTextBox7.BorderSize = 1;
-            this.rjTextBox7.Font = new System.Drawing.Font("Times New Roman", 10.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.rjTextBox7.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(64)))), ((int)(((byte)(64)))), ((int)(((byte)(64)))));
-            this.rjTextBox7.Location = new System.Drawing.Point(7, 283);
-            this.rjTextBox7.Margin = new System.Windows.Forms.Padding(4);
-            this.rjTextBox7.Multiline = false;
-            this.rjTextBox7.Name = "rjTextBox7";
-            this.rjTextBox7.Padding = new System.Windows.Forms.Padding(10, 7, 10, 7);
-            this.rjTextBox7.PasswordChar = false;
-            this.rjTextBox7.PlaceholderColor = System.Drawing.Color.DarkGray;
-            this.rjTextBox7.PlaceholderText = "";
-            this.rjTextBox7.Size = new System.Drawing.Size(297, 35);
-            this.rjTextBox7.TabIndex = 10;
-            this.rjTextBox7.Texts = "";
-            this.rjTextBox7.UnderlinedStyle = false;
-            // 
-            // label17
-            // 
-            this.label17.AutoSize = true;
-            this.label17.Font = new System.Drawing.Font("Times New Roman", 7.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label17.ForeColor = System.Drawing.Color.Red;
-            this.label17.Location = new System.Drawing.Point(9, 238);
-            this.label17.Name = "label17";
-            this.label17.Size = new System.Drawing.Size(167, 15);
-            this.label17.TabIndex = 14;
-            this.label17.Text = "Số điện thoại không chính xác";
-            // 
-            // label18
-            // 
-            this.label18.AutoSize = true;
-            this.label18.Font = new System.Drawing.Font("Times New Roman", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label18.ForeColor = System.Drawing.SystemColors.GrayText;
-            this.label18.Location = new System.Drawing.Point(8, 179);
-            this.label18.Name = "label18";
-            this.label18.Size = new System.Drawing.Size(52, 19);
-            this.label18.TabIndex = 13;
-            this.label18.Text = "Phone";
-            // 
-            // rjTextBox8
-            // 
-            this.rjTextBox8.BackColor = System.Drawing.SystemColors.Window;
-            this.rjTextBox8.BorderColor = System.Drawing.Color.LightSlateGray;
-            this.rjTextBox8.BorderFocusColor = System.Drawing.Color.HotPink;
-            this.rjTextBox8.BorderRadius = 5;
-            this.rjTextBox8.BorderSize = 1;
-            this.rjTextBox8.Font = new System.Drawing.Font("Times New Roman", 10.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.rjTextBox8.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(64)))), ((int)(((byte)(64)))), ((int)(((byte)(64)))));
-            this.rjTextBox8.Location = new System.Drawing.Point(7, 199);
-            this.rjTextBox8.Margin = new System.Windows.Forms.Padding(4);
-            this.rjTextBox8.Multiline = false;
-            this.rjTextBox8.Name = "rjTextBox8";
-            this.rjTextBox8.Padding = new System.Windows.Forms.Padding(10, 7, 10, 7);
-            this.rjTextBox8.PasswordChar = false;
-            this.rjTextBox8.PlaceholderColor = System.Drawing.Color.DarkGray;
-            this.rjTextBox8.PlaceholderText = "";
-            this.rjTextBox8.Size = new System.Drawing.Size(297, 35);
-            this.rjTextBox8.TabIndex = 12;
-            this.rjTextBox8.Texts = "";
-            this.rjTextBox8.UnderlinedStyle = false;
+            this.radioButton1.AutoSize = true;
+            this.radioButton1.Font = new System.Drawing.Font("Times New Roman", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.radioButton1.Location = new System.Drawing.Point(11, 199);
+            this.radioButton1.Name = "radioButton1";
+            this.radioButton1.Size = new System.Drawing.Size(62, 23);
+            this.radioButton1.TabIndex = 13;
+            this.radioButton1.TabStop = true;
+            this.radioButton1.Text = "Nam";
+            this.radioButton1.UseVisualStyleBackColor = true;
             // 
             // FSignUp
             // 
@@ -602,7 +630,6 @@
         private Funtion.RJTextBox rjTextBox3;
         private System.Windows.Forms.Label label12;
         private System.Windows.Forms.Label label11;
-        private System.Windows.Forms.ComboBox comboBox1;
         private System.Windows.Forms.GroupBox groupBox3;
         private System.Windows.Forms.Label label19;
         private Funtion.RJTextBox rjTextBox5;
@@ -613,5 +640,8 @@
         private System.Windows.Forms.Label label17;
         private System.Windows.Forms.Label label18;
         private Funtion.RJTextBox rjTextBox8;
+        private System.Windows.Forms.RadioButton radioButton3;
+        private System.Windows.Forms.RadioButton radioButton2;
+        private System.Windows.Forms.RadioButton radioButton1;
     }
 }

@@ -102,3 +102,6 @@ D:\lapTrinhWinhdow\a\ProjectWin\ProjectWin(Demo)\obj\Debug\ProjectWin(Demo).cspr
 D:\lapTrinhWinhdow\a\ProjectWin\ProjectWin(Demo)\obj\Debug\ProjectWin(Demo).exe
 D:\lapTrinhWinhdow\a\ProjectWin\ProjectWin(Demo)\obj\Debug\ProjectWin(Demo).pdb
 D:\lapTrinhWinhdow\a\ProjectWin\ProjectWin(Demo)\obj\Debug\ProjectWin_Demo_.UCCart.resources
+D:\lapTrinhWinhdow\a\ProjectWin\ProjectWin(Demo)\obj\Debug\ProjectWin_Demo_.UCHistory.resources
+D:\lapTrinhWinhdow\a\ProjectWin\ProjectWin(Demo)\obj\Debug\ProjectWin_Demo_.UCInfo.resources
+D:\lapTrinhWinhdow\a\ProjectWin\ProjectWin(Demo)\obj\Debug\ProjectWin_Demo_.UCRevenue.resources

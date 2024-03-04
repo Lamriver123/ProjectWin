@@ -19,8 +19,7 @@ namespace ProjectWin_Demo_
         {
             InitializeComponent();
             openChildForm(new FHome());
-            btnRegister.Hide();
-
+         //   btnRegister.Hide();
         }
         
         private void openChildForm(Form childForm)

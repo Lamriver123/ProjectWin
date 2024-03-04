@@ -38,7 +38,6 @@
             this.panel13 = new System.Windows.Forms.Panel();
             this.btnLogOut = new CustomButton.VBButton();
             this.panel6 = new System.Windows.Forms.Panel();
-            this.btnRegister = new System.Windows.Forms.Button();
             this.btnInfo = new CustomButton.VBButton();
             this.panel5 = new System.Windows.Forms.Panel();
             this.btnMyProduct = new CustomButton.VBButton();
@@ -47,6 +46,7 @@
             this.panel4 = new System.Windows.Forms.Panel();
             this.btnHome = new CustomButton.VBButton();
             this.panel3 = new System.Windows.Forms.Panel();
+            this.btnRegister = new CustomButton.VBButton();
             this.panel1.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).BeginInit();
@@ -152,9 +152,9 @@
             // panel13
             // 
             this.panel13.BackColor = System.Drawing.Color.LightCyan;
+            this.panel13.Controls.Add(this.btnRegister);
             this.panel13.Controls.Add(this.btnLogOut);
             this.panel13.Controls.Add(this.panel6);
-            this.panel13.Controls.Add(this.btnRegister);
             this.panel13.Controls.Add(this.btnInfo);
             this.panel13.Controls.Add(this.panel5);
             this.panel13.Controls.Add(this.btnMyProduct);
@@ -200,17 +200,6 @@
             this.panel6.Name = "panel6";
             this.panel6.Size = new System.Drawing.Size(175, 15);
             this.panel6.TabIndex = 15;
-            // 
-            // btnRegister
-            // 
-            this.btnRegister.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.btnRegister.Font = new System.Drawing.Font("Times New Roman", 10.8F);
-            this.btnRegister.Location = new System.Drawing.Point(3, 572);
-            this.btnRegister.Name = "btnRegister";
-            this.btnRegister.Size = new System.Drawing.Size(172, 56);
-            this.btnRegister.TabIndex = 5;
-            this.btnRegister.Text = "Đăng kí bán hàng";
-            this.btnRegister.UseVisualStyleBackColor = true;
             // 
             // btnInfo
             // 
@@ -341,6 +330,25 @@
             this.panel3.Size = new System.Drawing.Size(175, 15);
             this.panel3.TabIndex = 12;
             // 
+            // btnRegister
+            // 
+            this.btnRegister.BackColor = System.Drawing.Color.SpringGreen;
+            this.btnRegister.BackgroundColor = System.Drawing.Color.SpringGreen;
+            this.btnRegister.BorderColor = System.Drawing.Color.PaleVioletRed;
+            this.btnRegister.BorderRadius = 13;
+            this.btnRegister.BorderSize = 0;
+            this.btnRegister.FlatAppearance.BorderSize = 0;
+            this.btnRegister.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.btnRegister.Font = new System.Drawing.Font("Times New Roman", 10.8F);
+            this.btnRegister.ForeColor = System.Drawing.Color.OrangeRed;
+            this.btnRegister.Location = new System.Drawing.Point(6, 568);
+            this.btnRegister.Name = "btnRegister";
+            this.btnRegister.Size = new System.Drawing.Size(166, 46);
+            this.btnRegister.TabIndex = 17;
+            this.btnRegister.Text = "Đăng kí bán hàng";
+            this.btnRegister.TextColor = System.Drawing.Color.OrangeRed;
+            this.btnRegister.UseVisualStyleBackColor = false;
+            // 
             // FUser
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
@@ -374,7 +382,6 @@
         private CustomButton.VBButton btnFind;
         private Funtion.RJTextBox rjTextBox1;
         private System.Windows.Forms.Panel panel13;
-        private System.Windows.Forms.Button btnRegister;
         private CustomButton.VBButton btnInfo;
         private System.Windows.Forms.Panel panel5;
         private CustomButton.VBButton btnMyProduct;
@@ -385,5 +392,6 @@
         private System.Windows.Forms.Panel panel3;
         private CustomButton.VBButton btnLogOut;
         private System.Windows.Forms.Panel panel6;
+        private CustomButton.VBButton btnRegister;
     }
 }

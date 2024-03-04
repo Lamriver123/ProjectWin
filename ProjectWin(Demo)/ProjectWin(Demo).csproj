@@ -112,6 +112,18 @@
     <Compile Include="UCCart.Designer.cs">
       <DependentUpon>UCCart.cs</DependentUpon>
     </Compile>
+    <Compile Include="UCHistory.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="UCHistory.Designer.cs">
+      <DependentUpon>UCHistory.cs</DependentUpon>
+    </Compile>
+    <Compile Include="UCInfo.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="UCInfo.Designer.cs">
+      <DependentUpon>UCInfo.cs</DependentUpon>
+    </Compile>
     <Compile Include="UCMyProduct.cs">
       <SubType>UserControl</SubType>
     </Compile>
@@ -126,6 +138,12 @@
     </Compile>
     <Compile Include="Funtion\VBButton.cs">
       <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="UCRevenue.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="UCRevenue.Designer.cs">
+      <DependentUpon>UCRevenue.cs</DependentUpon>
     </Compile>
     <EmbeddedResource Include="FCart.resx">
       <DependentUpon>FCart.cs</DependentUpon>
@@ -162,11 +180,20 @@
     <EmbeddedResource Include="UCCart.resx">
       <DependentUpon>UCCart.cs</DependentUpon>
     </EmbeddedResource>
+    <EmbeddedResource Include="UCHistory.resx">
+      <DependentUpon>UCHistory.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="UCInfo.resx">
+      <DependentUpon>UCInfo.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="UCMyProduct.resx">
       <DependentUpon>UCMyProduct.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="UCProducts.resx">
       <DependentUpon>UCProducts.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="UCRevenue.resx">
+      <DependentUpon>UCRevenue.cs</DependentUpon>
     </EmbeddedResource>
     <None Include="Properties\Settings.settings">
       <Generator>SettingsSingleFileGenerator</Generator>
