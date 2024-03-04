@@ -16,5 +16,22 @@ namespace ProjectWin_Demo_
         {
             InitializeComponent();
         }
+        private void UCProducts_Click(object sender, EventArgs e)
+        {
+            FDetail fDetail = new FDetail();
+            fDetail.ShowDialog();
+        }
+
+        private void pctProduct_MouseHover(object sender, EventArgs e)
+        {
+            pctProduct.SizeMode = PictureBoxSizeMode.StretchImage;
+            this.BackColor = Color.MistyRose;
+        }
+
+        private void pctProduct_MouseLeave(object sender, EventArgs e)
+        {
+            pctProduct.SizeMode = PictureBoxSizeMode.Zoom;
+            this.BackColor = Color.LightGray;
+        }
     }
 }

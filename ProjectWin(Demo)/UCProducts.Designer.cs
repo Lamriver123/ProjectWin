@@ -36,7 +36,7 @@
             this.pictureBox4 = new System.Windows.Forms.PictureBox();
             this.pictureBox3 = new System.Windows.Forms.PictureBox();
             this.pictureBox2 = new System.Windows.Forms.PictureBox();
-            this.pictureBox1 = new System.Windows.Forms.PictureBox();
+            this.pctProduct = new System.Windows.Forms.PictureBox();
             this.label3 = new System.Windows.Forms.Label();
             this.label4 = new System.Windows.Forms.Label();
             this.panel1.SuspendLayout();
@@ -45,7 +45,7 @@
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox4)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox3)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pctProduct)).BeginInit();
             this.SuspendLayout();
             // 
             // label1
@@ -56,6 +56,9 @@
             this.label1.Size = new System.Drawing.Size(203, 44);
             this.label1.TabIndex = 1;
             this.label1.Text = "Smart Tivi 4K Sony KD-55X75K 55 inch Google TV";
+            this.label1.Click += new System.EventHandler(this.UCProducts_Click);
+            this.label1.MouseLeave += new System.EventHandler(this.pctProduct_MouseLeave);
+            this.label1.MouseHover += new System.EventHandler(this.pctProduct_MouseHover);
             // 
             // label2
             // 
@@ -67,6 +70,9 @@
             this.label2.TabIndex = 2;
             this.label2.Text = "10.110.000đ";
             this.label2.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            this.label2.Click += new System.EventHandler(this.UCProducts_Click);
+            this.label2.MouseLeave += new System.EventHandler(this.pctProduct_MouseLeave);
+            this.label2.MouseHover += new System.EventHandler(this.pctProduct_MouseHover);
             // 
             // panel1
             // 
@@ -79,6 +85,9 @@
             this.panel1.Name = "panel1";
             this.panel1.Size = new System.Drawing.Size(104, 20);
             this.panel1.TabIndex = 3;
+            this.panel1.Click += new System.EventHandler(this.UCProducts_Click);
+            this.panel1.MouseLeave += new System.EventHandler(this.pctProduct_MouseLeave);
+            this.panel1.MouseHover += new System.EventHandler(this.pctProduct_MouseHover);
             // 
             // pictureBox6
             // 
@@ -130,16 +139,19 @@
             this.pictureBox2.TabIndex = 0;
             this.pictureBox2.TabStop = false;
             // 
-            // pictureBox1
+            // pctProduct
             // 
-            this.pictureBox1.Dock = System.Windows.Forms.DockStyle.Top;
-            this.pictureBox1.Image = global::ProjectWin_Demo_.Properties.Resources.smart_tivi_4k_sony_kd_55x75k_55_inch_google_tv_c2bfad25;
-            this.pictureBox1.Location = new System.Drawing.Point(0, 0);
-            this.pictureBox1.Name = "pictureBox1";
-            this.pictureBox1.Size = new System.Drawing.Size(212, 169);
-            this.pictureBox1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
-            this.pictureBox1.TabIndex = 0;
-            this.pictureBox1.TabStop = false;
+            this.pctProduct.Dock = System.Windows.Forms.DockStyle.Top;
+            this.pctProduct.Image = global::ProjectWin_Demo_.Properties.Resources.smart_tivi_4k_sony_kd_55x75k_55_inch_google_tv_c2bfad25;
+            this.pctProduct.Location = new System.Drawing.Point(0, 0);
+            this.pctProduct.Name = "pctProduct";
+            this.pctProduct.Size = new System.Drawing.Size(212, 169);
+            this.pctProduct.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
+            this.pctProduct.TabIndex = 0;
+            this.pctProduct.TabStop = false;
+            this.pctProduct.Click += new System.EventHandler(this.UCProducts_Click);
+            this.pctProduct.MouseLeave += new System.EventHandler(this.pctProduct_MouseLeave);
+            this.pctProduct.MouseHover += new System.EventHandler(this.pctProduct_MouseHover);
             // 
             // label3
             // 
@@ -149,6 +161,9 @@
             this.label3.Size = new System.Drawing.Size(74, 16);
             this.label3.TabIndex = 4;
             this.label3.Text = "Đã bán 100";
+            this.label3.Click += new System.EventHandler(this.UCProducts_Click);
+            this.label3.MouseLeave += new System.EventHandler(this.pctProduct_MouseLeave);
+            this.label3.MouseHover += new System.EventHandler(this.pctProduct_MouseHover);
             // 
             // label4
             // 
@@ -159,6 +174,9 @@
             this.label4.TabIndex = 5;
             this.label4.Text = "TP.Hồ Chí Minh";
             this.label4.TextAlign = System.Drawing.ContentAlignment.MiddleRight;
+            this.label4.Click += new System.EventHandler(this.UCProducts_Click);
+            this.label4.MouseLeave += new System.EventHandler(this.pctProduct_MouseLeave);
+            this.label4.MouseHover += new System.EventHandler(this.pctProduct_MouseHover);
             // 
             // UCProducts
             // 
@@ -170,16 +188,19 @@
             this.Controls.Add(this.panel1);
             this.Controls.Add(this.label2);
             this.Controls.Add(this.label1);
-            this.Controls.Add(this.pictureBox1);
+            this.Controls.Add(this.pctProduct);
             this.Name = "UCProducts";
             this.Size = new System.Drawing.Size(212, 320);
+            this.Click += new System.EventHandler(this.UCProducts_Click);
+            this.MouseLeave += new System.EventHandler(this.pctProduct_MouseLeave);
+            this.MouseHover += new System.EventHandler(this.pctProduct_MouseHover);
             this.panel1.ResumeLayout(false);
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox6)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox5)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox4)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox3)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pctProduct)).EndInit();
             this.ResumeLayout(false);
             this.PerformLayout();
 
@@ -187,7 +208,7 @@
 
         #endregion
 
-        private System.Windows.Forms.PictureBox pictureBox1;
+        private System.Windows.Forms.PictureBox pctProduct;
         private System.Windows.Forms.Label label1;
         private System.Windows.Forms.Label label2;
         private System.Windows.Forms.Panel panel1;

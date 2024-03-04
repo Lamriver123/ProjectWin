@@ -105,3 +105,4 @@ D:\lapTrinhWinhdow\a\ProjectWin\ProjectWin(Demo)\obj\Debug\ProjectWin_Demo_.UCCa
 D:\lapTrinhWinhdow\a\ProjectWin\ProjectWin(Demo)\obj\Debug\ProjectWin_Demo_.UCHistory.resources
 D:\lapTrinhWinhdow\a\ProjectWin\ProjectWin(Demo)\obj\Debug\ProjectWin_Demo_.UCInfo.resources
 D:\lapTrinhWinhdow\a\ProjectWin\ProjectWin(Demo)\obj\Debug\ProjectWin_Demo_.UCRevenue.resources
+D:\lapTrinhWinhdow\a\ProjectWin\ProjectWin(Demo)\obj\Debug\ProjectWin_Demo_.FDetail.resources

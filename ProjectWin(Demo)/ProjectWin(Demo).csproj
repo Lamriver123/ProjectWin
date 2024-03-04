@@ -46,6 +46,12 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="FDetail.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FDetail.Designer.cs">
+      <DependentUpon>FDetail.cs</DependentUpon>
+    </Compile>
     <Compile Include="FSignUp.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -147,6 +153,9 @@
     </Compile>
     <EmbeddedResource Include="FCart.resx">
       <DependentUpon>FCart.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FDetail.resx">
+      <DependentUpon>FDetail.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="FHome.resx">
       <DependentUpon>FHome.cs</DependentUpon>
@@ -281,6 +290,18 @@
   </ItemGroup>
   <ItemGroup>
     <None Include="Resources\logout.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\1.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\2.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\3.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\z5217272932631_72c73dc409773a73013edce5ca74c052.jpg" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>
