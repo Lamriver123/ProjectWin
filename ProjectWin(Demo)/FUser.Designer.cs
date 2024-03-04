@@ -29,22 +29,24 @@
         private void InitializeComponent()
         {
             this.panel1 = new System.Windows.Forms.Panel();
+            this.rjTextBox1 = new ProjectWin_Demo_.Funtion.RJTextBox();
+            this.btnFind = new CustomButton.VBButton();
             this.pictureBox1 = new System.Windows.Forms.PictureBox();
             this.pictureBox2 = new System.Windows.Forms.PictureBox();
             this.pictureBoxCart = new System.Windows.Forms.PictureBox();
             this.panelChildForm = new System.Windows.Forms.Panel();
             this.panel13 = new System.Windows.Forms.Panel();
+            this.btnLogOut = new CustomButton.VBButton();
+            this.panel6 = new System.Windows.Forms.Panel();
             this.btnRegister = new System.Windows.Forms.Button();
-            this.panel5 = new System.Windows.Forms.Panel();
-            this.panel2 = new System.Windows.Forms.Panel();
-            this.panel4 = new System.Windows.Forms.Panel();
-            this.panel3 = new System.Windows.Forms.Panel();
             this.btnInfo = new CustomButton.VBButton();
+            this.panel5 = new System.Windows.Forms.Panel();
             this.btnMyProduct = new CustomButton.VBButton();
+            this.panel2 = new System.Windows.Forms.Panel();
             this.btnProduct = new CustomButton.VBButton();
+            this.panel4 = new System.Windows.Forms.Panel();
             this.btnHome = new CustomButton.VBButton();
-            this.rjTextBox1 = new ProjectWin_Demo_.Funtion.RJTextBox();
-            this.btnFind = new CustomButton.VBButton();
+            this.panel3 = new System.Windows.Forms.Panel();
             this.panel1.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).BeginInit();
@@ -65,6 +67,47 @@
             this.panel1.Name = "panel1";
             this.panel1.Size = new System.Drawing.Size(1286, 58);
             this.panel1.TabIndex = 0;
+            // 
+            // rjTextBox1
+            // 
+            this.rjTextBox1.BackColor = System.Drawing.SystemColors.Window;
+            this.rjTextBox1.BorderColor = System.Drawing.Color.MediumSlateBlue;
+            this.rjTextBox1.BorderFocusColor = System.Drawing.Color.HotPink;
+            this.rjTextBox1.BorderRadius = 15;
+            this.rjTextBox1.BorderSize = 2;
+            this.rjTextBox1.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.rjTextBox1.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(64)))), ((int)(((byte)(64)))), ((int)(((byte)(64)))));
+            this.rjTextBox1.Location = new System.Drawing.Point(239, 6);
+            this.rjTextBox1.Margin = new System.Windows.Forms.Padding(4);
+            this.rjTextBox1.Multiline = false;
+            this.rjTextBox1.Name = "rjTextBox1";
+            this.rjTextBox1.Padding = new System.Windows.Forms.Padding(10, 7, 10, 7);
+            this.rjTextBox1.PasswordChar = false;
+            this.rjTextBox1.PlaceholderColor = System.Drawing.Color.DarkGray;
+            this.rjTextBox1.PlaceholderText = "";
+            this.rjTextBox1.Size = new System.Drawing.Size(555, 40);
+            this.rjTextBox1.TabIndex = 7;
+            this.rjTextBox1.Texts = "";
+            this.rjTextBox1.UnderlinedStyle = false;
+            // 
+            // btnFind
+            // 
+            this.btnFind.BackColor = System.Drawing.Color.Transparent;
+            this.btnFind.BackgroundColor = System.Drawing.Color.Transparent;
+            this.btnFind.BorderColor = System.Drawing.Color.Lavender;
+            this.btnFind.BorderRadius = 15;
+            this.btnFind.BorderSize = 2;
+            this.btnFind.FlatAppearance.BorderSize = 0;
+            this.btnFind.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.btnFind.Font = new System.Drawing.Font("Times New Roman", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnFind.ForeColor = System.Drawing.Color.Black;
+            this.btnFind.Location = new System.Drawing.Point(853, 5);
+            this.btnFind.Name = "btnFind";
+            this.btnFind.Size = new System.Drawing.Size(177, 40);
+            this.btnFind.TabIndex = 3;
+            this.btnFind.Text = "Tìm kiếm";
+            this.btnFind.TextColor = System.Drawing.Color.Black;
+            this.btnFind.UseVisualStyleBackColor = false;
             // 
             // pictureBox1
             // 
@@ -109,6 +152,8 @@
             // panel13
             // 
             this.panel13.BackColor = System.Drawing.Color.LightCyan;
+            this.panel13.Controls.Add(this.btnLogOut);
+            this.panel13.Controls.Add(this.panel6);
             this.panel13.Controls.Add(this.btnRegister);
             this.panel13.Controls.Add(this.btnInfo);
             this.panel13.Controls.Add(this.panel5);
@@ -124,6 +169,38 @@
             this.panel13.Size = new System.Drawing.Size(175, 686);
             this.panel13.TabIndex = 3;
             // 
+            // btnLogOut
+            // 
+            this.btnLogOut.BackColor = System.Drawing.Color.Transparent;
+            this.btnLogOut.BackgroundColor = System.Drawing.Color.Transparent;
+            this.btnLogOut.BorderColor = System.Drawing.Color.SlateGray;
+            this.btnLogOut.BorderRadius = 0;
+            this.btnLogOut.BorderSize = 0;
+            this.btnLogOut.Dock = System.Windows.Forms.DockStyle.Top;
+            this.btnLogOut.FlatAppearance.BorderSize = 0;
+            this.btnLogOut.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.btnLogOut.Font = new System.Drawing.Font("Times New Roman", 10.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnLogOut.ForeColor = System.Drawing.Color.Black;
+            this.btnLogOut.Image = global::ProjectWin_Demo_.Properties.Resources.logout;
+            this.btnLogOut.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            this.btnLogOut.Location = new System.Drawing.Point(0, 355);
+            this.btnLogOut.Name = "btnLogOut";
+            this.btnLogOut.Size = new System.Drawing.Size(175, 70);
+            this.btnLogOut.TabIndex = 16;
+            this.btnLogOut.Text = "Đăng xuất";
+            this.btnLogOut.TextAlign = System.Drawing.ContentAlignment.MiddleRight;
+            this.btnLogOut.TextColor = System.Drawing.Color.Black;
+            this.btnLogOut.UseVisualStyleBackColor = false;
+            this.btnLogOut.Click += new System.EventHandler(this.btnLogOut_Click);
+            // 
+            // panel6
+            // 
+            this.panel6.Dock = System.Windows.Forms.DockStyle.Top;
+            this.panel6.Location = new System.Drawing.Point(0, 340);
+            this.panel6.Name = "panel6";
+            this.panel6.Size = new System.Drawing.Size(175, 15);
+            this.panel6.TabIndex = 15;
+            // 
             // btnRegister
             // 
             this.btnRegister.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
@@ -134,38 +211,6 @@
             this.btnRegister.TabIndex = 5;
             this.btnRegister.Text = "Đăng kí bán hàng";
             this.btnRegister.UseVisualStyleBackColor = true;
-            // 
-            // panel5
-            // 
-            this.panel5.Dock = System.Windows.Forms.DockStyle.Top;
-            this.panel5.Location = new System.Drawing.Point(0, 240);
-            this.panel5.Name = "panel5";
-            this.panel5.Size = new System.Drawing.Size(175, 10);
-            this.panel5.TabIndex = 14;
-            // 
-            // panel2
-            // 
-            this.panel2.Dock = System.Windows.Forms.DockStyle.Top;
-            this.panel2.Location = new System.Drawing.Point(0, 160);
-            this.panel2.Name = "panel2";
-            this.panel2.Size = new System.Drawing.Size(175, 10);
-            this.panel2.TabIndex = 11;
-            // 
-            // panel4
-            // 
-            this.panel4.Dock = System.Windows.Forms.DockStyle.Top;
-            this.panel4.Location = new System.Drawing.Point(0, 80);
-            this.panel4.Name = "panel4";
-            this.panel4.Size = new System.Drawing.Size(175, 10);
-            this.panel4.TabIndex = 13;
-            // 
-            // panel3
-            // 
-            this.panel3.Dock = System.Windows.Forms.DockStyle.Top;
-            this.panel3.Location = new System.Drawing.Point(0, 0);
-            this.panel3.Name = "panel3";
-            this.panel3.Size = new System.Drawing.Size(175, 10);
-            this.panel3.TabIndex = 12;
             // 
             // btnInfo
             // 
@@ -181,7 +226,7 @@
             this.btnInfo.ForeColor = System.Drawing.Color.Black;
             this.btnInfo.Image = global::ProjectWin_Demo_.Properties.Resources.Icons8_Windows_8_Users_Name_48;
             this.btnInfo.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.btnInfo.Location = new System.Drawing.Point(0, 250);
+            this.btnInfo.Location = new System.Drawing.Point(0, 270);
             this.btnInfo.Name = "btnInfo";
             this.btnInfo.Size = new System.Drawing.Size(175, 70);
             this.btnInfo.TabIndex = 10;
@@ -190,6 +235,14 @@
             this.btnInfo.TextColor = System.Drawing.Color.Black;
             this.btnInfo.UseVisualStyleBackColor = false;
             this.btnInfo.Click += new System.EventHandler(this.btnInfo_Click);
+            // 
+            // panel5
+            // 
+            this.panel5.Dock = System.Windows.Forms.DockStyle.Top;
+            this.panel5.Location = new System.Drawing.Point(0, 255);
+            this.panel5.Name = "panel5";
+            this.panel5.Size = new System.Drawing.Size(175, 15);
+            this.panel5.TabIndex = 14;
             // 
             // btnMyProduct
             // 
@@ -205,7 +258,7 @@
             this.btnMyProduct.ForeColor = System.Drawing.Color.Black;
             this.btnMyProduct.Image = global::ProjectWin_Demo_.Properties.Resources.icons8_product_50;
             this.btnMyProduct.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.btnMyProduct.Location = new System.Drawing.Point(0, 170);
+            this.btnMyProduct.Location = new System.Drawing.Point(0, 185);
             this.btnMyProduct.Name = "btnMyProduct";
             this.btnMyProduct.Size = new System.Drawing.Size(175, 70);
             this.btnMyProduct.TabIndex = 7;
@@ -214,6 +267,14 @@
             this.btnMyProduct.TextColor = System.Drawing.Color.Black;
             this.btnMyProduct.UseVisualStyleBackColor = false;
             this.btnMyProduct.Click += new System.EventHandler(this.btnMyProduct_Click);
+            // 
+            // panel2
+            // 
+            this.panel2.Dock = System.Windows.Forms.DockStyle.Top;
+            this.panel2.Location = new System.Drawing.Point(0, 170);
+            this.panel2.Name = "panel2";
+            this.panel2.Size = new System.Drawing.Size(175, 15);
+            this.panel2.TabIndex = 11;
             // 
             // btnProduct
             // 
@@ -229,7 +290,7 @@
             this.btnProduct.ForeColor = System.Drawing.Color.Black;
             this.btnProduct.Image = global::ProjectWin_Demo_.Properties.Resources.Icons8_Windows_8_Ecommerce_Product_48;
             this.btnProduct.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.btnProduct.Location = new System.Drawing.Point(0, 90);
+            this.btnProduct.Location = new System.Drawing.Point(0, 100);
             this.btnProduct.Name = "btnProduct";
             this.btnProduct.Size = new System.Drawing.Size(175, 70);
             this.btnProduct.TabIndex = 9;
@@ -239,10 +300,18 @@
             this.btnProduct.UseVisualStyleBackColor = false;
             this.btnProduct.Click += new System.EventHandler(this.btnProduct_Click);
             // 
+            // panel4
+            // 
+            this.panel4.Dock = System.Windows.Forms.DockStyle.Top;
+            this.panel4.Location = new System.Drawing.Point(0, 85);
+            this.panel4.Name = "panel4";
+            this.panel4.Size = new System.Drawing.Size(175, 15);
+            this.panel4.TabIndex = 13;
+            // 
             // btnHome
             // 
-            this.btnHome.BackColor = System.Drawing.Color.Transparent;
-            this.btnHome.BackgroundColor = System.Drawing.Color.Transparent;
+            this.btnHome.BackColor = System.Drawing.Color.PowderBlue;
+            this.btnHome.BackgroundColor = System.Drawing.Color.PowderBlue;
             this.btnHome.BackgroundImageLayout = System.Windows.Forms.ImageLayout.None;
             this.btnHome.BorderColor = System.Drawing.Color.SlateGray;
             this.btnHome.BorderRadius = 0;
@@ -254,7 +323,7 @@
             this.btnHome.ForeColor = System.Drawing.Color.Black;
             this.btnHome.Image = global::ProjectWin_Demo_.Properties.Resources.Custom_Icon_Design_Mono_General_3_Home_48;
             this.btnHome.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.btnHome.Location = new System.Drawing.Point(0, 10);
+            this.btnHome.Location = new System.Drawing.Point(0, 15);
             this.btnHome.Name = "btnHome";
             this.btnHome.Size = new System.Drawing.Size(175, 70);
             this.btnHome.TabIndex = 8;
@@ -264,46 +333,13 @@
             this.btnHome.UseVisualStyleBackColor = false;
             this.btnHome.Click += new System.EventHandler(this.btnHome_Click);
             // 
-            // rjTextBox1
+            // panel3
             // 
-            this.rjTextBox1.BackColor = System.Drawing.SystemColors.Window;
-            this.rjTextBox1.BorderColor = System.Drawing.Color.MediumSlateBlue;
-            this.rjTextBox1.BorderFocusColor = System.Drawing.Color.HotPink;
-            this.rjTextBox1.BorderRadius = 15;
-            this.rjTextBox1.BorderSize = 2;
-            this.rjTextBox1.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.rjTextBox1.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(64)))), ((int)(((byte)(64)))), ((int)(((byte)(64)))));
-            this.rjTextBox1.Location = new System.Drawing.Point(239, 6);
-            this.rjTextBox1.Margin = new System.Windows.Forms.Padding(4);
-            this.rjTextBox1.Multiline = false;
-            this.rjTextBox1.Name = "rjTextBox1";
-            this.rjTextBox1.Padding = new System.Windows.Forms.Padding(10, 7, 10, 7);
-            this.rjTextBox1.PasswordChar = false;
-            this.rjTextBox1.PlaceholderColor = System.Drawing.Color.DarkGray;
-            this.rjTextBox1.PlaceholderText = "";
-            this.rjTextBox1.Size = new System.Drawing.Size(555, 40);
-            this.rjTextBox1.TabIndex = 7;
-            this.rjTextBox1.Texts = "";
-            this.rjTextBox1.UnderlinedStyle = false;
-            // 
-            // btnFind
-            // 
-            this.btnFind.BackColor = System.Drawing.Color.Transparent;
-            this.btnFind.BackgroundColor = System.Drawing.Color.Transparent;
-            this.btnFind.BorderColor = System.Drawing.Color.Lavender;
-            this.btnFind.BorderRadius = 15;
-            this.btnFind.BorderSize = 2;
-            this.btnFind.FlatAppearance.BorderSize = 0;
-            this.btnFind.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.btnFind.Font = new System.Drawing.Font("Times New Roman", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btnFind.ForeColor = System.Drawing.Color.Black;
-            this.btnFind.Location = new System.Drawing.Point(853, 5);
-            this.btnFind.Name = "btnFind";
-            this.btnFind.Size = new System.Drawing.Size(177, 40);
-            this.btnFind.TabIndex = 3;
-            this.btnFind.Text = "Tìm kiếm";
-            this.btnFind.TextColor = System.Drawing.Color.Black;
-            this.btnFind.UseVisualStyleBackColor = false;
+            this.panel3.Dock = System.Windows.Forms.DockStyle.Top;
+            this.panel3.Location = new System.Drawing.Point(0, 0);
+            this.panel3.Name = "panel3";
+            this.panel3.Size = new System.Drawing.Size(175, 15);
+            this.panel3.TabIndex = 12;
             // 
             // FUser
             // 
@@ -347,5 +383,7 @@
         private System.Windows.Forms.Panel panel4;
         private CustomButton.VBButton btnHome;
         private System.Windows.Forms.Panel panel3;
+        private CustomButton.VBButton btnLogOut;
+        private System.Windows.Forms.Panel panel6;
     }
 }

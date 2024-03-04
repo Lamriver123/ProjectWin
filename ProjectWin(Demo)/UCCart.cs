@@ -10,9 +10,9 @@ using System.Windows.Forms;
 
 namespace ProjectWin_Demo_
 {
-    public partial class UCCatalog : UserControl
+    public partial class UCCart : UserControl
     {
-        public UCCatalog()
+        public UCCart()
         {
             InitializeComponent();
         }

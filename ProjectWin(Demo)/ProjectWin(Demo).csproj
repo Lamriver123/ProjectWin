@@ -106,11 +106,11 @@
     <Compile Include="Person.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
-    <Compile Include="UCCatalog.cs">
+    <Compile Include="UCCart.cs">
       <SubType>UserControl</SubType>
     </Compile>
-    <Compile Include="UCCatalog.Designer.cs">
-      <DependentUpon>UCCatalog.cs</DependentUpon>
+    <Compile Include="UCCart.Designer.cs">
+      <DependentUpon>UCCart.cs</DependentUpon>
     </Compile>
     <Compile Include="UCMyProduct.cs">
       <SubType>UserControl</SubType>
@@ -159,8 +159,8 @@
       <SubType>Designer</SubType>
       <LastGenOutput>Resources.Designer.cs</LastGenOutput>
     </EmbeddedResource>
-    <EmbeddedResource Include="UCCatalog.resx">
-      <DependentUpon>UCCatalog.cs</DependentUpon>
+    <EmbeddedResource Include="UCCart.resx">
+      <DependentUpon>UCCart.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="UCMyProduct.resx">
       <DependentUpon>UCMyProduct.cs</DependentUpon>
@@ -242,6 +242,18 @@
   </ItemGroup>
   <ItemGroup>
     <None Include="Resources\Paomedia-Small-N-Flat-Star.48.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\trash-can-regular.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\iphone-15-pro-max-gold-thumbnew-200x200.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\arrow-right-from-bracket-solid.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\logout.png" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

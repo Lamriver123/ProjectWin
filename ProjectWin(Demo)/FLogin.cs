@@ -24,10 +24,10 @@ namespace ProjectWin_Demo_
 
         private void btnSignUp_Click(object sender, EventArgs e)
         {
-            this.Hide();
+            //this.Hide();
             Form SignUp = new FSignUp();
             SignUp.ShowDialog();
-            this.Show();
+          //  this.Show();
         }
         private void btnLogin_Click(object sender, EventArgs e)
         {

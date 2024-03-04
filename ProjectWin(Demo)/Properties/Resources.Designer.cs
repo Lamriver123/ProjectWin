@@ -73,6 +73,16 @@ namespace ProjectWin_Demo_.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
+        internal static System.Drawing.Bitmap arrow_right_from_bracket_solid {
+            get {
+                object obj = ResourceManager.GetObject("arrow-right-from-bracket-solid", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
         internal static System.Drawing.Bitmap background_mau_loang_dep_tuyet_092447739 {
             get {
                 object obj = ResourceManager.GetObject("background-mau-loang-dep-tuyet_092447739", resourceCulture);
@@ -193,6 +203,26 @@ namespace ProjectWin_Demo_.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
+        internal static System.Drawing.Bitmap iphone_15_pro_max_gold_thumbnew_200x200 {
+            get {
+                object obj = ResourceManager.GetObject("iphone-15-pro-max-gold-thumbnew-200x200", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap logout {
+            get {
+                object obj = ResourceManager.GetObject("logout", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
         internal static System.Drawing.Bitmap Paomedia_Small_N_Flat_Star_48 {
             get {
                 object obj = ResourceManager.GetObject("Paomedia-Small-N-Flat-Star.48", resourceCulture);
@@ -237,6 +267,16 @@ namespace ProjectWin_Demo_.Properties {
         internal static System.Drawing.Bitmap Trangchu1 {
             get {
                 object obj = ResourceManager.GetObject("Trangchu1", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap trash_can_regular {
+            get {
+                object obj = ResourceManager.GetObject("trash-can-regular", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }

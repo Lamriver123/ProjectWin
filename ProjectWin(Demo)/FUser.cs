@@ -7,6 +7,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
+using static System.Windows.Forms.VisualStyles.VisualStyleElement;
 
 namespace ProjectWin_Demo_
 {
@@ -19,6 +20,7 @@ namespace ProjectWin_Demo_
             InitializeComponent();
             openChildForm(new FHome());
             btnRegister.Hide();
+
         }
         
         private void openChildForm(Form childForm)
@@ -37,6 +39,10 @@ namespace ProjectWin_Demo_
 
         private void btnHome_Click(object sender, EventArgs e)
         {
+            btnHome.BackColor = Color.PowderBlue;
+            btnProduct.BackColor = Color.Transparent;
+            btnMyProduct.BackColor = Color.Transparent;
+            btnInfo.BackColor = Color.Transparent;
             openChildForm(new FHome());
         }
 
@@ -47,19 +53,34 @@ namespace ProjectWin_Demo_
 
         private void btnInfo_Click(object sender, EventArgs e)
         {
+            btnHome.BackColor = Color.Transparent;
+            btnProduct.BackColor = Color.Transparent;
+            btnMyProduct.BackColor = Color.Transparent;
+            btnInfo.BackColor = Color.PowderBlue;
             openChildForm(new FInfo());
         }
 
         private void btnProduct_Click(object sender, EventArgs e)
         {
+            btnHome.BackColor = Color.Transparent;
+            btnProduct.BackColor = Color.PowderBlue;
+            btnMyProduct.BackColor = Color.Transparent;
+            btnInfo.BackColor = Color.Transparent;
             openChildForm(new FProductCatalog());
         }
 
         private void btnMyProduct_Click(object sender, EventArgs e)
         {
+            btnHome.BackColor = Color.Transparent;
+            btnProduct.BackColor = Color.Transparent;
+            btnMyProduct.BackColor = Color.PowderBlue;
+            btnInfo.BackColor = Color.Transparent;
             openChildForm(new FMyProduct());
         }
 
-        
+        private void btnLogOut_Click(object sender, EventArgs e)
+        {
+            this.Close();   
+        }
     }
 }
