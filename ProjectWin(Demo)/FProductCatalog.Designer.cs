@@ -50,6 +50,7 @@
             // flowLayoutPanel1
             // 
             this.flowLayoutPanel1.AutoScroll = true;
+            this.flowLayoutPanel1.BackColor = System.Drawing.Color.Silver;
             this.flowLayoutPanel1.Controls.Add(this.ucProducts1);
             this.flowLayoutPanel1.Controls.Add(this.ucProducts2);
             this.flowLayoutPanel1.Controls.Add(this.ucProducts3);
@@ -68,7 +69,7 @@
             this.flowLayoutPanel1.Dock = System.Windows.Forms.DockStyle.Fill;
             this.flowLayoutPanel1.Location = new System.Drawing.Point(0, 0);
             this.flowLayoutPanel1.Name = "flowLayoutPanel1";
-            this.flowLayoutPanel1.Size = new System.Drawing.Size(1107, 686);
+            this.flowLayoutPanel1.Size = new System.Drawing.Size(1111, 686);
             this.flowLayoutPanel1.TabIndex = 0;
             // 
             // ucProducts1
@@ -195,7 +196,7 @@
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(1107, 686);
+            this.ClientSize = new System.Drawing.Size(1111, 686);
             this.Controls.Add(this.flowLayoutPanel1);
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.None;
             this.Name = "FProductCatalog";
