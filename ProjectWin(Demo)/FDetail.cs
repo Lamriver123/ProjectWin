@@ -27,9 +27,8 @@ namespace ProjectWin_Demo_
                 curr++;
             else
                 curr = 0;
-            //Bitmap bitmap;// = new Bitmap(Application.StartupPath + "\\Resources\\"  + imgList[curr] + ".jpg");
-            //bitmap = new Bitmap("C: \\Users\\User\\Desktop\\ProjectWin\\ProjectWin\\ProjectWin(Demo)\\Resources\\1.jpg");
-            pctProduct.Image = new Bitmap("D:\\lapTrinhWinhdow\\a\\ProjectWin\\ProjectWin(Demo)\\Resources\\" + imgList[curr] + ".jpg");
+            Bitmap bitmap = new Bitmap(Application.StartupPath + "\\Resources\\"  + imgList[curr] + ".jpg");
+            pctProduct.Image = bitmap;
         }
 
         private void btnPre_Click(object sender, EventArgs e)
@@ -38,7 +37,8 @@ namespace ProjectWin_Demo_
                 curr--;
             else
                 curr = 2;
-            pctProduct.Image = new Bitmap("D:\\lapTrinhWinhdow\\a\\ProjectWin\\ProjectWin(Demo)\\Resources\\" + imgList[curr] + ".jpg");
+            Bitmap bitmap = new Bitmap(Application.StartupPath + "\\Resources\\" + imgList[curr] + ".jpg");
+            pctProduct.Image = bitmap;
         }
     }
 }

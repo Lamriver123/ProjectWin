@@ -173,6 +173,16 @@ namespace ProjectWin_Demo_.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
+        internal static System.Drawing.Bitmap Iconoir_Team_Iconoir_Settings_48 {
+            get {
+                object obj = ResourceManager.GetObject("Iconoir-Team-Iconoir-Settings.48", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
         internal static System.Drawing.Bitmap icons8_password_30 {
             get {
                 object obj = ResourceManager.GetObject("icons8-password-30", resourceCulture);

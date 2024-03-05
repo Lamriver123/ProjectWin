@@ -303,5 +303,8 @@
   <ItemGroup>
     <None Include="Resources\z5217272932631_72c73dc409773a73013edce5ca74c052.jpg" />
   </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Iconoir-Team-Iconoir-Settings.48.png" />
+  </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

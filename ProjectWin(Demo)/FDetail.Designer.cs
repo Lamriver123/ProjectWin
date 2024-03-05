@@ -43,13 +43,12 @@
             this.btnNext = new CustomButton.VBButton();
             this.btnPre = new CustomButton.VBButton();
             this.panel3 = new System.Windows.Forms.Panel();
+            this.vbButton1 = new CustomButton.VBButton();
             this.linkLabel1 = new System.Windows.Forms.LinkLabel();
-            this.pctAvt = new System.Windows.Forms.PictureBox();
             this.groupBox1 = new System.Windows.Forms.GroupBox();
             this.richTextBox1 = new System.Windows.Forms.RichTextBox();
             this.vbButton4 = new CustomButton.VBButton();
             this.vbButton3 = new CustomButton.VBButton();
-            this.elipAvt = new ElipseToolDemo.ElipseControl();
             this.panel1.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox6)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox5)).BeginInit();
@@ -59,14 +58,13 @@
             this.panel2.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.pctProduct)).BeginInit();
             this.panel3.SuspendLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.pctAvt)).BeginInit();
             this.groupBox1.SuspendLayout();
             this.SuspendLayout();
             // 
             // label4
             // 
             this.label4.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label4.Location = new System.Drawing.Point(633, 219);
+            this.label4.Location = new System.Drawing.Point(713, 219);
             this.label4.Name = "label4";
             this.label4.Size = new System.Drawing.Size(175, 27);
             this.label4.TabIndex = 10;
@@ -76,7 +74,7 @@
             // label3
             // 
             this.label3.AutoSize = true;
-            this.label3.Location = new System.Drawing.Point(751, 129);
+            this.label3.Location = new System.Drawing.Point(831, 129);
             this.label3.Name = "label3";
             this.label3.Size = new System.Drawing.Size(74, 16);
             this.label3.TabIndex = 9;
@@ -89,7 +87,7 @@
             this.panel1.Controls.Add(this.pictureBox4);
             this.panel1.Controls.Add(this.pictureBox3);
             this.panel1.Controls.Add(this.pictureBox2);
-            this.panel1.Location = new System.Drawing.Point(634, 127);
+            this.panel1.Location = new System.Drawing.Point(714, 127);
             this.panel1.Name = "panel1";
             this.panel1.Size = new System.Drawing.Size(104, 20);
             this.panel1.TabIndex = 8;
@@ -148,7 +146,7 @@
             // 
             this.label2.Font = new System.Drawing.Font("Times New Roman", 13.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label2.ForeColor = System.Drawing.Color.Crimson;
-            this.label2.Location = new System.Drawing.Point(632, 97);
+            this.label2.Location = new System.Drawing.Point(712, 97);
             this.label2.Name = "label2";
             this.label2.Size = new System.Drawing.Size(156, 32);
             this.label2.TabIndex = 7;
@@ -158,7 +156,7 @@
             // label1
             // 
             this.label1.Font = new System.Drawing.Font("Times New Roman", 10.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label1.Location = new System.Drawing.Point(633, 53);
+            this.label1.Location = new System.Drawing.Point(713, 53);
             this.label1.Name = "label1";
             this.label1.Size = new System.Drawing.Size(203, 44);
             this.label1.TabIndex = 6;
@@ -171,7 +169,7 @@
             this.panel2.Controls.Add(this.btnPre);
             this.panel2.Location = new System.Drawing.Point(33, 9);
             this.panel2.Name = "panel2";
-            this.panel2.Size = new System.Drawing.Size(543, 335);
+            this.panel2.Size = new System.Drawing.Size(604, 335);
             this.panel2.TabIndex = 11;
             // 
             // pctProduct
@@ -180,7 +178,7 @@
             this.pctProduct.Image = global::ProjectWin_Demo_.Properties.Resources._1;
             this.pctProduct.Location = new System.Drawing.Point(37, 0);
             this.pctProduct.Name = "pctProduct";
-            this.pctProduct.Size = new System.Drawing.Size(469, 335);
+            this.pctProduct.Size = new System.Drawing.Size(530, 335);
             this.pctProduct.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
             this.pctProduct.TabIndex = 2;
             this.pctProduct.TabStop = false;
@@ -197,7 +195,7 @@
             this.btnNext.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.btnNext.Font = new System.Drawing.Font("Times New Roman", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btnNext.ForeColor = System.Drawing.Color.White;
-            this.btnNext.Location = new System.Drawing.Point(506, 0);
+            this.btnNext.Location = new System.Drawing.Point(567, 0);
             this.btnNext.Name = "btnNext";
             this.btnNext.Size = new System.Drawing.Size(37, 335);
             this.btnNext.TabIndex = 1;
@@ -229,33 +227,42 @@
             // 
             // panel3
             // 
+            this.panel3.Controls.Add(this.vbButton1);
             this.panel3.Controls.Add(this.linkLabel1);
-            this.panel3.Controls.Add(this.pctAvt);
-            this.panel3.Location = new System.Drawing.Point(637, 165);
+            this.panel3.Location = new System.Drawing.Point(717, 165);
             this.panel3.Name = "panel3";
             this.panel3.Size = new System.Drawing.Size(188, 51);
             this.panel3.TabIndex = 14;
+            // 
+            // vbButton1
+            // 
+            this.vbButton1.BackColor = System.Drawing.Color.Transparent;
+            this.vbButton1.BackgroundColor = System.Drawing.Color.Transparent;
+            this.vbButton1.BackgroundImage = global::ProjectWin_Demo_.Properties.Resources.z5217272932631_72c73dc409773a73013edce5ca74c052;
+            this.vbButton1.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom;
+            this.vbButton1.BorderColor = System.Drawing.Color.PaleVioletRed;
+            this.vbButton1.BorderRadius = 20;
+            this.vbButton1.BorderSize = 0;
+            this.vbButton1.FlatAppearance.BorderSize = 0;
+            this.vbButton1.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.vbButton1.ForeColor = System.Drawing.Color.White;
+            this.vbButton1.Location = new System.Drawing.Point(5, 1);
+            this.vbButton1.Name = "vbButton1";
+            this.vbButton1.Size = new System.Drawing.Size(48, 48);
+            this.vbButton1.TabIndex = 16;
+            this.vbButton1.TextColor = System.Drawing.Color.White;
+            this.vbButton1.UseVisualStyleBackColor = false;
             // 
             // linkLabel1
             // 
             this.linkLabel1.AutoSize = true;
             this.linkLabel1.Font = new System.Drawing.Font("Times New Roman", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.linkLabel1.Location = new System.Drawing.Point(61, 16);
+            this.linkLabel1.Location = new System.Drawing.Point(65, 15);
             this.linkLabel1.Name = "linkLabel1";
             this.linkLabel1.Size = new System.Drawing.Size(106, 19);
             this.linkLabel1.TabIndex = 1;
             this.linkLabel1.TabStop = true;
             this.linkLabel1.Text = "ShopDienMay";
-            // 
-            // pctAvt
-            // 
-            this.pctAvt.Image = global::ProjectWin_Demo_.Properties.Resources.z5217272932631_72c73dc409773a73013edce5ca74c052;
-            this.pctAvt.Location = new System.Drawing.Point(3, 3);
-            this.pctAvt.Name = "pctAvt";
-            this.pctAvt.Size = new System.Drawing.Size(52, 45);
-            this.pctAvt.SizeMode = System.Windows.Forms.PictureBoxSizeMode.CenterImage;
-            this.pctAvt.TabIndex = 0;
-            this.pctAvt.TabStop = false;
             // 
             // groupBox1
             // 
@@ -263,7 +270,7 @@
             this.groupBox1.Font = new System.Drawing.Font("Times New Roman", 10.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.groupBox1.Location = new System.Drawing.Point(33, 362);
             this.groupBox1.Name = "groupBox1";
-            this.groupBox1.Size = new System.Drawing.Size(885, 364);
+            this.groupBox1.Size = new System.Drawing.Size(1016, 364);
             this.groupBox1.TabIndex = 15;
             this.groupBox1.TabStop = false;
             this.groupBox1.Text = "Thông tin sản phẩm";
@@ -275,7 +282,7 @@
             this.richTextBox1.Dock = System.Windows.Forms.DockStyle.Fill;
             this.richTextBox1.Location = new System.Drawing.Point(3, 24);
             this.richTextBox1.Name = "richTextBox1";
-            this.richTextBox1.Size = new System.Drawing.Size(879, 337);
+            this.richTextBox1.Size = new System.Drawing.Size(1010, 337);
             this.richTextBox1.TabIndex = 0;
             this.richTextBox1.Text = "adadsa";
             // 
@@ -290,7 +297,7 @@
             this.vbButton4.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.vbButton4.Font = new System.Drawing.Font("Times New Roman", 10.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.vbButton4.ForeColor = System.Drawing.Color.Black;
-            this.vbButton4.Location = new System.Drawing.Point(767, 291);
+            this.vbButton4.Location = new System.Drawing.Point(847, 291);
             this.vbButton4.Name = "vbButton4";
             this.vbButton4.Size = new System.Drawing.Size(151, 53);
             this.vbButton4.TabIndex = 13;
@@ -309,7 +316,7 @@
             this.vbButton3.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.vbButton3.Font = new System.Drawing.Font("Times New Roman", 10.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.vbButton3.ForeColor = System.Drawing.Color.Black;
-            this.vbButton3.Location = new System.Drawing.Point(600, 291);
+            this.vbButton3.Location = new System.Drawing.Point(680, 291);
             this.vbButton3.Name = "vbButton3";
             this.vbButton3.Size = new System.Drawing.Size(161, 53);
             this.vbButton3.TabIndex = 12;
@@ -317,18 +324,13 @@
             this.vbButton3.TextColor = System.Drawing.Color.Black;
             this.vbButton3.UseVisualStyleBackColor = false;
             // 
-            // elipAvt
-            // 
-            this.elipAvt.CornerRadius = 60;
-            this.elipAvt.TargetControl = this.pctAvt;
-            // 
             // FDetail
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.AutoScroll = true;
             this.BackColor = System.Drawing.Color.Bisque;
-            this.ClientSize = new System.Drawing.Size(1040, 491);
+            this.ClientSize = new System.Drawing.Size(1082, 491);
             this.Controls.Add(this.groupBox1);
             this.Controls.Add(this.panel3);
             this.Controls.Add(this.vbButton4);
@@ -353,7 +355,6 @@
             ((System.ComponentModel.ISupportInitialize)(this.pctProduct)).EndInit();
             this.panel3.ResumeLayout(false);
             this.panel3.PerformLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.pctAvt)).EndInit();
             this.groupBox1.ResumeLayout(false);
             this.ResumeLayout(false);
             this.PerformLayout();
@@ -380,9 +381,8 @@
         private CustomButton.VBButton vbButton4;
         private System.Windows.Forms.Panel panel3;
         private System.Windows.Forms.LinkLabel linkLabel1;
-        private System.Windows.Forms.PictureBox pctAvt;
-        private ElipseToolDemo.ElipseControl elipAvt;
         private System.Windows.Forms.GroupBox groupBox1;
         private System.Windows.Forms.RichTextBox richTextBox1;
+        private CustomButton.VBButton vbButton1;
     }
 }

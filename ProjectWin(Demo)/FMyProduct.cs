@@ -16,5 +16,10 @@ namespace ProjectWin_Demo_
         {
             InitializeComponent();
         }
+
+        private void btnAddProduct_Click(object sender, EventArgs e)
+        {
+
+        }
     }
 }

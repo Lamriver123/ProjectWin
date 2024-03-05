@@ -47,15 +47,14 @@
             this.ucCart3 = new ProjectWin_Demo_.UCCart();
             this.ucCart2 = new ProjectWin_Demo_.UCCart();
             this.ucCart1 = new ProjectWin_Demo_.UCCart();
-            this.pictureBox2 = new System.Windows.Forms.PictureBox();
+            this.label6 = new System.Windows.Forms.Label();
             this.panel1.SuspendLayout();
             this.panel2.SuspendLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).BeginInit();
             this.SuspendLayout();
             // 
             // panel1
             // 
-            this.panel1.Controls.Add(this.pictureBox2);
+            this.panel1.Controls.Add(this.label6);
             this.panel1.Controls.Add(this.CBSelectAll);
             this.panel1.Controls.Add(this.label5);
             this.panel1.Controls.Add(this.label4);
@@ -235,16 +234,15 @@
             this.ucCart1.Size = new System.Drawing.Size(1090, 84);
             this.ucCart1.TabIndex = 0;
             // 
-            // pictureBox2
+            // label6
             // 
-            this.pictureBox2.BackColor = System.Drawing.Color.FloralWhite;
-            this.pictureBox2.Image = global::ProjectWin_Demo_.Properties.Resources.trash_can_regular;
-            this.pictureBox2.Location = new System.Drawing.Point(1019, 6);
-            this.pictureBox2.Name = "pictureBox2";
-            this.pictureBox2.Size = new System.Drawing.Size(26, 28);
-            this.pictureBox2.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
-            this.pictureBox2.TabIndex = 7;
-            this.pictureBox2.TabStop = false;
+            this.label6.AutoSize = true;
+            this.label6.Font = new System.Drawing.Font("Times New Roman", 10.8F);
+            this.label6.Location = new System.Drawing.Point(1011, 9);
+            this.label6.Name = "label6";
+            this.label6.Size = new System.Drawing.Size(39, 20);
+            this.label6.TabIndex = 6;
+            this.label6.Text = "Xóa";
             // 
             // FCart
             // 
@@ -260,7 +258,6 @@
             this.panel1.ResumeLayout(false);
             this.panel1.PerformLayout();
             this.panel2.ResumeLayout(false);
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).EndInit();
             this.ResumeLayout(false);
 
         }
@@ -286,6 +283,6 @@
         private UCCart ucCart10;
         private UCCart ucCart9;
         private UCCart ucCart8;
-        public System.Windows.Forms.PictureBox pictureBox2;
+        private System.Windows.Forms.Label label6;
     }
 }
