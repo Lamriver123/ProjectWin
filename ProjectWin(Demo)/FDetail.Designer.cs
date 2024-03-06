@@ -31,34 +31,34 @@
             this.label4 = new System.Windows.Forms.Label();
             this.label3 = new System.Windows.Forms.Label();
             this.panel1 = new System.Windows.Forms.Panel();
+            this.label2 = new System.Windows.Forms.Label();
+            this.label1 = new System.Windows.Forms.Label();
+            this.panel2 = new System.Windows.Forms.Panel();
+            this.btnNext = new CustomButton.VBButton();
+            this.btnPre = new CustomButton.VBButton();
+            this.panel3 = new System.Windows.Forms.Panel();
+            this.linkLabel1 = new System.Windows.Forms.LinkLabel();
+            this.groupBox1 = new System.Windows.Forms.GroupBox();
+            this.richTextBox1 = new System.Windows.Forms.RichTextBox();
+            this.btnBuy = new CustomButton.VBButton();
+            this.btnCart = new CustomButton.VBButton();
+            this.vbButton1 = new CustomButton.VBButton();
+            this.pctProduct = new System.Windows.Forms.PictureBox();
             this.pictureBox6 = new System.Windows.Forms.PictureBox();
             this.pictureBox5 = new System.Windows.Forms.PictureBox();
             this.pictureBox4 = new System.Windows.Forms.PictureBox();
             this.pictureBox3 = new System.Windows.Forms.PictureBox();
             this.pictureBox2 = new System.Windows.Forms.PictureBox();
-            this.label2 = new System.Windows.Forms.Label();
-            this.label1 = new System.Windows.Forms.Label();
-            this.panel2 = new System.Windows.Forms.Panel();
-            this.pctProduct = new System.Windows.Forms.PictureBox();
-            this.btnNext = new CustomButton.VBButton();
-            this.btnPre = new CustomButton.VBButton();
-            this.panel3 = new System.Windows.Forms.Panel();
-            this.vbButton1 = new CustomButton.VBButton();
-            this.linkLabel1 = new System.Windows.Forms.LinkLabel();
-            this.groupBox1 = new System.Windows.Forms.GroupBox();
-            this.richTextBox1 = new System.Windows.Forms.RichTextBox();
-            this.vbButton4 = new CustomButton.VBButton();
-            this.vbButton3 = new CustomButton.VBButton();
             this.panel1.SuspendLayout();
+            this.panel2.SuspendLayout();
+            this.panel3.SuspendLayout();
+            this.groupBox1.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.pctProduct)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox6)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox5)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox4)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox3)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).BeginInit();
-            this.panel2.SuspendLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.pctProduct)).BeginInit();
-            this.panel3.SuspendLayout();
-            this.groupBox1.SuspendLayout();
             this.SuspendLayout();
             // 
             // label4
@@ -92,56 +92,6 @@
             this.panel1.Size = new System.Drawing.Size(104, 20);
             this.panel1.TabIndex = 8;
             // 
-            // pictureBox6
-            // 
-            this.pictureBox6.Image = global::ProjectWin_Demo_.Properties.Resources.Paomedia_Small_N_Flat_Star_48;
-            this.pictureBox6.Location = new System.Drawing.Point(60, 0);
-            this.pictureBox6.Name = "pictureBox6";
-            this.pictureBox6.Size = new System.Drawing.Size(18, 18);
-            this.pictureBox6.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
-            this.pictureBox6.TabIndex = 4;
-            this.pictureBox6.TabStop = false;
-            // 
-            // pictureBox5
-            // 
-            this.pictureBox5.Image = global::ProjectWin_Demo_.Properties.Resources.Paomedia_Small_N_Flat_Star_48;
-            this.pictureBox5.Location = new System.Drawing.Point(0, 0);
-            this.pictureBox5.Name = "pictureBox5";
-            this.pictureBox5.Size = new System.Drawing.Size(18, 18);
-            this.pictureBox5.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
-            this.pictureBox5.TabIndex = 3;
-            this.pictureBox5.TabStop = false;
-            // 
-            // pictureBox4
-            // 
-            this.pictureBox4.Image = global::ProjectWin_Demo_.Properties.Resources.Paomedia_Small_N_Flat_Star_48;
-            this.pictureBox4.Location = new System.Drawing.Point(80, 0);
-            this.pictureBox4.Name = "pictureBox4";
-            this.pictureBox4.Size = new System.Drawing.Size(18, 18);
-            this.pictureBox4.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
-            this.pictureBox4.TabIndex = 2;
-            this.pictureBox4.TabStop = false;
-            // 
-            // pictureBox3
-            // 
-            this.pictureBox3.Image = global::ProjectWin_Demo_.Properties.Resources.Paomedia_Small_N_Flat_Star_48;
-            this.pictureBox3.Location = new System.Drawing.Point(40, 0);
-            this.pictureBox3.Name = "pictureBox3";
-            this.pictureBox3.Size = new System.Drawing.Size(18, 18);
-            this.pictureBox3.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
-            this.pictureBox3.TabIndex = 1;
-            this.pictureBox3.TabStop = false;
-            // 
-            // pictureBox2
-            // 
-            this.pictureBox2.Image = global::ProjectWin_Demo_.Properties.Resources.Paomedia_Small_N_Flat_Star_48;
-            this.pictureBox2.Location = new System.Drawing.Point(20, 0);
-            this.pictureBox2.Name = "pictureBox2";
-            this.pictureBox2.Size = new System.Drawing.Size(18, 18);
-            this.pictureBox2.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
-            this.pictureBox2.TabIndex = 0;
-            this.pictureBox2.TabStop = false;
-            // 
             // label2
             // 
             this.label2.Font = new System.Drawing.Font("Times New Roman", 13.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
@@ -171,17 +121,6 @@
             this.panel2.Name = "panel2";
             this.panel2.Size = new System.Drawing.Size(604, 335);
             this.panel2.TabIndex = 11;
-            // 
-            // pctProduct
-            // 
-            this.pctProduct.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.pctProduct.Image = global::ProjectWin_Demo_.Properties.Resources._1;
-            this.pctProduct.Location = new System.Drawing.Point(37, 0);
-            this.pctProduct.Name = "pctProduct";
-            this.pctProduct.Size = new System.Drawing.Size(530, 335);
-            this.pctProduct.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
-            this.pctProduct.TabIndex = 2;
-            this.pctProduct.TabStop = false;
             // 
             // btnNext
             // 
@@ -234,25 +173,6 @@
             this.panel3.Size = new System.Drawing.Size(188, 51);
             this.panel3.TabIndex = 14;
             // 
-            // vbButton1
-            // 
-            this.vbButton1.BackColor = System.Drawing.Color.Transparent;
-            this.vbButton1.BackgroundColor = System.Drawing.Color.Transparent;
-            this.vbButton1.BackgroundImage = global::ProjectWin_Demo_.Properties.Resources.z5217272932631_72c73dc409773a73013edce5ca74c052;
-            this.vbButton1.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom;
-            this.vbButton1.BorderColor = System.Drawing.Color.PaleVioletRed;
-            this.vbButton1.BorderRadius = 20;
-            this.vbButton1.BorderSize = 0;
-            this.vbButton1.FlatAppearance.BorderSize = 0;
-            this.vbButton1.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.vbButton1.ForeColor = System.Drawing.Color.White;
-            this.vbButton1.Location = new System.Drawing.Point(5, 1);
-            this.vbButton1.Name = "vbButton1";
-            this.vbButton1.Size = new System.Drawing.Size(48, 48);
-            this.vbButton1.TabIndex = 16;
-            this.vbButton1.TextColor = System.Drawing.Color.White;
-            this.vbButton1.UseVisualStyleBackColor = false;
-            // 
             // linkLabel1
             // 
             this.linkLabel1.AutoSize = true;
@@ -286,43 +206,124 @@
             this.richTextBox1.TabIndex = 0;
             this.richTextBox1.Text = "adadsa";
             // 
-            // vbButton4
+            // btnBuy
             // 
-            this.vbButton4.BackColor = System.Drawing.Color.LightSalmon;
-            this.vbButton4.BackgroundColor = System.Drawing.Color.LightSalmon;
-            this.vbButton4.BorderColor = System.Drawing.Color.PaleVioletRed;
-            this.vbButton4.BorderRadius = 0;
-            this.vbButton4.BorderSize = 0;
-            this.vbButton4.FlatAppearance.BorderSize = 0;
-            this.vbButton4.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.vbButton4.Font = new System.Drawing.Font("Times New Roman", 10.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.vbButton4.ForeColor = System.Drawing.Color.Black;
-            this.vbButton4.Location = new System.Drawing.Point(847, 291);
-            this.vbButton4.Name = "vbButton4";
-            this.vbButton4.Size = new System.Drawing.Size(151, 53);
-            this.vbButton4.TabIndex = 13;
-            this.vbButton4.Text = "Mua hàng";
-            this.vbButton4.TextColor = System.Drawing.Color.Black;
-            this.vbButton4.UseVisualStyleBackColor = false;
+            this.btnBuy.BackColor = System.Drawing.Color.LightSalmon;
+            this.btnBuy.BackgroundColor = System.Drawing.Color.LightSalmon;
+            this.btnBuy.BorderColor = System.Drawing.Color.PaleVioletRed;
+            this.btnBuy.BorderRadius = 11;
+            this.btnBuy.BorderSize = 0;
+            this.btnBuy.FlatAppearance.BorderSize = 0;
+            this.btnBuy.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.btnBuy.Font = new System.Drawing.Font("Times New Roman", 10.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnBuy.ForeColor = System.Drawing.Color.Black;
+            this.btnBuy.Location = new System.Drawing.Point(847, 291);
+            this.btnBuy.Name = "btnBuy";
+            this.btnBuy.Size = new System.Drawing.Size(151, 53);
+            this.btnBuy.TabIndex = 13;
+            this.btnBuy.Text = "Mua hàng";
+            this.btnBuy.TextColor = System.Drawing.Color.Black;
+            this.btnBuy.UseVisualStyleBackColor = false;
+            this.btnBuy.Click += new System.EventHandler(this.btnBuy_Click);
             // 
-            // vbButton3
+            // btnCart
             // 
-            this.vbButton3.BackColor = System.Drawing.Color.PaleTurquoise;
-            this.vbButton3.BackgroundColor = System.Drawing.Color.PaleTurquoise;
-            this.vbButton3.BorderColor = System.Drawing.Color.PaleVioletRed;
-            this.vbButton3.BorderRadius = 0;
-            this.vbButton3.BorderSize = 0;
-            this.vbButton3.FlatAppearance.BorderSize = 0;
-            this.vbButton3.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.vbButton3.Font = new System.Drawing.Font("Times New Roman", 10.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.vbButton3.ForeColor = System.Drawing.Color.Black;
-            this.vbButton3.Location = new System.Drawing.Point(680, 291);
-            this.vbButton3.Name = "vbButton3";
-            this.vbButton3.Size = new System.Drawing.Size(161, 53);
-            this.vbButton3.TabIndex = 12;
-            this.vbButton3.Text = "Thêm vào\r\ngiỏ hàng\r\n";
-            this.vbButton3.TextColor = System.Drawing.Color.Black;
-            this.vbButton3.UseVisualStyleBackColor = false;
+            this.btnCart.BackColor = System.Drawing.Color.PaleTurquoise;
+            this.btnCart.BackgroundColor = System.Drawing.Color.PaleTurquoise;
+            this.btnCart.BorderColor = System.Drawing.Color.PaleVioletRed;
+            this.btnCart.BorderRadius = 11;
+            this.btnCart.BorderSize = 0;
+            this.btnCart.FlatAppearance.BorderSize = 0;
+            this.btnCart.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.btnCart.Font = new System.Drawing.Font("Times New Roman", 10.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnCart.ForeColor = System.Drawing.Color.Black;
+            this.btnCart.Location = new System.Drawing.Point(680, 291);
+            this.btnCart.Name = "btnCart";
+            this.btnCart.Size = new System.Drawing.Size(161, 53);
+            this.btnCart.TabIndex = 12;
+            this.btnCart.Text = "Thêm vào\r\ngiỏ hàng\r\n";
+            this.btnCart.TextColor = System.Drawing.Color.Black;
+            this.btnCart.UseVisualStyleBackColor = false;
+            // 
+            // vbButton1
+            // 
+            this.vbButton1.BackColor = System.Drawing.Color.Transparent;
+            this.vbButton1.BackgroundColor = System.Drawing.Color.Transparent;
+            this.vbButton1.BackgroundImage = global::ProjectWin_Demo_.Properties.Resources.z5217272932631_72c73dc409773a73013edce5ca74c052;
+            this.vbButton1.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom;
+            this.vbButton1.BorderColor = System.Drawing.Color.PaleVioletRed;
+            this.vbButton1.BorderRadius = 20;
+            this.vbButton1.BorderSize = 0;
+            this.vbButton1.FlatAppearance.BorderSize = 0;
+            this.vbButton1.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.vbButton1.ForeColor = System.Drawing.Color.White;
+            this.vbButton1.Location = new System.Drawing.Point(5, 1);
+            this.vbButton1.Name = "vbButton1";
+            this.vbButton1.Size = new System.Drawing.Size(48, 48);
+            this.vbButton1.TabIndex = 16;
+            this.vbButton1.TextColor = System.Drawing.Color.White;
+            this.vbButton1.UseVisualStyleBackColor = false;
+            // 
+            // pctProduct
+            // 
+            this.pctProduct.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.pctProduct.Image = global::ProjectWin_Demo_.Properties.Resources._1;
+            this.pctProduct.Location = new System.Drawing.Point(37, 0);
+            this.pctProduct.Name = "pctProduct";
+            this.pctProduct.Size = new System.Drawing.Size(530, 335);
+            this.pctProduct.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
+            this.pctProduct.TabIndex = 2;
+            this.pctProduct.TabStop = false;
+            // 
+            // pictureBox6
+            // 
+            this.pictureBox6.Image = global::ProjectWin_Demo_.Properties.Resources.Paomedia_Small_N_Flat_Star_48;
+            this.pictureBox6.Location = new System.Drawing.Point(60, 0);
+            this.pictureBox6.Name = "pictureBox6";
+            this.pictureBox6.Size = new System.Drawing.Size(18, 18);
+            this.pictureBox6.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
+            this.pictureBox6.TabIndex = 4;
+            this.pictureBox6.TabStop = false;
+            // 
+            // pictureBox5
+            // 
+            this.pictureBox5.Image = global::ProjectWin_Demo_.Properties.Resources.Paomedia_Small_N_Flat_Star_48;
+            this.pictureBox5.Location = new System.Drawing.Point(0, 0);
+            this.pictureBox5.Name = "pictureBox5";
+            this.pictureBox5.Size = new System.Drawing.Size(18, 18);
+            this.pictureBox5.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
+            this.pictureBox5.TabIndex = 3;
+            this.pictureBox5.TabStop = false;
+            // 
+            // pictureBox4
+            // 
+            this.pictureBox4.Image = global::ProjectWin_Demo_.Properties.Resources.Paomedia_Small_N_Flat_Star_48;
+            this.pictureBox4.Location = new System.Drawing.Point(80, 0);
+            this.pictureBox4.Name = "pictureBox4";
+            this.pictureBox4.Size = new System.Drawing.Size(18, 18);
+            this.pictureBox4.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
+            this.pictureBox4.TabIndex = 2;
+            this.pictureBox4.TabStop = false;
+            // 
+            // pictureBox3
+            // 
+            this.pictureBox3.Image = global::ProjectWin_Demo_.Properties.Resources.Paomedia_Small_N_Flat_Star_48;
+            this.pictureBox3.Location = new System.Drawing.Point(40, 0);
+            this.pictureBox3.Name = "pictureBox3";
+            this.pictureBox3.Size = new System.Drawing.Size(18, 18);
+            this.pictureBox3.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
+            this.pictureBox3.TabIndex = 1;
+            this.pictureBox3.TabStop = false;
+            // 
+            // pictureBox2
+            // 
+            this.pictureBox2.Image = global::ProjectWin_Demo_.Properties.Resources.Paomedia_Small_N_Flat_Star_48;
+            this.pictureBox2.Location = new System.Drawing.Point(20, 0);
+            this.pictureBox2.Name = "pictureBox2";
+            this.pictureBox2.Size = new System.Drawing.Size(18, 18);
+            this.pictureBox2.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
+            this.pictureBox2.TabIndex = 0;
+            this.pictureBox2.TabStop = false;
             // 
             // FDetail
             // 
@@ -330,11 +331,11 @@
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.AutoScroll = true;
             this.BackColor = System.Drawing.Color.Bisque;
-            this.ClientSize = new System.Drawing.Size(1082, 491);
+            this.ClientSize = new System.Drawing.Size(1166, 491);
             this.Controls.Add(this.groupBox1);
             this.Controls.Add(this.panel3);
-            this.Controls.Add(this.vbButton4);
-            this.Controls.Add(this.vbButton3);
+            this.Controls.Add(this.btnBuy);
+            this.Controls.Add(this.btnCart);
             this.Controls.Add(this.panel2);
             this.Controls.Add(this.label4);
             this.Controls.Add(this.label3);
@@ -346,16 +347,16 @@
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "FDetail";
             this.panel1.ResumeLayout(false);
+            this.panel2.ResumeLayout(false);
+            this.panel3.ResumeLayout(false);
+            this.panel3.PerformLayout();
+            this.groupBox1.ResumeLayout(false);
+            ((System.ComponentModel.ISupportInitialize)(this.pctProduct)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox6)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox5)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox4)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox3)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).EndInit();
-            this.panel2.ResumeLayout(false);
-            ((System.ComponentModel.ISupportInitialize)(this.pctProduct)).EndInit();
-            this.panel3.ResumeLayout(false);
-            this.panel3.PerformLayout();
-            this.groupBox1.ResumeLayout(false);
             this.ResumeLayout(false);
             this.PerformLayout();
 
@@ -377,8 +378,8 @@
         private CustomButton.VBButton btnPre;
         private System.Windows.Forms.PictureBox pctProduct;
         private CustomButton.VBButton btnNext;
-        private CustomButton.VBButton vbButton3;
-        private CustomButton.VBButton vbButton4;
+        private CustomButton.VBButton btnCart;
+        private CustomButton.VBButton btnBuy;
         private System.Windows.Forms.Panel panel3;
         private System.Windows.Forms.LinkLabel linkLabel1;
         private System.Windows.Forms.GroupBox groupBox1;

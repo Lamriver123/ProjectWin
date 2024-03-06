@@ -52,6 +52,12 @@
     <Compile Include="FDetail.Designer.cs">
       <DependentUpon>FDetail.cs</DependentUpon>
     </Compile>
+    <Compile Include="FPayment.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FPayment.Designer.cs">
+      <DependentUpon>FPayment.cs</DependentUpon>
+    </Compile>
     <Compile Include="FSignUp.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -168,6 +174,9 @@
     </EmbeddedResource>
     <EmbeddedResource Include="FMyProduct.resx">
       <DependentUpon>FMyProduct.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FPayment.resx">
+      <DependentUpon>FPayment.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="FProductCatalog.resx">
       <DependentUpon>FProductCatalog.cs</DependentUpon>
@@ -305,6 +314,18 @@
   </ItemGroup>
   <ItemGroup>
     <None Include="Resources\Iconoir-Team-Iconoir-Settings.48.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Ionic-Ionicons-Location-outline.48.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Momo.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Double-J-Design-Ravenna-3d-Credit-Card.64.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Custom-Icon-Design-Pretty-Office-11-Cash.64.png" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

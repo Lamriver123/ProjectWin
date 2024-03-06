@@ -40,5 +40,11 @@ namespace ProjectWin_Demo_
             Bitmap bitmap = new Bitmap(Application.StartupPath + "\\Resources\\" + imgList[curr] + ".jpg");
             pctProduct.Image = bitmap;
         }
+
+        private void btnBuy_Click(object sender, EventArgs e)
+        {
+            FPayment fPayment = new FPayment();
+            fPayment.ShowDialog();
+        }
     }
 }

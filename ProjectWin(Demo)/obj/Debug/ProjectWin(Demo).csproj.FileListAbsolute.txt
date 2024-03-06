@@ -137,3 +137,4 @@ D:\lapTrinhWinhdow\Project\ProjectWin(Demo)\obj\Debug\ProjectWin_Demo_.UCCart.re
 D:\lapTrinhWinhdow\Project\ProjectWin(Demo)\obj\Debug\ProjectWin_Demo_.UCHistory.resources
 D:\lapTrinhWinhdow\Project\ProjectWin(Demo)\obj\Debug\ProjectWin_Demo_.UCInfo.resources
 D:\lapTrinhWinhdow\Project\ProjectWin(Demo)\obj\Debug\ProjectWin_Demo_.UCRevenue.resources
+D:\lapTrinhWinhdow\Project\ProjectWin(Demo)\obj\Debug\ProjectWin_Demo_.FPayment.resources

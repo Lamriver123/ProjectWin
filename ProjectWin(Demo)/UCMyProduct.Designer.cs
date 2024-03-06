@@ -111,6 +111,7 @@
             this.pcbDelete.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
             this.pcbDelete.TabIndex = 12;
             this.pcbDelete.TabStop = false;
+            this.pcbDelete.Click += new System.EventHandler(this.pcbDelete_Click);
             this.pcbDelete.MouseLeave += new System.EventHandler(this.pcbDelete_MouseLeave);
             this.pcbDelete.MouseHover += new System.EventHandler(this.pcbDelete_MouseHover);
             // 

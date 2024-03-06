@@ -16,5 +16,11 @@ namespace ProjectWin_Demo_
         {
             InitializeComponent();
         }
+
+        private void btnBuyNow_Click(object sender, EventArgs e)
+        {
+            FPayment fPayment = new FPayment();
+            fPayment.ShowDialog();
+        }
     }
 }
