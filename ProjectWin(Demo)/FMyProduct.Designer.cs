@@ -31,6 +31,9 @@
             this.panel2 = new System.Windows.Forms.Panel();
             this.flowLayoutPanel1 = new System.Windows.Forms.FlowLayoutPanel();
             this.panel1 = new System.Windows.Forms.Panel();
+            this.panel7 = new System.Windows.Forms.Panel();
+            this.panel6 = new System.Windows.Forms.Panel();
+            this.panel5 = new System.Windows.Forms.Panel();
             this.panel4 = new System.Windows.Forms.Panel();
             this.label6 = new System.Windows.Forms.Label();
             this.label5 = new System.Windows.Forms.Label();
@@ -39,9 +42,7 @@
             this.label2 = new System.Windows.Forms.Label();
             this.panel3 = new System.Windows.Forms.Panel();
             this.label1 = new System.Windows.Forms.Label();
-            this.panel5 = new System.Windows.Forms.Panel();
-            this.panel6 = new System.Windows.Forms.Panel();
-            this.panel7 = new System.Windows.Forms.Panel();
+            this.btnAddProduct = new CustomButton.VBButton();
             this.ucMyProduct1 = new ProjectWin_Demo_.UCMyProduct();
             this.ucMyProduct2 = new ProjectWin_Demo_.UCMyProduct();
             this.ucMyProduct3 = new ProjectWin_Demo_.UCMyProduct();
@@ -62,11 +63,6 @@
             this.ucMyProduct18 = new ProjectWin_Demo_.UCMyProduct();
             this.ucMyProduct19 = new ProjectWin_Demo_.UCMyProduct();
             this.ucMyProduct20 = new ProjectWin_Demo_.UCMyProduct();
-            this.ucMyProduct21 = new ProjectWin_Demo_.UCMyProduct();
-            this.ucMyProduct22 = new ProjectWin_Demo_.UCMyProduct();
-            this.ucMyProduct23 = new ProjectWin_Demo_.UCMyProduct();
-            this.ucMyProduct24 = new ProjectWin_Demo_.UCMyProduct();
-            this.btnAddProduct = new CustomButton.VBButton();
             this.panel2.SuspendLayout();
             this.flowLayoutPanel1.SuspendLayout();
             this.panel1.SuspendLayout();
@@ -107,10 +103,6 @@
             this.flowLayoutPanel1.Controls.Add(this.ucMyProduct18);
             this.flowLayoutPanel1.Controls.Add(this.ucMyProduct19);
             this.flowLayoutPanel1.Controls.Add(this.ucMyProduct20);
-            this.flowLayoutPanel1.Controls.Add(this.ucMyProduct21);
-            this.flowLayoutPanel1.Controls.Add(this.ucMyProduct22);
-            this.flowLayoutPanel1.Controls.Add(this.ucMyProduct23);
-            this.flowLayoutPanel1.Controls.Add(this.ucMyProduct24);
             this.flowLayoutPanel1.Dock = System.Windows.Forms.DockStyle.Fill;
             this.flowLayoutPanel1.Location = new System.Drawing.Point(0, 107);
             this.flowLayoutPanel1.Name = "flowLayoutPanel1";
@@ -134,6 +126,30 @@
             this.panel1.Name = "panel1";
             this.panel1.Size = new System.Drawing.Size(1111, 41);
             this.panel1.TabIndex = 3;
+            // 
+            // panel7
+            // 
+            this.panel7.BackColor = System.Drawing.Color.Black;
+            this.panel7.Location = new System.Drawing.Point(946, 3);
+            this.panel7.Name = "panel7";
+            this.panel7.Size = new System.Drawing.Size(1, 35);
+            this.panel7.TabIndex = 6;
+            // 
+            // panel6
+            // 
+            this.panel6.BackColor = System.Drawing.Color.Black;
+            this.panel6.Location = new System.Drawing.Point(816, 3);
+            this.panel6.Name = "panel6";
+            this.panel6.Size = new System.Drawing.Size(1, 35);
+            this.panel6.TabIndex = 6;
+            // 
+            // panel5
+            // 
+            this.panel5.BackColor = System.Drawing.Color.Black;
+            this.panel5.Location = new System.Drawing.Point(712, 3);
+            this.panel5.Name = "panel5";
+            this.panel5.Size = new System.Drawing.Size(1, 35);
+            this.panel5.TabIndex = 6;
             // 
             // panel4
             // 
@@ -215,228 +231,12 @@
             this.label1.TabIndex = 0;
             this.label1.Text = "Các sản phẩm:";
             // 
-            // panel5
-            // 
-            this.panel5.BackColor = System.Drawing.Color.Black;
-            this.panel5.Location = new System.Drawing.Point(712, 3);
-            this.panel5.Name = "panel5";
-            this.panel5.Size = new System.Drawing.Size(1, 35);
-            this.panel5.TabIndex = 6;
-            // 
-            // panel6
-            // 
-            this.panel6.BackColor = System.Drawing.Color.Black;
-            this.panel6.Location = new System.Drawing.Point(816, 3);
-            this.panel6.Name = "panel6";
-            this.panel6.Size = new System.Drawing.Size(1, 35);
-            this.panel6.TabIndex = 6;
-            // 
-            // panel7
-            // 
-            this.panel7.BackColor = System.Drawing.Color.Black;
-            this.panel7.Location = new System.Drawing.Point(946, 3);
-            this.panel7.Name = "panel7";
-            this.panel7.Size = new System.Drawing.Size(1, 35);
-            this.panel7.TabIndex = 6;
-            // 
-            // ucMyProduct1
-            // 
-            this.ucMyProduct1.BackColor = System.Drawing.Color.Bisque;
-            this.ucMyProduct1.Location = new System.Drawing.Point(3, 3);
-            this.ucMyProduct1.Name = "ucMyProduct1";
-            this.ucMyProduct1.Size = new System.Drawing.Size(1085, 90);
-            this.ucMyProduct1.TabIndex = 0;
-            // 
-            // ucMyProduct2
-            // 
-            this.ucMyProduct2.BackColor = System.Drawing.Color.Bisque;
-            this.ucMyProduct2.Location = new System.Drawing.Point(3, 99);
-            this.ucMyProduct2.Name = "ucMyProduct2";
-            this.ucMyProduct2.Size = new System.Drawing.Size(1085, 90);
-            this.ucMyProduct2.TabIndex = 1;
-            // 
-            // ucMyProduct3
-            // 
-            this.ucMyProduct3.BackColor = System.Drawing.Color.Bisque;
-            this.ucMyProduct3.Location = new System.Drawing.Point(3, 195);
-            this.ucMyProduct3.Name = "ucMyProduct3";
-            this.ucMyProduct3.Size = new System.Drawing.Size(1085, 90);
-            this.ucMyProduct3.TabIndex = 2;
-            // 
-            // ucMyProduct4
-            // 
-            this.ucMyProduct4.BackColor = System.Drawing.Color.Bisque;
-            this.ucMyProduct4.Location = new System.Drawing.Point(3, 291);
-            this.ucMyProduct4.Name = "ucMyProduct4";
-            this.ucMyProduct4.Size = new System.Drawing.Size(1085, 90);
-            this.ucMyProduct4.TabIndex = 3;
-            // 
-            // ucMyProduct5
-            // 
-            this.ucMyProduct5.BackColor = System.Drawing.Color.Bisque;
-            this.ucMyProduct5.Location = new System.Drawing.Point(3, 387);
-            this.ucMyProduct5.Name = "ucMyProduct5";
-            this.ucMyProduct5.Size = new System.Drawing.Size(1085, 90);
-            this.ucMyProduct5.TabIndex = 4;
-            // 
-            // ucMyProduct6
-            // 
-            this.ucMyProduct6.BackColor = System.Drawing.Color.Bisque;
-            this.ucMyProduct6.Location = new System.Drawing.Point(3, 483);
-            this.ucMyProduct6.Name = "ucMyProduct6";
-            this.ucMyProduct6.Size = new System.Drawing.Size(1085, 90);
-            this.ucMyProduct6.TabIndex = 5;
-            // 
-            // ucMyProduct7
-            // 
-            this.ucMyProduct7.BackColor = System.Drawing.Color.Bisque;
-            this.ucMyProduct7.Location = new System.Drawing.Point(3, 579);
-            this.ucMyProduct7.Name = "ucMyProduct7";
-            this.ucMyProduct7.Size = new System.Drawing.Size(1085, 90);
-            this.ucMyProduct7.TabIndex = 6;
-            // 
-            // ucMyProduct8
-            // 
-            this.ucMyProduct8.BackColor = System.Drawing.Color.Bisque;
-            this.ucMyProduct8.Location = new System.Drawing.Point(3, 675);
-            this.ucMyProduct8.Name = "ucMyProduct8";
-            this.ucMyProduct8.Size = new System.Drawing.Size(1085, 90);
-            this.ucMyProduct8.TabIndex = 7;
-            // 
-            // ucMyProduct9
-            // 
-            this.ucMyProduct9.BackColor = System.Drawing.Color.Bisque;
-            this.ucMyProduct9.Location = new System.Drawing.Point(3, 771);
-            this.ucMyProduct9.Name = "ucMyProduct9";
-            this.ucMyProduct9.Size = new System.Drawing.Size(1085, 90);
-            this.ucMyProduct9.TabIndex = 8;
-            // 
-            // ucMyProduct10
-            // 
-            this.ucMyProduct10.BackColor = System.Drawing.Color.Bisque;
-            this.ucMyProduct10.Location = new System.Drawing.Point(3, 867);
-            this.ucMyProduct10.Name = "ucMyProduct10";
-            this.ucMyProduct10.Size = new System.Drawing.Size(1085, 90);
-            this.ucMyProduct10.TabIndex = 9;
-            // 
-            // ucMyProduct11
-            // 
-            this.ucMyProduct11.BackColor = System.Drawing.Color.Bisque;
-            this.ucMyProduct11.Location = new System.Drawing.Point(3, 963);
-            this.ucMyProduct11.Name = "ucMyProduct11";
-            this.ucMyProduct11.Size = new System.Drawing.Size(1085, 90);
-            this.ucMyProduct11.TabIndex = 10;
-            // 
-            // ucMyProduct12
-            // 
-            this.ucMyProduct12.BackColor = System.Drawing.Color.Bisque;
-            this.ucMyProduct12.Location = new System.Drawing.Point(3, 1059);
-            this.ucMyProduct12.Name = "ucMyProduct12";
-            this.ucMyProduct12.Size = new System.Drawing.Size(1085, 90);
-            this.ucMyProduct12.TabIndex = 11;
-            // 
-            // ucMyProduct13
-            // 
-            this.ucMyProduct13.BackColor = System.Drawing.Color.Bisque;
-            this.ucMyProduct13.Location = new System.Drawing.Point(3, 1155);
-            this.ucMyProduct13.Name = "ucMyProduct13";
-            this.ucMyProduct13.Size = new System.Drawing.Size(1085, 90);
-            this.ucMyProduct13.TabIndex = 12;
-            // 
-            // ucMyProduct14
-            // 
-            this.ucMyProduct14.BackColor = System.Drawing.Color.Bisque;
-            this.ucMyProduct14.Location = new System.Drawing.Point(3, 1251);
-            this.ucMyProduct14.Name = "ucMyProduct14";
-            this.ucMyProduct14.Size = new System.Drawing.Size(1085, 90);
-            this.ucMyProduct14.TabIndex = 13;
-            // 
-            // ucMyProduct15
-            // 
-            this.ucMyProduct15.BackColor = System.Drawing.Color.Bisque;
-            this.ucMyProduct15.Location = new System.Drawing.Point(3, 1347);
-            this.ucMyProduct15.Name = "ucMyProduct15";
-            this.ucMyProduct15.Size = new System.Drawing.Size(1085, 90);
-            this.ucMyProduct15.TabIndex = 14;
-            // 
-            // ucMyProduct16
-            // 
-            this.ucMyProduct16.BackColor = System.Drawing.Color.Bisque;
-            this.ucMyProduct16.Location = new System.Drawing.Point(3, 1443);
-            this.ucMyProduct16.Name = "ucMyProduct16";
-            this.ucMyProduct16.Size = new System.Drawing.Size(1085, 90);
-            this.ucMyProduct16.TabIndex = 15;
-            // 
-            // ucMyProduct17
-            // 
-            this.ucMyProduct17.BackColor = System.Drawing.Color.Bisque;
-            this.ucMyProduct17.Location = new System.Drawing.Point(3, 1539);
-            this.ucMyProduct17.Name = "ucMyProduct17";
-            this.ucMyProduct17.Size = new System.Drawing.Size(1085, 90);
-            this.ucMyProduct17.TabIndex = 16;
-            // 
-            // ucMyProduct18
-            // 
-            this.ucMyProduct18.BackColor = System.Drawing.Color.Bisque;
-            this.ucMyProduct18.Location = new System.Drawing.Point(3, 1635);
-            this.ucMyProduct18.Name = "ucMyProduct18";
-            this.ucMyProduct18.Size = new System.Drawing.Size(1085, 90);
-            this.ucMyProduct18.TabIndex = 17;
-            // 
-            // ucMyProduct19
-            // 
-            this.ucMyProduct19.BackColor = System.Drawing.Color.Bisque;
-            this.ucMyProduct19.Location = new System.Drawing.Point(3, 1731);
-            this.ucMyProduct19.Name = "ucMyProduct19";
-            this.ucMyProduct19.Size = new System.Drawing.Size(1085, 90);
-            this.ucMyProduct19.TabIndex = 18;
-            // 
-            // ucMyProduct20
-            // 
-            this.ucMyProduct20.BackColor = System.Drawing.Color.Bisque;
-            this.ucMyProduct20.Location = new System.Drawing.Point(3, 1827);
-            this.ucMyProduct20.Name = "ucMyProduct20";
-            this.ucMyProduct20.Size = new System.Drawing.Size(1085, 90);
-            this.ucMyProduct20.TabIndex = 19;
-            // 
-            // ucMyProduct21
-            // 
-            this.ucMyProduct21.BackColor = System.Drawing.Color.Bisque;
-            this.ucMyProduct21.Location = new System.Drawing.Point(3, 1923);
-            this.ucMyProduct21.Name = "ucMyProduct21";
-            this.ucMyProduct21.Size = new System.Drawing.Size(1085, 90);
-            this.ucMyProduct21.TabIndex = 20;
-            // 
-            // ucMyProduct22
-            // 
-            this.ucMyProduct22.BackColor = System.Drawing.Color.Bisque;
-            this.ucMyProduct22.Location = new System.Drawing.Point(3, 2019);
-            this.ucMyProduct22.Name = "ucMyProduct22";
-            this.ucMyProduct22.Size = new System.Drawing.Size(1085, 90);
-            this.ucMyProduct22.TabIndex = 21;
-            // 
-            // ucMyProduct23
-            // 
-            this.ucMyProduct23.BackColor = System.Drawing.Color.Bisque;
-            this.ucMyProduct23.Location = new System.Drawing.Point(3, 2115);
-            this.ucMyProduct23.Name = "ucMyProduct23";
-            this.ucMyProduct23.Size = new System.Drawing.Size(1085, 90);
-            this.ucMyProduct23.TabIndex = 22;
-            // 
-            // ucMyProduct24
-            // 
-            this.ucMyProduct24.BackColor = System.Drawing.Color.Bisque;
-            this.ucMyProduct24.Location = new System.Drawing.Point(3, 2211);
-            this.ucMyProduct24.Name = "ucMyProduct24";
-            this.ucMyProduct24.Size = new System.Drawing.Size(1085, 90);
-            this.ucMyProduct24.TabIndex = 23;
-            // 
             // btnAddProduct
             // 
             this.btnAddProduct.BackColor = System.Drawing.Color.Transparent;
             this.btnAddProduct.BackgroundColor = System.Drawing.Color.Transparent;
             this.btnAddProduct.BorderColor = System.Drawing.Color.DeepSkyBlue;
-            this.btnAddProduct.BorderRadius = 20;
+            this.btnAddProduct.BorderRadius = 12;
             this.btnAddProduct.BorderSize = 2;
             this.btnAddProduct.FlatAppearance.BorderSize = 0;
             this.btnAddProduct.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
@@ -450,6 +250,166 @@
             this.btnAddProduct.TextColor = System.Drawing.Color.MediumTurquoise;
             this.btnAddProduct.UseVisualStyleBackColor = false;
             this.btnAddProduct.Click += new System.EventHandler(this.btnAddProduct_Click);
+            // 
+            // ucMyProduct1
+            // 
+            this.ucMyProduct1.BackColor = System.Drawing.Color.WhiteSmoke;
+            this.ucMyProduct1.Location = new System.Drawing.Point(3, 3);
+            this.ucMyProduct1.Name = "ucMyProduct1";
+            this.ucMyProduct1.Size = new System.Drawing.Size(1085, 90);
+            this.ucMyProduct1.TabIndex = 0;
+            // 
+            // ucMyProduct2
+            // 
+            this.ucMyProduct2.BackColor = System.Drawing.Color.WhiteSmoke;
+            this.ucMyProduct2.Location = new System.Drawing.Point(3, 99);
+            this.ucMyProduct2.Name = "ucMyProduct2";
+            this.ucMyProduct2.Size = new System.Drawing.Size(1085, 90);
+            this.ucMyProduct2.TabIndex = 1;
+            // 
+            // ucMyProduct3
+            // 
+            this.ucMyProduct3.BackColor = System.Drawing.Color.WhiteSmoke;
+            this.ucMyProduct3.Location = new System.Drawing.Point(3, 195);
+            this.ucMyProduct3.Name = "ucMyProduct3";
+            this.ucMyProduct3.Size = new System.Drawing.Size(1085, 90);
+            this.ucMyProduct3.TabIndex = 2;
+            // 
+            // ucMyProduct4
+            // 
+            this.ucMyProduct4.BackColor = System.Drawing.Color.WhiteSmoke;
+            this.ucMyProduct4.Location = new System.Drawing.Point(3, 291);
+            this.ucMyProduct4.Name = "ucMyProduct4";
+            this.ucMyProduct4.Size = new System.Drawing.Size(1085, 90);
+            this.ucMyProduct4.TabIndex = 3;
+            // 
+            // ucMyProduct5
+            // 
+            this.ucMyProduct5.BackColor = System.Drawing.Color.WhiteSmoke;
+            this.ucMyProduct5.Location = new System.Drawing.Point(3, 387);
+            this.ucMyProduct5.Name = "ucMyProduct5";
+            this.ucMyProduct5.Size = new System.Drawing.Size(1085, 90);
+            this.ucMyProduct5.TabIndex = 4;
+            // 
+            // ucMyProduct6
+            // 
+            this.ucMyProduct6.BackColor = System.Drawing.Color.WhiteSmoke;
+            this.ucMyProduct6.Location = new System.Drawing.Point(3, 483);
+            this.ucMyProduct6.Name = "ucMyProduct6";
+            this.ucMyProduct6.Size = new System.Drawing.Size(1085, 90);
+            this.ucMyProduct6.TabIndex = 5;
+            // 
+            // ucMyProduct7
+            // 
+            this.ucMyProduct7.BackColor = System.Drawing.Color.WhiteSmoke;
+            this.ucMyProduct7.Location = new System.Drawing.Point(3, 579);
+            this.ucMyProduct7.Name = "ucMyProduct7";
+            this.ucMyProduct7.Size = new System.Drawing.Size(1085, 90);
+            this.ucMyProduct7.TabIndex = 6;
+            // 
+            // ucMyProduct8
+            // 
+            this.ucMyProduct8.BackColor = System.Drawing.Color.WhiteSmoke;
+            this.ucMyProduct8.Location = new System.Drawing.Point(3, 675);
+            this.ucMyProduct8.Name = "ucMyProduct8";
+            this.ucMyProduct8.Size = new System.Drawing.Size(1085, 90);
+            this.ucMyProduct8.TabIndex = 7;
+            // 
+            // ucMyProduct9
+            // 
+            this.ucMyProduct9.BackColor = System.Drawing.Color.WhiteSmoke;
+            this.ucMyProduct9.Location = new System.Drawing.Point(3, 771);
+            this.ucMyProduct9.Name = "ucMyProduct9";
+            this.ucMyProduct9.Size = new System.Drawing.Size(1085, 90);
+            this.ucMyProduct9.TabIndex = 8;
+            // 
+            // ucMyProduct10
+            // 
+            this.ucMyProduct10.BackColor = System.Drawing.Color.WhiteSmoke;
+            this.ucMyProduct10.Location = new System.Drawing.Point(3, 867);
+            this.ucMyProduct10.Name = "ucMyProduct10";
+            this.ucMyProduct10.Size = new System.Drawing.Size(1085, 90);
+            this.ucMyProduct10.TabIndex = 9;
+            // 
+            // ucMyProduct11
+            // 
+            this.ucMyProduct11.BackColor = System.Drawing.Color.WhiteSmoke;
+            this.ucMyProduct11.Location = new System.Drawing.Point(3, 963);
+            this.ucMyProduct11.Name = "ucMyProduct11";
+            this.ucMyProduct11.Size = new System.Drawing.Size(1085, 90);
+            this.ucMyProduct11.TabIndex = 10;
+            // 
+            // ucMyProduct12
+            // 
+            this.ucMyProduct12.BackColor = System.Drawing.Color.WhiteSmoke;
+            this.ucMyProduct12.Location = new System.Drawing.Point(3, 1059);
+            this.ucMyProduct12.Name = "ucMyProduct12";
+            this.ucMyProduct12.Size = new System.Drawing.Size(1085, 90);
+            this.ucMyProduct12.TabIndex = 11;
+            // 
+            // ucMyProduct13
+            // 
+            this.ucMyProduct13.BackColor = System.Drawing.Color.WhiteSmoke;
+            this.ucMyProduct13.Location = new System.Drawing.Point(3, 1155);
+            this.ucMyProduct13.Name = "ucMyProduct13";
+            this.ucMyProduct13.Size = new System.Drawing.Size(1085, 90);
+            this.ucMyProduct13.TabIndex = 12;
+            // 
+            // ucMyProduct14
+            // 
+            this.ucMyProduct14.BackColor = System.Drawing.Color.WhiteSmoke;
+            this.ucMyProduct14.Location = new System.Drawing.Point(3, 1251);
+            this.ucMyProduct14.Name = "ucMyProduct14";
+            this.ucMyProduct14.Size = new System.Drawing.Size(1085, 90);
+            this.ucMyProduct14.TabIndex = 13;
+            // 
+            // ucMyProduct15
+            // 
+            this.ucMyProduct15.BackColor = System.Drawing.Color.WhiteSmoke;
+            this.ucMyProduct15.Location = new System.Drawing.Point(3, 1347);
+            this.ucMyProduct15.Name = "ucMyProduct15";
+            this.ucMyProduct15.Size = new System.Drawing.Size(1085, 90);
+            this.ucMyProduct15.TabIndex = 14;
+            // 
+            // ucMyProduct16
+            // 
+            this.ucMyProduct16.BackColor = System.Drawing.Color.WhiteSmoke;
+            this.ucMyProduct16.Location = new System.Drawing.Point(3, 1443);
+            this.ucMyProduct16.Name = "ucMyProduct16";
+            this.ucMyProduct16.Size = new System.Drawing.Size(1085, 90);
+            this.ucMyProduct16.TabIndex = 15;
+            // 
+            // ucMyProduct17
+            // 
+            this.ucMyProduct17.BackColor = System.Drawing.Color.WhiteSmoke;
+            this.ucMyProduct17.Location = new System.Drawing.Point(3, 1539);
+            this.ucMyProduct17.Name = "ucMyProduct17";
+            this.ucMyProduct17.Size = new System.Drawing.Size(1085, 90);
+            this.ucMyProduct17.TabIndex = 16;
+            // 
+            // ucMyProduct18
+            // 
+            this.ucMyProduct18.BackColor = System.Drawing.Color.WhiteSmoke;
+            this.ucMyProduct18.Location = new System.Drawing.Point(3, 1635);
+            this.ucMyProduct18.Name = "ucMyProduct18";
+            this.ucMyProduct18.Size = new System.Drawing.Size(1085, 90);
+            this.ucMyProduct18.TabIndex = 17;
+            // 
+            // ucMyProduct19
+            // 
+            this.ucMyProduct19.BackColor = System.Drawing.Color.WhiteSmoke;
+            this.ucMyProduct19.Location = new System.Drawing.Point(3, 1731);
+            this.ucMyProduct19.Name = "ucMyProduct19";
+            this.ucMyProduct19.Size = new System.Drawing.Size(1085, 90);
+            this.ucMyProduct19.TabIndex = 18;
+            // 
+            // ucMyProduct20
+            // 
+            this.ucMyProduct20.BackColor = System.Drawing.Color.WhiteSmoke;
+            this.ucMyProduct20.Location = new System.Drawing.Point(3, 1827);
+            this.ucMyProduct20.Name = "ucMyProduct20";
+            this.ucMyProduct20.Size = new System.Drawing.Size(1085, 90);
+            this.ucMyProduct20.TabIndex = 19;
             // 
             // FMyProduct
             // 
@@ -486,6 +446,7 @@
         private System.Windows.Forms.Panel panel7;
         private System.Windows.Forms.Panel panel6;
         private System.Windows.Forms.Panel panel5;
+        private CustomButton.VBButton btnAddProduct;
         private UCMyProduct ucMyProduct1;
         private UCMyProduct ucMyProduct2;
         private UCMyProduct ucMyProduct3;
@@ -506,10 +467,5 @@
         private UCMyProduct ucMyProduct18;
         private UCMyProduct ucMyProduct19;
         private UCMyProduct ucMyProduct20;
-        private UCMyProduct ucMyProduct21;
-        private UCMyProduct ucMyProduct22;
-        private UCMyProduct ucMyProduct23;
-        private UCMyProduct ucMyProduct24;
-        private CustomButton.VBButton btnAddProduct;
     }
 }

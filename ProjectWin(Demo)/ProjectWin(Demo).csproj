@@ -46,6 +46,12 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="FAddProduct.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FAddProduct.Designer.cs">
+      <DependentUpon>FAddProduct.cs</DependentUpon>
+    </Compile>
     <Compile Include="FDetail.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -151,6 +157,9 @@
     <Compile Include="UCRevenue.Designer.cs">
       <DependentUpon>UCRevenue.cs</DependentUpon>
     </Compile>
+    <EmbeddedResource Include="FAddProduct.resx">
+      <DependentUpon>FAddProduct.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="FCart.resx">
       <DependentUpon>FCart.cs</DependentUpon>
     </EmbeddedResource>
