@@ -46,5 +46,13 @@ namespace ProjectWin_Demo_
                 }
             }
         }
+
+        private void pcbEdit_Click(object sender, EventArgs e)
+        {
+            FAddProduct fedit = new FAddProduct();
+            fedit.btnAddProduct.Hide();
+            fedit.btnUpdateProduct.Show();
+            fedit.ShowDialog();
+        }
     }
 }

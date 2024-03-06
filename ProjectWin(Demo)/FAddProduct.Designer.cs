@@ -363,6 +363,7 @@
             this.btnUpdateProduct.Text = "Cập nhật";
             this.btnUpdateProduct.TextColor = System.Drawing.Color.LightSlateGray;
             this.btnUpdateProduct.UseVisualStyleBackColor = false;
+            this.btnUpdateProduct.Click += new System.EventHandler(this.btnUpdateProduct_Click);
             // 
             // btnAddProduct
             // 
@@ -382,6 +383,7 @@
             this.btnAddProduct.Text = "Thêm sản phẩm";
             this.btnAddProduct.TextColor = System.Drawing.Color.LightSlateGray;
             this.btnAddProduct.UseVisualStyleBackColor = false;
+            this.btnAddProduct.Click += new System.EventHandler(this.btnAddProduct_Click);
             // 
             // FAddProduct
             // 
@@ -439,7 +441,7 @@
         private System.Windows.Forms.GroupBox groupBox8;
         private CustomButton.VBButton vbButton1;
         private CustomButton.VBButton vbButton2;
-        private CustomButton.VBButton btnUpdateProduct;
-        private CustomButton.VBButton btnAddProduct;
+        public CustomButton.VBButton btnUpdateProduct;
+        public CustomButton.VBButton btnAddProduct;
     }
 }

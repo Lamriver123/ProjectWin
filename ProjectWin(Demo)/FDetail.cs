@@ -46,5 +46,10 @@ namespace ProjectWin_Demo_
             FPayment fPayment = new FPayment();
             fPayment.ShowDialog();
         }
+
+        private void btnCart_Click(object sender, EventArgs e)
+        {
+            MessageBox.Show("Thêm và giỏ hàng thành công", "Thông báo");
+        }
     }
 }
