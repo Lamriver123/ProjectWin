@@ -49,13 +49,10 @@
             this.richTextBox1 = new System.Windows.Forms.RichTextBox();
             this.btnBuy = new CustomButton.VBButton();
             this.btnCart = new CustomButton.VBButton();
-<<<<<<< HEAD
             this.flowLayoutPanel1 = new System.Windows.Forms.FlowLayoutPanel();
             this.ucComment1 = new ProjectWin_Demo_.UCComment();
             this.ucComment2 = new ProjectWin_Demo_.UCComment();
             this.label5 = new System.Windows.Forms.Label();
-=======
->>>>>>> 61df1b969374d4cb7eb549a02ed6263c262498fc
             this.panel1.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox6)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox5)).BeginInit();
@@ -66,10 +63,7 @@
             ((System.ComponentModel.ISupportInitialize)(this.pctProduct)).BeginInit();
             this.panel3.SuspendLayout();
             this.groupBox1.SuspendLayout();
-<<<<<<< HEAD
             this.flowLayoutPanel1.SuspendLayout();
-=======
->>>>>>> 61df1b969374d4cb7eb549a02ed6263c262498fc
             this.SuspendLayout();
             // 
             // label4
@@ -335,7 +329,6 @@
             this.btnCart.Text = "Thêm vào\r\ngiỏ hàng\r\n";
             this.btnCart.TextColor = System.Drawing.Color.Black;
             this.btnCart.UseVisualStyleBackColor = false;
-<<<<<<< HEAD
             // 
             // flowLayoutPanel1
             // 
@@ -374,9 +367,7 @@
             this.label5.Size = new System.Drawing.Size(80, 22);
             this.label5.TabIndex = 17;
             this.label5.Text = "Đánh giá";
-=======
             this.btnCart.Click += new System.EventHandler(this.btnCart_Click);
->>>>>>> 61df1b969374d4cb7eb549a02ed6263c262498fc
             // 
             // FDetail
             // 
@@ -412,10 +403,7 @@
             this.panel3.ResumeLayout(false);
             this.panel3.PerformLayout();
             this.groupBox1.ResumeLayout(false);
-<<<<<<< HEAD
             this.flowLayoutPanel1.ResumeLayout(false);
-=======
->>>>>>> 61df1b969374d4cb7eb549a02ed6263c262498fc
             this.ResumeLayout(false);
             this.PerformLayout();
 
