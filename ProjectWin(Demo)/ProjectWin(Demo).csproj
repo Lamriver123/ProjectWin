@@ -52,6 +52,12 @@
     <Compile Include="FAddProduct.Designer.cs">
       <DependentUpon>FAddProduct.cs</DependentUpon>
     </Compile>
+    <Compile Include="FComment.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FComment.Designer.cs">
+      <DependentUpon>FComment.cs</DependentUpon>
+    </Compile>
     <Compile Include="FDetail.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -130,6 +136,18 @@
     <Compile Include="UCCart.Designer.cs">
       <DependentUpon>UCCart.cs</DependentUpon>
     </Compile>
+    <Compile Include="UCComment.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="UCComment.Designer.cs">
+      <DependentUpon>UCComment.cs</DependentUpon>
+    </Compile>
+    <Compile Include="UCHisProduct.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="UCHisProduct.Designer.cs">
+      <DependentUpon>UCHisProduct.cs</DependentUpon>
+    </Compile>
     <Compile Include="UCHistory.cs">
       <SubType>UserControl</SubType>
     </Compile>
@@ -169,6 +187,9 @@
     <EmbeddedResource Include="FCart.resx">
       <DependentUpon>FCart.cs</DependentUpon>
     </EmbeddedResource>
+    <EmbeddedResource Include="FComment.resx">
+      <DependentUpon>FComment.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="FDetail.resx">
       <DependentUpon>FDetail.cs</DependentUpon>
     </EmbeddedResource>
@@ -206,6 +227,12 @@
     </EmbeddedResource>
     <EmbeddedResource Include="UCCart.resx">
       <DependentUpon>UCCart.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="UCComment.resx">
+      <DependentUpon>UCComment.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="UCHisProduct.resx">
+      <DependentUpon>UCHisProduct.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="UCHistory.resx">
       <DependentUpon>UCHistory.cs</DependentUpon>
