@@ -19,6 +19,7 @@ namespace ProjectWin_Demo_
 
         private void btnComment_Click(object sender, EventArgs e)
         {
+            MessageBox.Show("Đánh giá sản phẩm thành công", "Thông báo");
             this.Close();
         }
     }

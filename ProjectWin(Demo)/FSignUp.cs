@@ -16,5 +16,11 @@ namespace ProjectWin_Demo_
         {
             InitializeComponent();
         }
+
+        private void btnSignUp_Click(object sender, EventArgs e)
+        {
+            MessageBox.Show("Đăng kí tài khoản thành công", "Thông báo");
+            this.Close();
+        }
     }
 }

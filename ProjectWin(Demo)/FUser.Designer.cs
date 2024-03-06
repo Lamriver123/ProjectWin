@@ -32,7 +32,6 @@
             this.rjTextBox1 = new ProjectWin_Demo_.Funtion.RJTextBox();
             this.btnFind = new CustomButton.VBButton();
             this.pictureBox1 = new System.Windows.Forms.PictureBox();
-            this.pictureBox2 = new System.Windows.Forms.PictureBox();
             this.pictureBoxCart = new System.Windows.Forms.PictureBox();
             this.panelChildForm = new System.Windows.Forms.Panel();
             this.panel13 = new System.Windows.Forms.Panel();
@@ -46,7 +45,6 @@
             this.panel3 = new System.Windows.Forms.Panel();
             this.panel1.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBoxCart)).BeginInit();
             this.panel13.SuspendLayout();
             this.SuspendLayout();
@@ -57,7 +55,6 @@
             this.panel1.Controls.Add(this.rjTextBox1);
             this.panel1.Controls.Add(this.btnFind);
             this.panel1.Controls.Add(this.pictureBox1);
-            this.panel1.Controls.Add(this.pictureBox2);
             this.panel1.Controls.Add(this.pictureBoxCart);
             this.panel1.Dock = System.Windows.Forms.DockStyle.Top;
             this.panel1.Location = new System.Drawing.Point(0, 0);
@@ -98,12 +95,14 @@
             this.btnFind.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.btnFind.Font = new System.Drawing.Font("Times New Roman", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btnFind.ForeColor = System.Drawing.Color.Black;
-            this.btnFind.Location = new System.Drawing.Point(853, 5);
+            this.btnFind.Image = global::ProjectWin_Demo_.Properties.Resources.Elegantthemes_Beautiful_Flat_One_Color_Magnifying_glass_24;
+            this.btnFind.Location = new System.Drawing.Point(814, 6);
             this.btnFind.Name = "btnFind";
             this.btnFind.Size = new System.Drawing.Size(177, 40);
             this.btnFind.TabIndex = 3;
-            this.btnFind.Text = "Tìm kiếm";
+            this.btnFind.Text = "    Tìm kiếm";
             this.btnFind.TextColor = System.Drawing.Color.Black;
+            this.btnFind.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageBeforeText;
             this.btnFind.UseVisualStyleBackColor = false;
             // 
             // pictureBox1
@@ -116,21 +115,10 @@
             this.pictureBox1.TabIndex = 6;
             this.pictureBox1.TabStop = false;
             // 
-            // pictureBox2
-            // 
-            this.pictureBox2.Image = global::ProjectWin_Demo_.Properties.Resources.find;
-            this.pictureBox2.Location = new System.Drawing.Point(193, 8);
-            this.pictureBox2.Name = "pictureBox2";
-            this.pictureBox2.Size = new System.Drawing.Size(39, 39);
-            this.pictureBox2.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
-            this.pictureBox2.TabIndex = 4;
-            this.pictureBox2.TabStop = false;
-            this.pictureBox2.Tag = "";
-            // 
             // pictureBoxCart
             // 
             this.pictureBoxCart.Image = global::ProjectWin_Demo_.Properties.Resources.cart_shopping_solid;
-            this.pictureBoxCart.Location = new System.Drawing.Point(1158, 3);
+            this.pictureBoxCart.Location = new System.Drawing.Point(1158, 6);
             this.pictureBoxCart.Name = "pictureBoxCart";
             this.pictureBoxCart.Size = new System.Drawing.Size(37, 42);
             this.pictureBoxCart.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
@@ -311,7 +299,6 @@
             this.Load += new System.EventHandler(this.FUser_Load);
             this.panel1.ResumeLayout(false);
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBoxCart)).EndInit();
             this.panel13.ResumeLayout(false);
             this.ResumeLayout(false);
@@ -323,7 +310,6 @@
         private System.Windows.Forms.Panel panel1;
         private System.Windows.Forms.PictureBox pictureBoxCart;
         private System.Windows.Forms.Panel panelChildForm;
-        private System.Windows.Forms.PictureBox pictureBox2;
         private System.Windows.Forms.PictureBox pictureBox1;
         private CustomButton.VBButton btnFind;
         private Funtion.RJTextBox rjTextBox1;

@@ -366,5 +366,11 @@
   <ItemGroup>
     <None Include="Resources\Graphicloads-100-Flat-Cart-add.32.png" />
   </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\glass.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Elegantthemes-Beautiful-Flat-One-Color-Magnifying-glass.24.png" />
+  </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

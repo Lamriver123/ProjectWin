@@ -16,5 +16,13 @@ namespace ProjectWin_Demo_
         {
             InitializeComponent();
         }
+
+        private void btnSave_Click(object sender, EventArgs e)
+        {
+            if (MessageBox.Show("Bạn có muốn lưu", "Thông báo", MessageBoxButtons.YesNo) == DialogResult.Yes)
+            {
+                MessageBox.Show("Lưu thông tin thành công", "Thông báo");
+            }      
+        }
     }
 }

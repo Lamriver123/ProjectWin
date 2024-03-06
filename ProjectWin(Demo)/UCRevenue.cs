@@ -16,5 +16,10 @@ namespace ProjectWin_Demo_
         {
             InitializeComponent();
         }
+
+        private void cbxMonth_KeyPress(object sender, KeyPressEventArgs e)
+        {
+            e.Handled = true;
+        }
     }
 }
