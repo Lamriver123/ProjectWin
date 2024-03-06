@@ -10,17 +10,17 @@ using System.Windows.Forms;
 
 namespace ProjectWin_Demo_
 {
-    public partial class FMyProduct : Form
+    public partial class FAddProduct : Form
     {
-        public FMyProduct()
+        public FAddProduct()
         {
             InitializeComponent();
+            btnUpdateProduct.Hide();
         }
 
-        private void btnAddProduct_Click(object sender, EventArgs e)
+        private void btnBack_Click(object sender, EventArgs e)
         {
-            FAddProduct addProduct = new FAddProduct();
-            addProduct.ShowDialog();
+            this.Close();
         }
     }
 }

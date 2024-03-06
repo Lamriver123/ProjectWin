@@ -26,7 +26,7 @@ namespace ProjectWin_Demo_
         private void pcbDelete_MouseLeave(object sender, EventArgs e)
         {
             pictureBox1.SizeMode = PictureBoxSizeMode.Zoom;
-            this.BackColor = Color.Bisque;
+            this.BackColor = Color.WhiteSmoke;
         }
 
         private void pcbDelete_Click(object sender, EventArgs e)
