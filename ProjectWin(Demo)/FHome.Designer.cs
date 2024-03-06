@@ -29,10 +29,18 @@
         private void InitializeComponent()
         {
             this.panel1 = new System.Windows.Forms.Panel();
-            this.btnOK = new System.Windows.Forms.Button();
-            this.btnNew = new System.Windows.Forms.Button();
-            this.comboBox1 = new System.Windows.Forms.ComboBox();
-            this.label1 = new System.Windows.Forms.Label();
+            this.menuStrip1 = new System.Windows.Forms.MenuStrip();
+            this.tsmAll = new System.Windows.Forms.ToolStripMenuItem();
+            this.tsmCatalog = new System.Windows.Forms.ToolStripMenuItem();
+            this.tsmSinhHoat = new System.Windows.Forms.ToolStripMenuItem();
+            this.tsmHandmade = new System.Windows.Forms.ToolStripMenuItem();
+            this.tsmHocTap = new System.Windows.Forms.ToolStripMenuItem();
+            this.tsmDienTu = new System.Windows.Forms.ToolStripMenuItem();
+            this.tsmDoAo = new System.Windows.Forms.ToolStripMenuItem();
+            this.tsmGia = new System.Windows.Forms.ToolStripMenuItem();
+            this.tsmDownUp = new System.Windows.Forms.ToolStripMenuItem();
+            this.tsmUpDown = new System.Windows.Forms.ToolStripMenuItem();
+            this.tsmBanChay = new System.Windows.Forms.ToolStripMenuItem();
             this.flowLayoutPanel1 = new System.Windows.Forms.FlowLayoutPanel();
             this.ucProducts1 = new ProjectWin_Demo_.UCProducts();
             this.ucProducts2 = new ProjectWin_Demo_.UCProducts();
@@ -61,62 +69,130 @@
             this.ucProducts25 = new ProjectWin_Demo_.UCProducts();
             this.ucProducts26 = new ProjectWin_Demo_.UCProducts();
             this.panel1.SuspendLayout();
+            this.menuStrip1.SuspendLayout();
             this.flowLayoutPanel1.SuspendLayout();
             this.SuspendLayout();
             // 
             // panel1
             // 
             this.panel1.BackColor = System.Drawing.Color.WhiteSmoke;
-            this.panel1.Controls.Add(this.btnOK);
-            this.panel1.Controls.Add(this.btnNew);
-            this.panel1.Controls.Add(this.comboBox1);
-            this.panel1.Controls.Add(this.label1);
+            this.panel1.Controls.Add(this.menuStrip1);
             this.panel1.Dock = System.Windows.Forms.DockStyle.Top;
             this.panel1.Location = new System.Drawing.Point(0, 0);
             this.panel1.Name = "panel1";
-            this.panel1.Size = new System.Drawing.Size(1111, 46);
+            this.panel1.Size = new System.Drawing.Size(1111, 37);
             this.panel1.TabIndex = 0;
             // 
-            // btnOK
+            // menuStrip1
             // 
-            this.btnOK.Location = new System.Drawing.Point(512, 11);
-            this.btnOK.Name = "btnOK";
-            this.btnOK.Size = new System.Drawing.Size(55, 28);
-            this.btnOK.TabIndex = 3;
-            this.btnOK.Text = "OK";
-            this.btnOK.UseVisualStyleBackColor = true;
+            this.menuStrip1.AutoSize = false;
+            this.menuStrip1.BackColor = System.Drawing.Color.Silver;
+            this.menuStrip1.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.menuStrip1.Font = new System.Drawing.Font("Times New Roman", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.menuStrip1.ImageScalingSize = new System.Drawing.Size(20, 20);
+            this.menuStrip1.Items.AddRange(new System.Windows.Forms.ToolStripItem[] {
+            this.tsmAll,
+            this.tsmCatalog,
+            this.tsmGia,
+            this.tsmBanChay});
+            this.menuStrip1.LayoutStyle = System.Windows.Forms.ToolStripLayoutStyle.Flow;
+            this.menuStrip1.Location = new System.Drawing.Point(0, 0);
+            this.menuStrip1.MdiWindowListItem = this.tsmAll;
+            this.menuStrip1.Name = "menuStrip1";
+            this.menuStrip1.Size = new System.Drawing.Size(1111, 37);
+            this.menuStrip1.TabIndex = 4;
+            this.menuStrip1.Text = "menuStrip1";
             // 
-            // btnNew
+            // tsmAll
             // 
-            this.btnNew.Location = new System.Drawing.Point(181, 11);
-            this.btnNew.Name = "btnNew";
-            this.btnNew.Size = new System.Drawing.Size(92, 28);
-            this.btnNew.TabIndex = 2;
-            this.btnNew.Text = "Mới nhất";
-            this.btnNew.UseVisualStyleBackColor = true;
+            this.tsmAll.AutoSize = false;
+            this.tsmAll.Name = "tsmAll";
+            this.tsmAll.Size = new System.Drawing.Size(152, 32);
+            this.tsmAll.Text = "Tất cả sản phẩm";
             // 
-            // comboBox1
+            // tsmCatalog
             // 
-            this.comboBox1.Font = new System.Drawing.Font("Times New Roman", 10.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.comboBox1.FormattingEnabled = true;
-            this.comboBox1.Items.AddRange(new object[] {
-            "Giá: Thấp đến cao",
-            "Giá: Cao đến thấp"});
-            this.comboBox1.Location = new System.Drawing.Point(324, 11);
-            this.comboBox1.Name = "comboBox1";
-            this.comboBox1.Size = new System.Drawing.Size(169, 28);
-            this.comboBox1.TabIndex = 1;
-            this.comboBox1.Text = "Giá";
+            this.tsmCatalog.AutoSize = false;
+            this.tsmCatalog.DropDownItems.AddRange(new System.Windows.Forms.ToolStripItem[] {
+            this.tsmSinhHoat,
+            this.tsmHandmade,
+            this.tsmHocTap,
+            this.tsmDienTu,
+            this.tsmDoAo});
+            this.tsmCatalog.Name = "tsmCatalog";
+            this.tsmCatalog.Size = new System.Drawing.Size(142, 32);
+            this.tsmCatalog.Text = "Danh mục";
             // 
-            // label1
+            // tsmSinhHoat
             // 
-            this.label1.AutoSize = true;
-            this.label1.Font = new System.Drawing.Font("Times New Roman", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label1.Location = new System.Drawing.Point(30, 13);
-            this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(111, 22);
-            this.label1.TabIndex = 0;
-            this.label1.Text = "Sắp xếp theo";
+            this.tsmSinhHoat.AutoSize = false;
+            this.tsmSinhHoat.BackColor = System.Drawing.SystemColors.ButtonFace;
+            this.tsmSinhHoat.Name = "tsmSinhHoat";
+            this.tsmSinhHoat.Size = new System.Drawing.Size(224, 32);
+            this.tsmSinhHoat.Text = "Sinh hoạt";
+            // 
+            // tsmHandmade
+            // 
+            this.tsmHandmade.AutoSize = false;
+            this.tsmHandmade.BackColor = System.Drawing.SystemColors.ButtonFace;
+            this.tsmHandmade.Name = "tsmHandmade";
+            this.tsmHandmade.Size = new System.Drawing.Size(224, 32);
+            this.tsmHandmade.Text = "Handmade";
+            // 
+            // tsmHocTap
+            // 
+            this.tsmHocTap.AutoSize = false;
+            this.tsmHocTap.BackColor = System.Drawing.SystemColors.ButtonFace;
+            this.tsmHocTap.Name = "tsmHocTap";
+            this.tsmHocTap.Size = new System.Drawing.Size(224, 32);
+            this.tsmHocTap.Text = "Học tập";
+            // 
+            // tsmDienTu
+            // 
+            this.tsmDienTu.AutoSize = false;
+            this.tsmDienTu.BackColor = System.Drawing.SystemColors.ButtonFace;
+            this.tsmDienTu.Name = "tsmDienTu";
+            this.tsmDienTu.Size = new System.Drawing.Size(224, 32);
+            this.tsmDienTu.Text = "Điện tử";
+            // 
+            // tsmDoAo
+            // 
+            this.tsmDoAo.AutoSize = false;
+            this.tsmDoAo.BackColor = System.Drawing.SystemColors.ButtonFace;
+            this.tsmDoAo.Name = "tsmDoAo";
+            this.tsmDoAo.Size = new System.Drawing.Size(224, 32);
+            this.tsmDoAo.Text = "Đồ áo";
+            // 
+            // tsmGia
+            // 
+            this.tsmGia.AutoSize = false;
+            this.tsmGia.DropDownItems.AddRange(new System.Windows.Forms.ToolStripItem[] {
+            this.tsmDownUp,
+            this.tsmUpDown});
+            this.tsmGia.Name = "tsmGia";
+            this.tsmGia.Size = new System.Drawing.Size(152, 32);
+            this.tsmGia.Text = "Giá";
+            // 
+            // tsmDownUp
+            // 
+            this.tsmDownUp.AutoSize = false;
+            this.tsmDownUp.Name = "tsmDownUp";
+            this.tsmDownUp.Size = new System.Drawing.Size(224, 32);
+            this.tsmDownUp.Text = "Thấp đến cao";
+            // 
+            // tsmUpDown
+            // 
+            this.tsmUpDown.AutoSize = false;
+            this.tsmUpDown.Name = "tsmUpDown";
+            this.tsmUpDown.Size = new System.Drawing.Size(224, 32);
+            this.tsmUpDown.Text = "Cao đến thấp";
+            // 
+            // tsmBanChay
+            // 
+            this.tsmBanChay.AutoSize = false;
+            this.tsmBanChay.Name = "tsmBanChay";
+            this.tsmBanChay.Size = new System.Drawing.Size(173, 32);
+            this.tsmBanChay.Text = "Bán chạy nhất";
             // 
             // flowLayoutPanel1
             // 
@@ -149,9 +225,9 @@
             this.flowLayoutPanel1.Controls.Add(this.ucProducts25);
             this.flowLayoutPanel1.Controls.Add(this.ucProducts26);
             this.flowLayoutPanel1.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.flowLayoutPanel1.Location = new System.Drawing.Point(0, 46);
+            this.flowLayoutPanel1.Location = new System.Drawing.Point(0, 37);
             this.flowLayoutPanel1.Name = "flowLayoutPanel1";
-            this.flowLayoutPanel1.Size = new System.Drawing.Size(1111, 640);
+            this.flowLayoutPanel1.Size = new System.Drawing.Size(1111, 649);
             this.flowLayoutPanel1.TabIndex = 1;
             // 
             // ucProducts1
@@ -371,10 +447,12 @@
             this.Controls.Add(this.flowLayoutPanel1);
             this.Controls.Add(this.panel1);
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.None;
+            this.MainMenuStrip = this.menuStrip1;
             this.Name = "FHome";
             this.Text = "FHome";
             this.panel1.ResumeLayout(false);
-            this.panel1.PerformLayout();
+            this.menuStrip1.ResumeLayout(false);
+            this.menuStrip1.PerformLayout();
             this.flowLayoutPanel1.ResumeLayout(false);
             this.ResumeLayout(false);
 
@@ -383,10 +461,6 @@
         #endregion
 
         private System.Windows.Forms.Panel panel1;
-        private System.Windows.Forms.ComboBox comboBox1;
-        private System.Windows.Forms.Label label1;
-        private System.Windows.Forms.Button btnNew;
-        private System.Windows.Forms.Button btnOK;
         private System.Windows.Forms.FlowLayoutPanel flowLayoutPanel1;
         private UCProducts ucProducts1;
         private UCProducts ucProducts2;
@@ -414,5 +488,17 @@
         private UCProducts ucProducts24;
         private UCProducts ucProducts25;
         private UCProducts ucProducts26;
+        private System.Windows.Forms.MenuStrip menuStrip1;
+        private System.Windows.Forms.ToolStripMenuItem tsmAll;
+        private System.Windows.Forms.ToolStripMenuItem tsmCatalog;
+        private System.Windows.Forms.ToolStripMenuItem tsmDienTu;
+        private System.Windows.Forms.ToolStripMenuItem tsmSinhHoat;
+        private System.Windows.Forms.ToolStripMenuItem tsmHandmade;
+        private System.Windows.Forms.ToolStripMenuItem tsmHocTap;
+        private System.Windows.Forms.ToolStripMenuItem tsmDoAo;
+        private System.Windows.Forms.ToolStripMenuItem tsmBanChay;
+        private System.Windows.Forms.ToolStripMenuItem tsmGia;
+        private System.Windows.Forms.ToolStripMenuItem tsmDownUp;
+        private System.Windows.Forms.ToolStripMenuItem tsmUpDown;
     }
 }

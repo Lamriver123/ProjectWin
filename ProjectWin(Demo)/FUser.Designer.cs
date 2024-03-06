@@ -42,8 +42,6 @@
             this.btnInfo = new CustomButton.VBButton();
             this.panel5 = new System.Windows.Forms.Panel();
             this.btnMyProduct = new CustomButton.VBButton();
-            this.panel2 = new System.Windows.Forms.Panel();
-            this.btnProduct = new CustomButton.VBButton();
             this.panel4 = new System.Windows.Forms.Panel();
             this.btnHome = new CustomButton.VBButton();
             this.panel3 = new System.Windows.Forms.Panel();
@@ -128,6 +126,7 @@
             this.pictureBox2.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
             this.pictureBox2.TabIndex = 4;
             this.pictureBox2.TabStop = false;
+            this.pictureBox2.Tag = "";
             // 
             // pictureBoxCart
             // 
@@ -158,8 +157,6 @@
             this.panel13.Controls.Add(this.btnInfo);
             this.panel13.Controls.Add(this.panel5);
             this.panel13.Controls.Add(this.btnMyProduct);
-            this.panel13.Controls.Add(this.panel2);
-            this.panel13.Controls.Add(this.btnProduct);
             this.panel13.Controls.Add(this.panel4);
             this.panel13.Controls.Add(this.btnHome);
             this.panel13.Controls.Add(this.panel3);
@@ -202,10 +199,11 @@
             this.btnLogOut.ForeColor = System.Drawing.Color.Black;
             this.btnLogOut.Image = global::ProjectWin_Demo_.Properties.Resources.logout;
             this.btnLogOut.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.btnLogOut.Location = new System.Drawing.Point(0, 355);
+            this.btnLogOut.Location = new System.Drawing.Point(0, 270);
             this.btnLogOut.Name = "btnLogOut";
             this.btnLogOut.Size = new System.Drawing.Size(175, 70);
             this.btnLogOut.TabIndex = 16;
+            this.btnLogOut.Tag = "";
             this.btnLogOut.Text = "Đăng xuất";
             this.btnLogOut.TextAlign = System.Drawing.ContentAlignment.MiddleRight;
             this.btnLogOut.TextColor = System.Drawing.Color.Black;
@@ -215,7 +213,7 @@
             // panel6
             // 
             this.panel6.Dock = System.Windows.Forms.DockStyle.Top;
-            this.panel6.Location = new System.Drawing.Point(0, 340);
+            this.panel6.Location = new System.Drawing.Point(0, 255);
             this.panel6.Name = "panel6";
             this.panel6.Size = new System.Drawing.Size(175, 15);
             this.panel6.TabIndex = 15;
@@ -234,7 +232,7 @@
             this.btnInfo.ForeColor = System.Drawing.Color.Black;
             this.btnInfo.Image = global::ProjectWin_Demo_.Properties.Resources.Icons8_Windows_8_Users_Name_48;
             this.btnInfo.ImageAlign = System.Drawing.ContentAlignment.BottomLeft;
-            this.btnInfo.Location = new System.Drawing.Point(0, 270);
+            this.btnInfo.Location = new System.Drawing.Point(0, 185);
             this.btnInfo.Name = "btnInfo";
             this.btnInfo.Size = new System.Drawing.Size(175, 70);
             this.btnInfo.TabIndex = 10;
@@ -247,7 +245,7 @@
             // panel5
             // 
             this.panel5.Dock = System.Windows.Forms.DockStyle.Top;
-            this.panel5.Location = new System.Drawing.Point(0, 255);
+            this.panel5.Location = new System.Drawing.Point(0, 170);
             this.panel5.Name = "panel5";
             this.panel5.Size = new System.Drawing.Size(175, 15);
             this.panel5.TabIndex = 14;
@@ -266,7 +264,7 @@
             this.btnMyProduct.ForeColor = System.Drawing.Color.Black;
             this.btnMyProduct.Image = global::ProjectWin_Demo_.Properties.Resources.icons8_product_50;
             this.btnMyProduct.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.btnMyProduct.Location = new System.Drawing.Point(0, 185);
+            this.btnMyProduct.Location = new System.Drawing.Point(0, 100);
             this.btnMyProduct.Name = "btnMyProduct";
             this.btnMyProduct.Size = new System.Drawing.Size(175, 70);
             this.btnMyProduct.TabIndex = 7;
@@ -275,38 +273,6 @@
             this.btnMyProduct.TextColor = System.Drawing.Color.Black;
             this.btnMyProduct.UseVisualStyleBackColor = false;
             this.btnMyProduct.Click += new System.EventHandler(this.btnMyProduct_Click);
-            // 
-            // panel2
-            // 
-            this.panel2.Dock = System.Windows.Forms.DockStyle.Top;
-            this.panel2.Location = new System.Drawing.Point(0, 170);
-            this.panel2.Name = "panel2";
-            this.panel2.Size = new System.Drawing.Size(175, 15);
-            this.panel2.TabIndex = 11;
-            // 
-            // btnProduct
-            // 
-            this.btnProduct.BackColor = System.Drawing.Color.Transparent;
-            this.btnProduct.BackgroundColor = System.Drawing.Color.Transparent;
-            this.btnProduct.BorderColor = System.Drawing.Color.SlateGray;
-            this.btnProduct.BorderRadius = 0;
-            this.btnProduct.BorderSize = 0;
-            this.btnProduct.Dock = System.Windows.Forms.DockStyle.Top;
-            this.btnProduct.FlatAppearance.BorderSize = 0;
-            this.btnProduct.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.btnProduct.Font = new System.Drawing.Font("Times New Roman", 10.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btnProduct.ForeColor = System.Drawing.Color.Black;
-            this.btnProduct.Image = global::ProjectWin_Demo_.Properties.Resources.Icons8_Windows_8_Ecommerce_Product_48;
-            this.btnProduct.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.btnProduct.Location = new System.Drawing.Point(0, 100);
-            this.btnProduct.Name = "btnProduct";
-            this.btnProduct.Size = new System.Drawing.Size(175, 70);
-            this.btnProduct.TabIndex = 9;
-            this.btnProduct.Text = "Danh mục\r\nsản phẩm";
-            this.btnProduct.TextAlign = System.Drawing.ContentAlignment.MiddleRight;
-            this.btnProduct.TextColor = System.Drawing.Color.Black;
-            this.btnProduct.UseVisualStyleBackColor = false;
-            this.btnProduct.Click += new System.EventHandler(this.btnProduct_Click);
             // 
             // panel4
             // 
@@ -363,6 +329,7 @@
             this.Name = "FUser";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "FUser";
+            this.Load += new System.EventHandler(this.FUser_Load);
             this.panel1.ResumeLayout(false);
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).EndInit();
@@ -385,8 +352,6 @@
         private CustomButton.VBButton btnInfo;
         private System.Windows.Forms.Panel panel5;
         private CustomButton.VBButton btnMyProduct;
-        private System.Windows.Forms.Panel panel2;
-        private CustomButton.VBButton btnProduct;
         private System.Windows.Forms.Panel panel4;
         private CustomButton.VBButton btnHome;
         private System.Windows.Forms.Panel panel3;
