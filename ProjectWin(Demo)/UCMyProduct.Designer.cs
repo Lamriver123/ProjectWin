@@ -98,6 +98,7 @@
             this.pcbEdit.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
             this.pcbEdit.TabIndex = 15;
             this.pcbEdit.TabStop = false;
+            this.pcbEdit.Click += new System.EventHandler(this.pcbEdit_Click);
             this.pcbEdit.MouseLeave += new System.EventHandler(this.pcbDelete_MouseLeave);
             this.pcbEdit.MouseHover += new System.EventHandler(this.pcbDelete_MouseHover);
             // 

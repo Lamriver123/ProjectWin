@@ -22,5 +22,25 @@ namespace ProjectWin_Demo_
         {
             this.Close();
         }
+
+        private void btnAddProduct_Click(object sender, EventArgs e)
+        {
+            DialogResult result = MessageBox.Show("Bạn có muốn thêm sản phẩm này không", "Thông báo", MessageBoxButtons.YesNo);
+            if (result == DialogResult.Yes)
+            {
+                MessageBox.Show("Thêm sản phẩm thành công", "Thông báo");
+                this.Close();
+            }
+        }
+
+        private void btnUpdateProduct_Click(object sender, EventArgs e)
+        {
+            DialogResult result = MessageBox.Show("Bạn có muốn cập nhật sản phẩm này không", "Thông báo", MessageBoxButtons.YesNo);
+            if (result == DialogResult.Yes)
+            {
+                MessageBox.Show("Cập nhật sản phẩm thành công", "Thông báo");
+                this.Close();
+            }
+        }
     }
 }
