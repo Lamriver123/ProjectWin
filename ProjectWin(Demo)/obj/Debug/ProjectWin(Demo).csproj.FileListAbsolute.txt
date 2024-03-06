@@ -145,3 +145,10 @@ C:\Users\User\Desktop\ProjectWindow\ProjectWin(Demo)\obj\Debug\ProjectWin_Demo_.
 D:\lapTrinhWinhdow\Project\ProjectWin(Demo)\obj\Debug\ProjectWin_Demo_.FAddProduct.resources
 C:\Users\User\Desktop\ProjectWindow\ProjectWin(Demo)\obj\Debug\ProjectWin_Demo_.FPayment.resources
 D:\lapTrinhWinhdow\Project\ProjectWin(Demo)\obj\Debug\ProjectWin_Demo_.UCProductSold.resources
+C:\Users\User\Desktop\ProjectWindow\ProjectWin(Demo)\obj\Debug\ProjectWin_Demo_.UCComment.resources
+C:\Users\User\Desktop\ProjectWindow\ProjectWin(Demo)\obj\Debug\ProjectWin_Demo_.UCHisProduct.resources
+C:\Users\User\Desktop\ProjectWindow\ProjectWin(Demo)\obj\Debug\ProjectWin_Demo_.FComment.resources
+>>>>>>> 16a87f7d59326aa46e988284660161a953e93ea9
+D:\lapTrinhWinhdow\Project\ProjectWin(Demo)\obj\Debug\ProjectWin_Demo_.FComment.resources
+D:\lapTrinhWinhdow\Project\ProjectWin(Demo)\obj\Debug\ProjectWin_Demo_.UCComment.resources
+D:\lapTrinhWinhdow\Project\ProjectWin(Demo)\obj\Debug\ProjectWin_Demo_.UCHisProduct.resources

@@ -49,8 +49,15 @@
             this.richTextBox1 = new System.Windows.Forms.RichTextBox();
             this.btnBuy = new CustomButton.VBButton();
             this.btnCart = new CustomButton.VBButton();
+
             this.lblAmount = new System.Windows.Forms.Label();
             this.numericUpDownAmount = new System.Windows.Forms.NumericUpDown();
+
+            this.flowLayoutPanel1 = new System.Windows.Forms.FlowLayoutPanel();
+            this.ucComment1 = new ProjectWin_Demo_.UCComment();
+            this.ucComment2 = new ProjectWin_Demo_.UCComment();
+            this.label5 = new System.Windows.Forms.Label();
+
             this.panel1.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox6)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox5)).BeginInit();
@@ -61,7 +68,11 @@
             ((System.ComponentModel.ISupportInitialize)(this.pctProduct)).BeginInit();
             this.panel3.SuspendLayout();
             this.groupBox1.SuspendLayout();
+
             ((System.ComponentModel.ISupportInitialize)(this.numericUpDownAmount)).BeginInit();
+
+            this.flowLayoutPanel1.SuspendLayout();
+
             this.SuspendLayout();
             // 
             // label4
@@ -273,7 +284,7 @@
             this.groupBox1.Font = new System.Drawing.Font("Times New Roman", 10.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.groupBox1.Location = new System.Drawing.Point(33, 362);
             this.groupBox1.Name = "groupBox1";
-            this.groupBox1.Size = new System.Drawing.Size(1016, 364);
+            this.groupBox1.Size = new System.Drawing.Size(1016, 250);
             this.groupBox1.TabIndex = 15;
             this.groupBox1.TabStop = false;
             this.groupBox1.Text = "Thông tin sản phẩm";
@@ -285,7 +296,7 @@
             this.richTextBox1.Dock = System.Windows.Forms.DockStyle.Fill;
             this.richTextBox1.Location = new System.Drawing.Point(3, 24);
             this.richTextBox1.Name = "richTextBox1";
-            this.richTextBox1.Size = new System.Drawing.Size(1010, 337);
+            this.richTextBox1.Size = new System.Drawing.Size(1010, 223);
             this.richTextBox1.TabIndex = 0;
             this.richTextBox1.Text = "màn hình oled, 75 inch";
             // 
@@ -329,6 +340,44 @@
             this.btnCart.Text = "        Thêm vào\r\n        giỏ hàng\r\n";
             this.btnCart.TextColor = System.Drawing.Color.Black;
             this.btnCart.UseVisualStyleBackColor = false;
+            // 
+            // flowLayoutPanel1
+            // 
+            this.flowLayoutPanel1.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.flowLayoutPanel1.Controls.Add(this.ucComment1);
+            this.flowLayoutPanel1.Controls.Add(this.ucComment2);
+            this.flowLayoutPanel1.Location = new System.Drawing.Point(39, 655);
+            this.flowLayoutPanel1.Name = "flowLayoutPanel1";
+            this.flowLayoutPanel1.Size = new System.Drawing.Size(1010, 333);
+            this.flowLayoutPanel1.TabIndex = 16;
+            // 
+            // ucComment1
+            // 
+            this.ucComment1.Font = new System.Drawing.Font("Times New Roman", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.ucComment1.Location = new System.Drawing.Point(3, 4);
+            this.ucComment1.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
+            this.ucComment1.Name = "ucComment1";
+            this.ucComment1.Size = new System.Drawing.Size(990, 157);
+            this.ucComment1.TabIndex = 0;
+            // 
+            // ucComment2
+            // 
+            this.ucComment2.Font = new System.Drawing.Font("Times New Roman", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.ucComment2.Location = new System.Drawing.Point(3, 169);
+            this.ucComment2.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
+            this.ucComment2.Name = "ucComment2";
+            this.ucComment2.Size = new System.Drawing.Size(990, 157);
+            this.ucComment2.TabIndex = 1;
+            // 
+            // label5
+            // 
+            this.label5.AutoSize = true;
+            this.label5.Font = new System.Drawing.Font("Times New Roman", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label5.Location = new System.Drawing.Point(42, 631);
+            this.label5.Name = "label5";
+            this.label5.Size = new System.Drawing.Size(80, 22);
+            this.label5.TabIndex = 17;
+            this.label5.Text = "Đánh giá";
             this.btnCart.Click += new System.EventHandler(this.btnCart_Click);
             // 
             // lblAmount
@@ -359,9 +408,15 @@
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.AutoScroll = true;
             this.BackColor = System.Drawing.Color.WhiteSmoke;
+
             this.ClientSize = new System.Drawing.Size(1124, 491);
             this.Controls.Add(this.numericUpDownAmount);
             this.Controls.Add(this.lblAmount);
+
+            this.ClientSize = new System.Drawing.Size(1086, 771);
+            this.Controls.Add(this.label5);
+            this.Controls.Add(this.flowLayoutPanel1);
+
             this.Controls.Add(this.groupBox1);
             this.Controls.Add(this.panel3);
             this.Controls.Add(this.btnBuy);
@@ -387,7 +442,11 @@
             this.panel3.ResumeLayout(false);
             this.panel3.PerformLayout();
             this.groupBox1.ResumeLayout(false);
+
             ((System.ComponentModel.ISupportInitialize)(this.numericUpDownAmount)).EndInit();
+
+            this.flowLayoutPanel1.ResumeLayout(false);
+
             this.ResumeLayout(false);
             this.PerformLayout();
 
@@ -416,7 +475,13 @@
         private System.Windows.Forms.GroupBox groupBox1;
         private System.Windows.Forms.RichTextBox richTextBox1;
         private CustomButton.VBButton vbButton1;
+
         private System.Windows.Forms.Label lblAmount;
         private System.Windows.Forms.NumericUpDown numericUpDownAmount;
+
+        private System.Windows.Forms.FlowLayoutPanel flowLayoutPanel1;
+        private UCComment ucComment1;
+        private System.Windows.Forms.Label label5;
+        private UCComment ucComment2;
     }
 }
