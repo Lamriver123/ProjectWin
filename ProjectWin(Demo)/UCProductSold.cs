@@ -10,9 +10,9 @@ using System.Windows.Forms;
 
 namespace ProjectWin_Demo_
 {
-    public partial class FProductCatalog : Form
+    public partial class UCProductSold : UserControl
     {
-        public FProductCatalog()
+        public UCProductSold()
         {
             InitializeComponent();
         }

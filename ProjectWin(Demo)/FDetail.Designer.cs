@@ -49,6 +49,8 @@
             this.richTextBox1 = new System.Windows.Forms.RichTextBox();
             this.btnBuy = new CustomButton.VBButton();
             this.btnCart = new CustomButton.VBButton();
+            this.lblAmount = new System.Windows.Forms.Label();
+            this.numericUpDownAmount = new System.Windows.Forms.NumericUpDown();
             this.panel1.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox6)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox5)).BeginInit();
@@ -59,12 +61,13 @@
             ((System.ComponentModel.ISupportInitialize)(this.pctProduct)).BeginInit();
             this.panel3.SuspendLayout();
             this.groupBox1.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.numericUpDownAmount)).BeginInit();
             this.SuspendLayout();
             // 
             // label4
             // 
             this.label4.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label4.Location = new System.Drawing.Point(713, 219);
+            this.label4.Location = new System.Drawing.Point(713, 212);
             this.label4.Name = "label4";
             this.label4.Size = new System.Drawing.Size(175, 27);
             this.label4.TabIndex = 10;
@@ -74,7 +77,7 @@
             // label3
             // 
             this.label3.AutoSize = true;
-            this.label3.Location = new System.Drawing.Point(831, 129);
+            this.label3.Location = new System.Drawing.Point(831, 113);
             this.label3.Name = "label3";
             this.label3.Size = new System.Drawing.Size(74, 16);
             this.label3.TabIndex = 9;
@@ -87,7 +90,7 @@
             this.panel1.Controls.Add(this.pictureBox4);
             this.panel1.Controls.Add(this.pictureBox3);
             this.panel1.Controls.Add(this.pictureBox2);
-            this.panel1.Location = new System.Drawing.Point(714, 127);
+            this.panel1.Location = new System.Drawing.Point(714, 111);
             this.panel1.Name = "panel1";
             this.panel1.Size = new System.Drawing.Size(104, 20);
             this.panel1.TabIndex = 8;
@@ -146,7 +149,7 @@
             // 
             this.label2.Font = new System.Drawing.Font("Times New Roman", 13.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label2.ForeColor = System.Drawing.Color.Crimson;
-            this.label2.Location = new System.Drawing.Point(712, 97);
+            this.label2.Location = new System.Drawing.Point(712, 66);
             this.label2.Name = "label2";
             this.label2.Size = new System.Drawing.Size(156, 32);
             this.label2.TabIndex = 7;
@@ -156,7 +159,7 @@
             // label1
             // 
             this.label1.Font = new System.Drawing.Font("Times New Roman", 10.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label1.Location = new System.Drawing.Point(713, 53);
+            this.label1.Location = new System.Drawing.Point(710, 22);
             this.label1.Name = "label1";
             this.label1.Size = new System.Drawing.Size(203, 44);
             this.label1.TabIndex = 6;
@@ -175,7 +178,7 @@
             // pctProduct
             // 
             this.pctProduct.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.pctProduct.Image = global::ProjectWin_Demo_.Properties.Resources._1;
+            this.pctProduct.Image = global::ProjectWin_Demo_.Properties.Resources.smart_tivi_4k_sony_kd_55x75k_55_inch_google_tv_c2bfad25;
             this.pctProduct.Location = new System.Drawing.Point(37, 0);
             this.pctProduct.Name = "pctProduct";
             this.pctProduct.Size = new System.Drawing.Size(530, 335);
@@ -229,7 +232,7 @@
             // 
             this.panel3.Controls.Add(this.vbButton1);
             this.panel3.Controls.Add(this.linkLabel1);
-            this.panel3.Location = new System.Drawing.Point(717, 165);
+            this.panel3.Location = new System.Drawing.Point(717, 147);
             this.panel3.Name = "panel3";
             this.panel3.Size = new System.Drawing.Size(188, 51);
             this.panel3.TabIndex = 14;
@@ -238,7 +241,6 @@
             // 
             this.vbButton1.BackColor = System.Drawing.Color.Transparent;
             this.vbButton1.BackgroundColor = System.Drawing.Color.Transparent;
-            this.vbButton1.BackgroundImage = global::ProjectWin_Demo_.Properties.Resources.z5217272932631_72c73dc409773a73013edce5ca74c052;
             this.vbButton1.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom;
             this.vbButton1.BorderColor = System.Drawing.Color.PaleVioletRed;
             this.vbButton1.BorderRadius = 20;
@@ -246,6 +248,7 @@
             this.vbButton1.FlatAppearance.BorderSize = 0;
             this.vbButton1.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.vbButton1.ForeColor = System.Drawing.Color.White;
+            this.vbButton1.Image = global::ProjectWin_Demo_.Properties.Resources.z5217272932631_72c73dc409773a73013edce5ca74c052;
             this.vbButton1.Location = new System.Drawing.Point(5, 1);
             this.vbButton1.Name = "vbButton1";
             this.vbButton1.Size = new System.Drawing.Size(48, 48);
@@ -284,7 +287,7 @@
             this.richTextBox1.Name = "richTextBox1";
             this.richTextBox1.Size = new System.Drawing.Size(1010, 337);
             this.richTextBox1.TabIndex = 0;
-            this.richTextBox1.Text = "adadsa";
+            this.richTextBox1.Text = "màn hình oled, 75 inch";
             // 
             // btnBuy
             // 
@@ -297,7 +300,7 @@
             this.btnBuy.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.btnBuy.Font = new System.Drawing.Font("Times New Roman", 10.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btnBuy.ForeColor = System.Drawing.Color.Black;
-            this.btnBuy.Location = new System.Drawing.Point(847, 291);
+            this.btnBuy.Location = new System.Drawing.Point(860, 291);
             this.btnBuy.Name = "btnBuy";
             this.btnBuy.Size = new System.Drawing.Size(151, 53);
             this.btnBuy.TabIndex = 13;
@@ -317,14 +320,38 @@
             this.btnCart.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.btnCart.Font = new System.Drawing.Font("Times New Roman", 10.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btnCart.ForeColor = System.Drawing.Color.Black;
+            this.btnCart.Image = global::ProjectWin_Demo_.Properties.Resources.Graphicloads_100_Flat_Cart_add_32;
+            this.btnCart.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
             this.btnCart.Location = new System.Drawing.Point(680, 291);
             this.btnCart.Name = "btnCart";
-            this.btnCart.Size = new System.Drawing.Size(161, 53);
+            this.btnCart.Size = new System.Drawing.Size(166, 53);
             this.btnCart.TabIndex = 12;
-            this.btnCart.Text = "Thêm vào\r\ngiỏ hàng\r\n";
+            this.btnCart.Text = "        Thêm vào\r\n        giỏ hàng\r\n";
             this.btnCart.TextColor = System.Drawing.Color.Black;
             this.btnCart.UseVisualStyleBackColor = false;
             this.btnCart.Click += new System.EventHandler(this.btnCart_Click);
+            // 
+            // lblAmount
+            // 
+            this.lblAmount.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lblAmount.Location = new System.Drawing.Point(713, 250);
+            this.lblAmount.Name = "lblAmount";
+            this.lblAmount.Size = new System.Drawing.Size(97, 27);
+            this.lblAmount.TabIndex = 16;
+            this.lblAmount.Text = "Số lượng:";
+            this.lblAmount.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            // 
+            // numericUpDownAmount
+            // 
+            this.numericUpDownAmount.Location = new System.Drawing.Point(804, 254);
+            this.numericUpDownAmount.Name = "numericUpDownAmount";
+            this.numericUpDownAmount.Size = new System.Drawing.Size(120, 22);
+            this.numericUpDownAmount.TabIndex = 17;
+            this.numericUpDownAmount.Value = new decimal(new int[] {
+            1,
+            0,
+            0,
+            0});
             // 
             // FDetail
             // 
@@ -332,7 +359,9 @@
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.AutoScroll = true;
             this.BackColor = System.Drawing.Color.WhiteSmoke;
-            this.ClientSize = new System.Drawing.Size(1082, 491);
+            this.ClientSize = new System.Drawing.Size(1124, 491);
+            this.Controls.Add(this.numericUpDownAmount);
+            this.Controls.Add(this.lblAmount);
             this.Controls.Add(this.groupBox1);
             this.Controls.Add(this.panel3);
             this.Controls.Add(this.btnBuy);
@@ -358,6 +387,7 @@
             this.panel3.ResumeLayout(false);
             this.panel3.PerformLayout();
             this.groupBox1.ResumeLayout(false);
+            ((System.ComponentModel.ISupportInitialize)(this.numericUpDownAmount)).EndInit();
             this.ResumeLayout(false);
             this.PerformLayout();
 
@@ -386,5 +416,7 @@
         private System.Windows.Forms.GroupBox groupBox1;
         private System.Windows.Forms.RichTextBox richTextBox1;
         private CustomButton.VBButton vbButton1;
+        private System.Windows.Forms.Label lblAmount;
+        private System.Windows.Forms.NumericUpDown numericUpDownAmount;
     }
 }

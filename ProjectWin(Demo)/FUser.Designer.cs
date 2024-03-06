@@ -36,7 +36,6 @@
             this.pictureBoxCart = new System.Windows.Forms.PictureBox();
             this.panelChildForm = new System.Windows.Forms.Panel();
             this.panel13 = new System.Windows.Forms.Panel();
-            this.btnRegister = new CustomButton.VBButton();
             this.btnLogOut = new CustomButton.VBButton();
             this.panel6 = new System.Windows.Forms.Panel();
             this.btnInfo = new CustomButton.VBButton();
@@ -151,7 +150,6 @@
             // panel13
             // 
             this.panel13.BackColor = System.Drawing.Color.LightCyan;
-            this.panel13.Controls.Add(this.btnRegister);
             this.panel13.Controls.Add(this.btnLogOut);
             this.panel13.Controls.Add(this.panel6);
             this.panel13.Controls.Add(this.btnInfo);
@@ -165,25 +163,6 @@
             this.panel13.Name = "panel13";
             this.panel13.Size = new System.Drawing.Size(175, 686);
             this.panel13.TabIndex = 3;
-            // 
-            // btnRegister
-            // 
-            this.btnRegister.BackColor = System.Drawing.Color.SpringGreen;
-            this.btnRegister.BackgroundColor = System.Drawing.Color.SpringGreen;
-            this.btnRegister.BorderColor = System.Drawing.Color.PaleVioletRed;
-            this.btnRegister.BorderRadius = 13;
-            this.btnRegister.BorderSize = 0;
-            this.btnRegister.FlatAppearance.BorderSize = 0;
-            this.btnRegister.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.btnRegister.Font = new System.Drawing.Font("Times New Roman", 10.8F);
-            this.btnRegister.ForeColor = System.Drawing.Color.OrangeRed;
-            this.btnRegister.Location = new System.Drawing.Point(6, 568);
-            this.btnRegister.Name = "btnRegister";
-            this.btnRegister.Size = new System.Drawing.Size(166, 46);
-            this.btnRegister.TabIndex = 17;
-            this.btnRegister.Text = "Đăng kí bán hàng";
-            this.btnRegister.TextColor = System.Drawing.Color.OrangeRed;
-            this.btnRegister.UseVisualStyleBackColor = false;
             // 
             // btnLogOut
             // 
@@ -351,12 +330,11 @@
         private System.Windows.Forms.Panel panel13;
         private CustomButton.VBButton btnInfo;
         private System.Windows.Forms.Panel panel5;
-        private CustomButton.VBButton btnMyProduct;
         private System.Windows.Forms.Panel panel4;
         private CustomButton.VBButton btnHome;
         private System.Windows.Forms.Panel panel3;
         private CustomButton.VBButton btnLogOut;
         private System.Windows.Forms.Panel panel6;
-        private CustomButton.VBButton btnRegister;
+        public CustomButton.VBButton btnMyProduct;
     }
 }

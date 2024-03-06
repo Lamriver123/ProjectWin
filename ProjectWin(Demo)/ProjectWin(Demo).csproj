@@ -103,12 +103,6 @@
     <Compile Include="FMyProduct.Designer.cs">
       <DependentUpon>FMyProduct.cs</DependentUpon>
     </Compile>
-    <Compile Include="FProductCatalog.cs">
-      <SubType>Form</SubType>
-    </Compile>
-    <Compile Include="FProductCatalog.Designer.cs">
-      <DependentUpon>FProductCatalog.cs</DependentUpon>
-    </Compile>
     <Compile Include="Funtion\RJTextBox.cs">
       <SubType>UserControl</SubType>
     </Compile>
@@ -157,6 +151,12 @@
     <Compile Include="Funtion\VBButton.cs">
       <SubType>Component</SubType>
     </Compile>
+    <Compile Include="UCProductSold.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="UCProductSold.Designer.cs">
+      <DependentUpon>UCProductSold.cs</DependentUpon>
+    </Compile>
     <Compile Include="UCRevenue.cs">
       <SubType>UserControl</SubType>
     </Compile>
@@ -187,9 +187,6 @@
     <EmbeddedResource Include="FPayment.resx">
       <DependentUpon>FPayment.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="FProductCatalog.resx">
-      <DependentUpon>FProductCatalog.cs</DependentUpon>
-    </EmbeddedResource>
     <EmbeddedResource Include="FSignUp.resx">
       <DependentUpon>FSignUp.cs</DependentUpon>
     </EmbeddedResource>
@@ -218,6 +215,9 @@
     </EmbeddedResource>
     <EmbeddedResource Include="UCProducts.resx">
       <DependentUpon>UCProducts.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="UCProductSold.resx">
+      <DependentUpon>UCProductSold.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="UCRevenue.resx">
       <DependentUpon>UCRevenue.cs</DependentUpon>
@@ -335,6 +335,9 @@
   </ItemGroup>
   <ItemGroup>
     <None Include="Resources\Custom-Icon-Design-Pretty-Office-11-Cash.64.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Graphicloads-100-Flat-Cart-add.32.png" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

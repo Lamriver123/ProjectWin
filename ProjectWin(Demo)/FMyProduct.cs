@@ -22,5 +22,21 @@ namespace ProjectWin_Demo_
             FAddProduct addProduct = new FAddProduct();
             addProduct.ShowDialog();
         }
+
+        private void btnProductSold_Click(object sender, EventArgs e)
+        {
+            UCProductSold ucProductSold = new UCProductSold();
+            addUserControl(ucProductSold);
+        }
+        private void addUserControl(UserControl userControl)
+        {
+            flowLayoutPanel1.Controls.Clear();
+            flowLayoutPanel1.Controls.Add(userControl);
+            userControl.BringToFront();
+        }
+
+        private void btnTotalProduct_Click(object sender, EventArgs e)
+        {
+        }
     }
 }

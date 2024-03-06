@@ -57,14 +57,6 @@ namespace ProjectWin_Demo_
             openChildForm(new FInfo());
         }
 
-        private void btnProduct_Click(object sender, EventArgs e)
-        {
-            btnHome.BackColor = Color.Transparent;
-            btnMyProduct.BackColor = Color.Transparent;
-            btnInfo.BackColor = Color.Transparent;
-            openChildForm(new FProductCatalog());
-        }
-
         private void btnMyProduct_Click(object sender, EventArgs e)
         {
             btnHome.BackColor = Color.Transparent;
@@ -75,7 +67,9 @@ namespace ProjectWin_Demo_
 
         private void btnLogOut_Click(object sender, EventArgs e)
         {
-            this.Close();   
+            DialogResult result = MessageBox.Show("Bạn có muốn đăng xuất?", "Thông báo", MessageBoxButtons.YesNo);
+            if (result == DialogResult.Yes)
+                this.Close();   
         }
 
         private void FUser_Load(object sender, EventArgs e)

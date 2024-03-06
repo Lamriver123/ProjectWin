@@ -20,7 +20,7 @@ namespace ProjectWin_Demo_
         {
             PictureBox pictureBox = sender as PictureBox;
             pictureBox.SizeMode = PictureBoxSizeMode.StretchImage;
-            pictureBox.BackColor = Color.Pink;
+           // pictureBox.BackColor = Color.Pink;
         }
 
         private void pictureBoxPayMethod_MouseLeave(object sender, EventArgs e)

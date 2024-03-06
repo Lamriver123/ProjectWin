@@ -193,6 +193,16 @@ namespace ProjectWin_Demo_.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
+        internal static System.Drawing.Bitmap Graphicloads_100_Flat_Cart_add_32 {
+            get {
+                object obj = ResourceManager.GetObject("Graphicloads-100-Flat-Cart-add.32", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
         internal static System.Drawing.Bitmap Iconoir_Team_Iconoir_Settings_48 {
             get {
                 object obj = ResourceManager.GetObject("Iconoir-Team-Iconoir-Settings.48", resourceCulture);

@@ -32,12 +32,12 @@
             this.label2 = new System.Windows.Forms.Label();
             this.label3 = new System.Windows.Forms.Label();
             this.label5 = new System.Windows.Forms.Label();
-            this.pictureBox2 = new System.Windows.Forms.PictureBox();
+            this.pcbBin = new System.Windows.Forms.PictureBox();
             this.pictureBox1 = new System.Windows.Forms.PictureBox();
             this.checkBox1 = new System.Windows.Forms.CheckBox();
             this.numericUpDown1 = new System.Windows.Forms.NumericUpDown();
             this.panel1 = new System.Windows.Forms.Panel();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pcbBin)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.numericUpDown1)).BeginInit();
             this.SuspendLayout();
@@ -85,16 +85,17 @@
             this.label5.TabIndex = 5;
             this.label5.Text = "32 460 000đ";
             // 
-            // pictureBox2
+            // pcbBin
             // 
-            this.pictureBox2.BackColor = System.Drawing.Color.FloralWhite;
-            this.pictureBox2.Image = global::ProjectWin_Demo_.Properties.Resources.trash_can_regular;
-            this.pictureBox2.Location = new System.Drawing.Point(1016, 14);
-            this.pictureBox2.Name = "pictureBox2";
-            this.pictureBox2.Size = new System.Drawing.Size(31, 33);
-            this.pictureBox2.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
-            this.pictureBox2.TabIndex = 6;
-            this.pictureBox2.TabStop = false;
+            this.pcbBin.BackColor = System.Drawing.Color.FloralWhite;
+            this.pcbBin.Image = global::ProjectWin_Demo_.Properties.Resources.trash_can_regular;
+            this.pcbBin.Location = new System.Drawing.Point(1016, 14);
+            this.pcbBin.Name = "pcbBin";
+            this.pcbBin.Size = new System.Drawing.Size(31, 33);
+            this.pcbBin.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
+            this.pcbBin.TabIndex = 6;
+            this.pcbBin.TabStop = false;
+            this.pcbBin.Click += new System.EventHandler(this.pcbBin_Click);
             // 
             // pictureBox1
             // 
@@ -149,7 +150,7 @@
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.Controls.Add(this.numericUpDown1);
             this.Controls.Add(this.checkBox1);
-            this.Controls.Add(this.pictureBox2);
+            this.Controls.Add(this.pcbBin);
             this.Controls.Add(this.label5);
             this.Controls.Add(this.label3);
             this.Controls.Add(this.label2);
@@ -158,7 +159,7 @@
             this.Controls.Add(this.panel1);
             this.Name = "UCCart";
             this.Size = new System.Drawing.Size(1111, 84);
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pcbBin)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.numericUpDown1)).EndInit();
             this.ResumeLayout(false);
@@ -173,7 +174,7 @@
         public System.Windows.Forms.Label label2;
         public System.Windows.Forms.Label label3;
         public System.Windows.Forms.Label label5;
-        public System.Windows.Forms.PictureBox pictureBox2;
+        public System.Windows.Forms.PictureBox pcbBin;
         public System.Windows.Forms.CheckBox checkBox1;
         public System.Windows.Forms.NumericUpDown numericUpDown1;
         private System.Windows.Forms.Panel panel1;

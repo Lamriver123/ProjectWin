@@ -29,6 +29,9 @@
         private void InitializeComponent()
         {
             this.grBAddress = new System.Windows.Forms.GroupBox();
+            this.txtAddress = new ProjectWin_Demo_.Funtion.RJTextBox();
+            this.txtPhoneNumber = new ProjectWin_Demo_.Funtion.RJTextBox();
+            this.txtName = new ProjectWin_Demo_.Funtion.RJTextBox();
             this.label9 = new System.Windows.Forms.Label();
             this.label8 = new System.Windows.Forms.Label();
             this.label6 = new System.Windows.Forms.Label();
@@ -45,12 +48,9 @@
             this.pcbBank = new System.Windows.Forms.PictureBox();
             this.pcbMomo = new System.Windows.Forms.PictureBox();
             this.panel2 = new System.Windows.Forms.Panel();
-            this.lblTotal = new System.Windows.Forms.Label();
-            this.lblMoney = new System.Windows.Forms.Label();
             this.btnOrder = new CustomButton.VBButton();
-            this.txtName = new ProjectWin_Demo_.Funtion.RJTextBox();
-            this.txtPhoneNumber = new ProjectWin_Demo_.Funtion.RJTextBox();
-            this.txtAddress = new ProjectWin_Demo_.Funtion.RJTextBox();
+            this.lblMoney = new System.Windows.Forms.Label();
+            this.lblTotal = new System.Windows.Forms.Label();
             this.grBAddress.SuspendLayout();
             this.groupBox1.SuspendLayout();
             this.panel1.SuspendLayout();
@@ -75,6 +75,72 @@
             this.grBAddress.TabIndex = 7;
             this.grBAddress.TabStop = false;
             this.grBAddress.Text = "Địa chỉ nhận hàng";
+            // 
+            // txtAddress
+            // 
+            this.txtAddress.BackColor = System.Drawing.SystemColors.Window;
+            this.txtAddress.BorderColor = System.Drawing.Color.Lavender;
+            this.txtAddress.BorderFocusColor = System.Drawing.Color.HotPink;
+            this.txtAddress.BorderRadius = 11;
+            this.txtAddress.BorderSize = 2;
+            this.txtAddress.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.5F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.txtAddress.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(64)))), ((int)(((byte)(64)))), ((int)(((byte)(64)))));
+            this.txtAddress.Location = new System.Drawing.Point(97, 70);
+            this.txtAddress.Margin = new System.Windows.Forms.Padding(4);
+            this.txtAddress.Multiline = false;
+            this.txtAddress.Name = "txtAddress";
+            this.txtAddress.Padding = new System.Windows.Forms.Padding(10, 7, 10, 7);
+            this.txtAddress.PasswordChar = false;
+            this.txtAddress.PlaceholderColor = System.Drawing.Color.DarkGray;
+            this.txtAddress.PlaceholderText = "";
+            this.txtAddress.Size = new System.Drawing.Size(631, 35);
+            this.txtAddress.TabIndex = 11;
+            this.txtAddress.Texts = "9 đường 4 tổ 8 ấp 2 xã xuân hòa, Xã Xuân Hòa, Huyện Xuân Lộc, Đồng Nai";
+            this.txtAddress.UnderlinedStyle = false;
+            // 
+            // txtPhoneNumber
+            // 
+            this.txtPhoneNumber.BackColor = System.Drawing.SystemColors.Window;
+            this.txtPhoneNumber.BorderColor = System.Drawing.Color.Lavender;
+            this.txtPhoneNumber.BorderFocusColor = System.Drawing.Color.HotPink;
+            this.txtPhoneNumber.BorderRadius = 11;
+            this.txtPhoneNumber.BorderSize = 2;
+            this.txtPhoneNumber.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.5F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.txtPhoneNumber.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(64)))), ((int)(((byte)(64)))), ((int)(((byte)(64)))));
+            this.txtPhoneNumber.Location = new System.Drawing.Point(480, 27);
+            this.txtPhoneNumber.Margin = new System.Windows.Forms.Padding(4);
+            this.txtPhoneNumber.Multiline = false;
+            this.txtPhoneNumber.Name = "txtPhoneNumber";
+            this.txtPhoneNumber.Padding = new System.Windows.Forms.Padding(10, 7, 10, 7);
+            this.txtPhoneNumber.PasswordChar = false;
+            this.txtPhoneNumber.PlaceholderColor = System.Drawing.Color.DarkGray;
+            this.txtPhoneNumber.PlaceholderText = "";
+            this.txtPhoneNumber.Size = new System.Drawing.Size(248, 35);
+            this.txtPhoneNumber.TabIndex = 10;
+            this.txtPhoneNumber.Texts = "0794821201";
+            this.txtPhoneNumber.UnderlinedStyle = false;
+            // 
+            // txtName
+            // 
+            this.txtName.BackColor = System.Drawing.SystemColors.Window;
+            this.txtName.BorderColor = System.Drawing.Color.Lavender;
+            this.txtName.BorderFocusColor = System.Drawing.Color.HotPink;
+            this.txtName.BorderRadius = 11;
+            this.txtName.BorderSize = 2;
+            this.txtName.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.5F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.txtName.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(64)))), ((int)(((byte)(64)))), ((int)(((byte)(64)))));
+            this.txtName.Location = new System.Drawing.Point(97, 27);
+            this.txtName.Margin = new System.Windows.Forms.Padding(4);
+            this.txtName.Multiline = false;
+            this.txtName.Name = "txtName";
+            this.txtName.Padding = new System.Windows.Forms.Padding(10, 7, 10, 7);
+            this.txtName.PasswordChar = false;
+            this.txtName.PlaceholderColor = System.Drawing.Color.DarkGray;
+            this.txtName.PlaceholderText = "";
+            this.txtName.Size = new System.Drawing.Size(228, 35);
+            this.txtName.TabIndex = 9;
+            this.txtName.Texts = "Phạm Ngọc Duy";
+            this.txtName.UnderlinedStyle = false;
             // 
             // label9
             // 
@@ -249,26 +315,6 @@
             this.panel2.Size = new System.Drawing.Size(1116, 188);
             this.panel2.TabIndex = 13;
             // 
-            // lblTotal
-            // 
-            this.lblTotal.AutoSize = true;
-            this.lblTotal.Font = new System.Drawing.Font("Times New Roman", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lblTotal.Location = new System.Drawing.Point(627, 33);
-            this.lblTotal.Name = "lblTotal";
-            this.lblTotal.Size = new System.Drawing.Size(102, 23);
-            this.lblTotal.TabIndex = 9;
-            this.lblTotal.Text = "Tổng tiền: ";
-            // 
-            // lblMoney
-            // 
-            this.lblMoney.AutoSize = true;
-            this.lblMoney.Font = new System.Drawing.Font("Times New Roman", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lblMoney.Location = new System.Drawing.Point(784, 33);
-            this.lblMoney.Name = "lblMoney";
-            this.lblMoney.Size = new System.Drawing.Size(147, 23);
-            this.lblMoney.TabIndex = 10;
-            this.lblMoney.Text = "32 460 000 VND";
-            // 
             // btnOrder
             // 
             this.btnOrder.BackColor = System.Drawing.Color.Crimson;
@@ -289,71 +335,25 @@
             this.btnOrder.UseVisualStyleBackColor = false;
             this.btnOrder.Click += new System.EventHandler(this.btnOrder_Click);
             // 
-            // txtName
+            // lblMoney
             // 
-            this.txtName.BackColor = System.Drawing.SystemColors.Window;
-            this.txtName.BorderColor = System.Drawing.Color.Lavender;
-            this.txtName.BorderFocusColor = System.Drawing.Color.HotPink;
-            this.txtName.BorderRadius = 11;
-            this.txtName.BorderSize = 2;
-            this.txtName.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.5F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.txtName.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(64)))), ((int)(((byte)(64)))), ((int)(((byte)(64)))));
-            this.txtName.Location = new System.Drawing.Point(97, 27);
-            this.txtName.Margin = new System.Windows.Forms.Padding(4);
-            this.txtName.Multiline = false;
-            this.txtName.Name = "txtName";
-            this.txtName.Padding = new System.Windows.Forms.Padding(10, 7, 10, 7);
-            this.txtName.PasswordChar = false;
-            this.txtName.PlaceholderColor = System.Drawing.Color.DarkGray;
-            this.txtName.PlaceholderText = "";
-            this.txtName.Size = new System.Drawing.Size(228, 35);
-            this.txtName.TabIndex = 9;
-            this.txtName.Texts = "Phạm Ngọc Duy";
-            this.txtName.UnderlinedStyle = false;
+            this.lblMoney.AutoSize = true;
+            this.lblMoney.Font = new System.Drawing.Font("Times New Roman", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lblMoney.Location = new System.Drawing.Point(784, 33);
+            this.lblMoney.Name = "lblMoney";
+            this.lblMoney.Size = new System.Drawing.Size(147, 23);
+            this.lblMoney.TabIndex = 10;
+            this.lblMoney.Text = "32 460 000 VND";
             // 
-            // txtPhoneNumber
+            // lblTotal
             // 
-            this.txtPhoneNumber.BackColor = System.Drawing.SystemColors.Window;
-            this.txtPhoneNumber.BorderColor = System.Drawing.Color.Lavender;
-            this.txtPhoneNumber.BorderFocusColor = System.Drawing.Color.HotPink;
-            this.txtPhoneNumber.BorderRadius = 11;
-            this.txtPhoneNumber.BorderSize = 2;
-            this.txtPhoneNumber.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.5F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.txtPhoneNumber.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(64)))), ((int)(((byte)(64)))), ((int)(((byte)(64)))));
-            this.txtPhoneNumber.Location = new System.Drawing.Point(480, 27);
-            this.txtPhoneNumber.Margin = new System.Windows.Forms.Padding(4);
-            this.txtPhoneNumber.Multiline = false;
-            this.txtPhoneNumber.Name = "txtPhoneNumber";
-            this.txtPhoneNumber.Padding = new System.Windows.Forms.Padding(10, 7, 10, 7);
-            this.txtPhoneNumber.PasswordChar = false;
-            this.txtPhoneNumber.PlaceholderColor = System.Drawing.Color.DarkGray;
-            this.txtPhoneNumber.PlaceholderText = "";
-            this.txtPhoneNumber.Size = new System.Drawing.Size(210, 35);
-            this.txtPhoneNumber.TabIndex = 10;
-            this.txtPhoneNumber.Texts = "0794821201";
-            this.txtPhoneNumber.UnderlinedStyle = false;
-            // 
-            // txtAddress
-            // 
-            this.txtAddress.BackColor = System.Drawing.SystemColors.Window;
-            this.txtAddress.BorderColor = System.Drawing.Color.Lavender;
-            this.txtAddress.BorderFocusColor = System.Drawing.Color.HotPink;
-            this.txtAddress.BorderRadius = 11;
-            this.txtAddress.BorderSize = 2;
-            this.txtAddress.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.5F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.txtAddress.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(64)))), ((int)(((byte)(64)))), ((int)(((byte)(64)))));
-            this.txtAddress.Location = new System.Drawing.Point(97, 70);
-            this.txtAddress.Margin = new System.Windows.Forms.Padding(4);
-            this.txtAddress.Multiline = false;
-            this.txtAddress.Name = "txtAddress";
-            this.txtAddress.Padding = new System.Windows.Forms.Padding(10, 7, 10, 7);
-            this.txtAddress.PasswordChar = false;
-            this.txtAddress.PlaceholderColor = System.Drawing.Color.DarkGray;
-            this.txtAddress.PlaceholderText = "";
-            this.txtAddress.Size = new System.Drawing.Size(597, 35);
-            this.txtAddress.TabIndex = 11;
-            this.txtAddress.Texts = "9 đường 4 tổ 8 ấp 2 xã xuân hòa, Xã Xuân Hòa, Huyện Xuân Lộc, Đồng Nai";
-            this.txtAddress.UnderlinedStyle = false;
+            this.lblTotal.AutoSize = true;
+            this.lblTotal.Font = new System.Drawing.Font("Times New Roman", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lblTotal.Location = new System.Drawing.Point(627, 33);
+            this.lblTotal.Name = "lblTotal";
+            this.lblTotal.Size = new System.Drawing.Size(102, 23);
+            this.lblTotal.TabIndex = 9;
+            this.lblTotal.Text = "Tổng tiền: ";
             // 
             // FPayment
             // 

@@ -127,9 +127,6 @@
   <data name="Momo" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\Momo.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="Double-J-Design-Ravenna-3d-Credit-Card.64" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\Double-J-Design-Ravenna-3d-Credit-Card.64.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
   <data name="DanhMucSanPham" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\DanhMucSanPham.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
@@ -138,6 +135,9 @@
   </data>
   <data name="icons8-user-64 (1)" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\icons8-user-64 (1).png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="icons8-user-24" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\icons8-user-24.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
   <data name="Paomedia-Small-N-Flat-Star.48" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\Paomedia-Small-N-Flat-Star.48.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
@@ -172,6 +172,9 @@
   <data name="cart-shopping-solid" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\cart-shopping-solid.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
+  <data name="Custom-Icon-Design-Pretty-Office-11-Cash.64" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Custom-Icon-Design-Pretty-Office-11-Cash.64.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
   <data name="iphone-15-pro-max-gold-thumbnew-200x200" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\iphone-15-pro-max-gold-thumbnew-200x200.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
@@ -187,8 +190,8 @@
   <data name="smart-tivi-4k-sony-kd-55x75k-55-inch-google-tv_c2bfad25" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\smart-tivi-4k-sony-kd-55x75k-55-inch-google-tv_c2bfad25.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="icons8-user-24" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\icons8-user-24.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  <data name="Double-J-Design-Ravenna-3d-Credit-Card.64" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Double-J-Design-Ravenna-3d-Credit-Card.64.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
   <data name="TrangChu" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\TrangChu.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
@@ -211,7 +214,7 @@
   <data name="2" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\2.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="Custom-Icon-Design-Pretty-Office-11-Cash.64" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\Custom-Icon-Design-Pretty-Office-11-Cash.64.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  <data name="Graphicloads-100-Flat-Cart-add.32" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Graphicloads-100-Flat-Cart-add.32.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
 </root>
