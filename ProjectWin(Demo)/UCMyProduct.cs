@@ -16,5 +16,17 @@ namespace ProjectWin_Demo_
         {
             InitializeComponent();
         }
+
+        private void pcbDelete_MouseHover(object sender, EventArgs e)
+        {
+            pictureBox1.SizeMode = PictureBoxSizeMode.StretchImage;
+            this.BackColor = Color.Linen;
+        }
+
+        private void pcbDelete_MouseLeave(object sender, EventArgs e)
+        {
+            pictureBox1.SizeMode = PictureBoxSizeMode.Zoom;
+            this.BackColor = Color.Bisque;
+        }
     }
 }

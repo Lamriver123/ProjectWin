@@ -37,7 +37,6 @@ D:\lapTrinhWinhdow\Project\ProjectWin(Demo)\obj\Debug\ProjectWin_Demo_.FInfo.res
 D:\lapTrinhWinhdow\Project\ProjectWin(Demo)\obj\Debug\ProjectWin_Demo_.UCProducts.resources
 D:\lapTrinhWinhdow\Project\ProjectWin(Demo)\obj\Debug\ProjectWin_Demo_.FProductCatalog.resources
 D:\lapTrinhWinhdow\Project\ProjectWin(Demo)\obj\Debug\ProjectWin_Demo_.FMyProduct.resources
-D:\lapTrinhWinhdow\Project\ProjectWin(Demo)\obj\Debug\ProjectWin_Demo_.UCCatalog.resources
 D:\lapTrinhWinhdow\Project\ProjectWin(Demo)\obj\Debug\ProjectWin_Demo_.UCMyProduct.resources
 C:\Users\User\Desktop\Window\ProjectWin(Demo)\bin\Debug\ProjectWin(Demo).exe.config
 C:\Users\User\Desktop\Window\ProjectWin(Demo)\bin\Debug\ProjectWin(Demo).exe
@@ -131,3 +130,10 @@ C:\Users\User\Desktop\ProjectWindow\ProjectWin(Demo)\obj\Debug\ProjectWin(Demo).
 C:\Users\User\Desktop\ProjectWindow\ProjectWin(Demo)\obj\Debug\ProjectWin(Demo).csproj.CoreCompileInputs.cache
 C:\Users\User\Desktop\ProjectWindow\ProjectWin(Demo)\obj\Debug\ProjectWin(Demo).exe
 C:\Users\User\Desktop\ProjectWindow\ProjectWin(Demo)\obj\Debug\ProjectWin(Demo).pdb
+D:\lapTrinhWinhdow\Project\ProjectWin(Demo)\obj\Debug\ProjectWin_Demo_.FDetail.resources
+D:\lapTrinhWinhdow\Project\ProjectWin(Demo)\obj\Debug\ProjectWin_Demo_.FSignUp.resources
+D:\lapTrinhWinhdow\Project\ProjectWin(Demo)\obj\Debug\ProjectWin_Demo_.Funtion.RJTextBox.resources
+D:\lapTrinhWinhdow\Project\ProjectWin(Demo)\obj\Debug\ProjectWin_Demo_.UCCart.resources
+D:\lapTrinhWinhdow\Project\ProjectWin(Demo)\obj\Debug\ProjectWin_Demo_.UCHistory.resources
+D:\lapTrinhWinhdow\Project\ProjectWin(Demo)\obj\Debug\ProjectWin_Demo_.UCInfo.resources
+D:\lapTrinhWinhdow\Project\ProjectWin(Demo)\obj\Debug\ProjectWin_Demo_.UCRevenue.resources

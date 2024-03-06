@@ -50,6 +50,8 @@
             this.label2.Size = new System.Drawing.Size(67, 16);
             this.label2.TabIndex = 2;
             this.label2.Text = "Mã: 00198";
+            this.label2.MouseLeave += new System.EventHandler(this.pcbDelete_MouseLeave);
+            this.label2.MouseHover += new System.EventHandler(this.pcbDelete_MouseHover);
             // 
             // label3
             // 
@@ -59,6 +61,8 @@
             this.label3.Size = new System.Drawing.Size(379, 44);
             this.label3.TabIndex = 3;
             this.label3.Text = "Smart Tivi 4K Sony KD-55X75K 55 inch Google TV";
+            this.label3.MouseLeave += new System.EventHandler(this.pcbDelete_MouseLeave);
+            this.label3.MouseHover += new System.EventHandler(this.pcbDelete_MouseHover);
             // 
             // label1
             // 
@@ -69,6 +73,8 @@
             this.label1.Size = new System.Drawing.Size(27, 20);
             this.label1.TabIndex = 13;
             this.label1.Text = "14";
+            this.label1.MouseLeave += new System.EventHandler(this.pcbDelete_MouseLeave);
+            this.label1.MouseHover += new System.EventHandler(this.pcbDelete_MouseHover);
             // 
             // label4
             // 
@@ -79,6 +85,8 @@
             this.label4.Size = new System.Drawing.Size(99, 20);
             this.label4.TabIndex = 14;
             this.label4.Text = "10.110.000đ";
+            this.label4.MouseLeave += new System.EventHandler(this.pcbDelete_MouseLeave);
+            this.label4.MouseHover += new System.EventHandler(this.pcbDelete_MouseHover);
             // 
             // pcbEdit
             // 
@@ -90,6 +98,8 @@
             this.pcbEdit.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
             this.pcbEdit.TabIndex = 15;
             this.pcbEdit.TabStop = false;
+            this.pcbEdit.MouseLeave += new System.EventHandler(this.pcbDelete_MouseLeave);
+            this.pcbEdit.MouseHover += new System.EventHandler(this.pcbDelete_MouseHover);
             // 
             // pcbDelete
             // 
@@ -101,6 +111,8 @@
             this.pcbDelete.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
             this.pcbDelete.TabIndex = 12;
             this.pcbDelete.TabStop = false;
+            this.pcbDelete.MouseLeave += new System.EventHandler(this.pcbDelete_MouseLeave);
+            this.pcbDelete.MouseHover += new System.EventHandler(this.pcbDelete_MouseHover);
             // 
             // pictureBox1
             // 
@@ -111,6 +123,8 @@
             this.pictureBox1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
             this.pictureBox1.TabIndex = 0;
             this.pictureBox1.TabStop = false;
+            this.pictureBox1.MouseLeave += new System.EventHandler(this.pcbDelete_MouseLeave);
+            this.pictureBox1.MouseHover += new System.EventHandler(this.pcbDelete_MouseHover);
             // 
             // label5
             // 
@@ -121,6 +135,8 @@
             this.label5.Size = new System.Drawing.Size(63, 20);
             this.label5.TabIndex = 16;
             this.label5.Text = "Điện tử";
+            this.label5.MouseLeave += new System.EventHandler(this.pcbDelete_MouseLeave);
+            this.label5.MouseHover += new System.EventHandler(this.pcbDelete_MouseHover);
             // 
             // UCMyProduct
             // 
@@ -137,6 +153,8 @@
             this.Controls.Add(this.pictureBox1);
             this.Name = "UCMyProduct";
             this.Size = new System.Drawing.Size(1085, 90);
+            this.MouseLeave += new System.EventHandler(this.pcbDelete_MouseLeave);
+            this.MouseHover += new System.EventHandler(this.pcbDelete_MouseHover);
             ((System.ComponentModel.ISupportInitialize)(this.pcbEdit)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.pcbDelete)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
