@@ -143,9 +143,29 @@ namespace ProjectWin_Demo_.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
+        internal static System.Drawing.Bitmap Custom_Icon_Design_Pretty_Office_11_Cash_64 {
+            get {
+                object obj = ResourceManager.GetObject("Custom-Icon-Design-Pretty-Office-11-Cash.64", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
         internal static System.Drawing.Bitmap DanhMucSanPham {
             get {
                 object obj = ResourceManager.GetObject("DanhMucSanPham", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap Double_J_Design_Ravenna_3d_Credit_Card_64 {
+            get {
+                object obj = ResourceManager.GetObject("Double-J-Design-Ravenna-3d-Credit-Card.64", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }
@@ -243,6 +263,16 @@ namespace ProjectWin_Demo_.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
+        internal static System.Drawing.Bitmap Ionic_Ionicons_Location_outline_48 {
+            get {
+                object obj = ResourceManager.GetObject("Ionic-Ionicons-Location-outline.48", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
         internal static System.Drawing.Bitmap iphone_15_pro_max_gold_thumbnew_200x200 {
             get {
                 object obj = ResourceManager.GetObject("iphone-15-pro-max-gold-thumbnew-200x200", resourceCulture);
@@ -256,6 +286,16 @@ namespace ProjectWin_Demo_.Properties {
         internal static System.Drawing.Bitmap logout {
             get {
                 object obj = ResourceManager.GetObject("logout", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap Momo {
+            get {
+                object obj = ResourceManager.GetObject("Momo", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }

@@ -137,4 +137,10 @@ D:\lapTrinhWinhdow\Project\ProjectWin(Demo)\obj\Debug\ProjectWin_Demo_.UCCart.re
 D:\lapTrinhWinhdow\Project\ProjectWin(Demo)\obj\Debug\ProjectWin_Demo_.UCHistory.resources
 D:\lapTrinhWinhdow\Project\ProjectWin(Demo)\obj\Debug\ProjectWin_Demo_.UCInfo.resources
 D:\lapTrinhWinhdow\Project\ProjectWin(Demo)\obj\Debug\ProjectWin_Demo_.UCRevenue.resources
+<<<<<<< HEAD
+D:\lapTrinhWinhdow\Project\ProjectWin(Demo)\obj\Debug\ProjectWin_Demo_.FPayment.resources
+=======
 C:\Users\User\Desktop\ProjectWindow\ProjectWin(Demo)\obj\Debug\ProjectWin_Demo_.FAddProduct.resources
+>>>>>>> 27fed178c31888f29fcc9cef42f1b98addeb48c7
+D:\lapTrinhWinhdow\Project\ProjectWin(Demo)\obj\Debug\ProjectWin_Demo_.FAddProduct.resources
+C:\Users\User\Desktop\ProjectWindow\ProjectWin(Demo)\obj\Debug\ProjectWin_Demo_.FPayment.resources
